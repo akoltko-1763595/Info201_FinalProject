@@ -1,0 +1,2 @@
+Songs: https://www.cs.ubc.ca/~davet/music/list/Best9.html
+Albums: https://raw.githubusercontent.com/Currie32/500-Greatest-Albums/master/albumlist.csv
