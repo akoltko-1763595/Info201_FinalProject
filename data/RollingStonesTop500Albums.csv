@@ -13,7 +13,7 @@ Place,Year,Album,Artist,Genre,Subgenre
 12,1959,Kind of Blue,Miles Davis,Jazz,Modal
 13,1967,The Velvet Underground & Nico,The Velvet Underground,Rock,"Garage Rock, Art Rock, Experimental"
 14,1969,Abbey Road,The Beatles,Rock,"Psychedelic Rock, Classic Rock, Pop Rock"
-15,1967,Are You Experienced,The Jimi Hendrix Experience,"Rock, Blues","Blues Rock, Psychedelic Rock"
+15,1967,Are You Experienced,Jimi Hendrix,"Rock, Blues","Blues Rock, Psychedelic Rock"
 16,1975,Blood on the Tracks,Bob Dylan,Rock,"Folk Rock, Acoustic, Ballad"
 17,1991,Nevermind,Nirvana,Rock,"Alternative Rock, Grunge"
 18,1975,Born to Run,Bruce Springsteen,Rock,Pop Rock
@@ -21,7 +21,7 @@ Place,Year,Album,Artist,Genre,Subgenre
 20,1982,Thriller,Michael Jackson,"Funk / Soul, Pop",Disco
 21,1982,The Great Twenty_Eight,Chuck Berry,Rock,Rock & Roll
 22,1990,The Complete Recordings,Robert Johnson,Blues,Delta Blues
-23,1970,John Lennon/Plastic Ono Band,John Lennon / Plastic Ono Band,Rock,Pop Rock
+23,1970,Plastic Ono Band,John Lennon,Rock,Pop Rock
 24,1973,Innervisions,Stevie Wonder,Funk / Soul,Soul
 25,1963,"Live at the Apollo, 1962",James Brown,Funk / Soul,"Rhythm & Blues, Soul"
 26,1977,Rumours,Fleetwood Mac,Rock,Pop Rock
@@ -141,7 +141,7 @@ Place,Year,Album,Artist,Genre,Subgenre
 140,1978,Parallel Lines,Blondie,"Electronic, Rock","New Wave, Pop Rock, Punk, Disco"
 141,1965,Live at the Regal,B.B. King,Blues,Chicago Blues
 142,1963,A Christmas Gift for You From Phil Spector,Phil Spector,"Rock, Funk / Soul, Pop",Pop Rock
-143,1968,Gris-Gris,"Dr. John, the Night Tripper","Jazz, Rock, Funk / Soul, Blues","Soul-Jazz, Louisiana Blues, Fusion, Bayou Funk"
+143,1968,Gris Gris,Dr. John,"Jazz, Rock, Funk / Soul, Blues","Soul-Jazz, Louisiana Blues, Fusion, Bayou Funk"
 144,1988,Straight Outta Compton,N.W.A,Hip Hop,Gangsta
 145,1977,Aja,Steely Dan,"Jazz, Rock","Jazz-Rock, Classic Rock"
 146,1967,Surrealistic Pillow,Jefferson Airplane,Rock,"Folk Rock, Psychedelic Rock"
@@ -214,8 +214,8 @@ Place,Year,Album,Artist,Genre,Subgenre
 213,1981,Tattoo You,The Rolling Stones,Rock,Classic Rock
 214,1991,Proud Mary: The Best of Ike and Tina Turner,Ike & Tina Turner,Funk / Soul,"Rhythm & Blues, Bayou Funk, Soul"
 215,1973,New York Dolls,New York Dolls,Rock,Glam
-216,1986,Bo Diddley / Go Bo Diddley,Bo Diddley,"Rock, Blues","Rhythm & Blues, Rock & Roll"
-217,1961,Two Steps From the Blues,"Bobby ""Blue"" Bland","Funk / Soul, Blues","Rhythm & Blues, Soul"
+216,1986,Bo Diddley/Go Bo Diddley,Bo Diddley,"Rock, Blues","Rhythm & Blues, Rock & Roll"
+217,1961,Two Steps From The Blues,Bobby Blue Bland,"Funk / Soul, Blues","Rhythm & Blues, Soul"
 218,1986,The Queen Is Dead,The Smiths,"Rock, Pop",Indie Rock
 219,1986,Licensed to Ill,Beastie Boys,Hip Hop,None
 220,1970,Look-Ka Py Py,The Meters,Funk / Soul,"Bayou Funk, Soul, Funk"
@@ -445,7 +445,7 @@ Place,Year,Album,Artist,Genre,Subgenre
 444,1972,The World Is a Ghetto,War,Funk / Soul,Funk
 445,1976,Fly Like an Eagle,Steve Miller Band,Rock,Pop Rock
 446,1970,Back in the USA,MC5,Rock,"Garage Rock, Rock & Roll"
-447,1964,Getz / Gilberto,Stan Getz / Joao Gilberto featuring Antonio Carlos Jobim,Jazz,"Bossa Nova, Latin Jazz"
+447,1964,Getz/Gilberto,Stan Getz,Jazz,"Bossa Nova, Latin Jazz"
 448,1983,Synchronicity,The Police,"Rock, Pop","New Wave, Pop Rock"
 449,1978,Third/Sister Lovers,Big Star,Rock,"Lo-Fi, Indie Rock"
 450,1973,For Everyman,Jackson Browne,Rock,"Pop Rock, Classic Rock"
@@ -468,7 +468,7 @@ Place,Year,Album,Artist,Genre,Subgenre
 467,1987,Tunnel of Love,Bruce Springsteen,Rock,None
 468,1965,The Paul Butterfield Blues Band,The Paul Butterfield Blues Band,"Rock, Blues","Blues Rock, Electric Blues, Chicago Blues, Modern Electric Blues, Harmonica Blues"
 469,1996,The Score,Fugees,Hip Hop,"Pop Rap, Conscious"
-470,1985,Radio,L.L. Cool J,Hip Hop,None
+470,1985,Radio,LL Cool J,Hip Hop,None
 471,1974,I Want to See the Bright Lights Tonight,Richard & Linda Thompson,Rock,"Classic Rock, Folk Rock"
 472,1987,Faith,George Michael,"Electronic, Rock, Funk / Soul, Blues, Pop","Downtempo, Soft Rock, Pop Rock, Synth-pop"
 473,1984,The Smiths,The Smiths,Rock,Indie Rock

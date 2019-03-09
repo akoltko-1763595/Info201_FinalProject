@@ -49,7 +49,7 @@ Place,Artist,Song,Length,BPM,Year,Genre
 48,Jimi Hendrix,All Along the Watchtower,4:01,114.3,1968,Rock 1960s
 49,The Eagles,Hotel California,6:29,147.9,1977,Slow
 50,Smokey Robinson,Tracks of My Tears,2:55,97.7,1965,Slow
-51,Grandmaster Flash�&�Melle Mel,The Message,7:07,101,1981,R&B 1980s
+51,Grandmaster Flash & The Furious Five,The Message,7:07,101,1981,R&B 1980s
 52,Prince,When Doves Cry,3:48,126.5,1984,Dance 1980s
 53,Sex Pistols,Anarchy in the U.K.,3:32,134.3,1977,Rock 1970s
 54,Percy Sledge,When a Man Loves a Woman,2:52,97.8,1966,Slow
@@ -206,9 +206,9 @@ Place,Artist,Song,Length,BPM,Year,Genre
 205,Bill Withers,Lean on Me,3:45,150.6,1972,Slow
 206,Four Tops,Reach Out (I'll Be There),3:00,119.7,1966,Rock 1960s
 207,Everly Brothers,Bye Bye Love,2:15,86.3,1957,Rock 1950s
-208,Van Morrison�with�Them,Gloria,2:36,131.1,1965,Rock 1960s
+208,Van Morrison,Gloria,2:36,131.1,1965,Rock 1960s
 209,The Beach Boys,In My Room,2:15,103.7,1963,TBD
-210,? & The Mysterians,96 Tears,3:01,123.6,1997,TBD
+210,%3F%20%26%20The%20Mysterians,96 Tears,3:01,123.6,1997,TBD
 211,The Beach Boys,"Caroline, No",2:19,152.3,1966,TBD
 212,Prince,1999,3:37,119.2,1983,Dance 1980s
 213,Hank Williams,Your Cheatin' Heart,2:42,128.5,1953,Country
@@ -235,7 +235,7 @@ Place,Artist,Song,Length,BPM,Year,Genre
 234,The Byrds,I'll Feel a Whole Lot Better,2:33,134.4,1965,TBD
 235,Ray Charles,I've Got a Woman,2:55,99.4,1994,TBD
 236,Buddy Holly,Everyday,2:07,136.5,1957,Rock 1950s
-237,Afrika Bambaataa�&�Soulsonic Force,Planet Rock,5:03,122.7,1985,Rock 1980s
+237,Afrika Bambaataa,Planet Rock,5:03,122.7,1985,Rock 1980s
 238,Patsy Cline,I Fall to Pieces,2:49,111.2,1961,Country
 239,Dion,The Wanderer,2:42,114.1,1961,Rock 1960s
 240,Dusty Springfield,Son of a Preacher Man,2:27,90.9,1969,Rock 1960s
@@ -250,7 +250,7 @@ Place,Artist,Song,Length,BPM,Year,Genre
 249,Aretha Franklin,Chain of Fools,2:43,117,1968,Dance 1960s
 250,Black Sabbath,Paranoid,2:45,82.1,1969,Rock 1960s
 251,Bobby Darin,Mack the Knife,3:04,84.7,1959,Easy
-252,Clyde McPhatter�&�The Drifters,Money Honey,2:59,123.2,1990,Easy
+252,Clyde McPhatter,Money Honey,2:59,123.2,1990,Easy
 253,Mott the Hoople,All the Young Dudes,3:32,154.8,1972,Rock 1970s
 254,AC/DC,Highway to Hell,3:29,116,1979,Rock 1970s
 255,Blondie,Heart of Glass,4:34,114.5,1979,Dance 1970s
@@ -260,7 +260,7 @@ Place,Artist,Song,Length,BPM,Year,Genre
 259,Jeff Buckley,Hallelujah,6:53,93.1,1994,TBD
 260,The Dells,Oh What a Nite,2:54,111.3,1988,TBD
 261,Stevie Wonder,Higher Ground,3:11,125.3,1973,Rock 1980s
-262,Smokey Robinson�and�The Miracles,Ooo Baby Baby,2:48,111.2,1965,TBD
+262,Smokey Robinson,Ooo Baby Baby,2:48,111.2,1965,TBD
 263,The Crystals,He's a Rebel,2:24,115.9,1962,Dance 1960s
 264,Randy Newman,Sail Away,2:50,89.2,1972,TBD
 265,Archie Bell & The Drells,Tighten Up,3:14,124.5,1991,TBD
@@ -305,7 +305,7 @@ Place,Artist,Song,Length,BPM,Year,Genre
 304,The Beatles,With a Little Help From My Friends,2:43,112.5,1969,Rock 1960s
 305,James Brown,Say It Loud (I'm Back And I'm Proud),2:47,114.8,1991,TBD
 306,The Jam,That's Entertainment,3:31,143.2,1991,TBD
-307,The Teenagers�Featuring�Frankie Lymon,Why Do Fools Fall in Love,2:17,88.1,1956,Rock 1950s
+307,The Teenagers,Why Do Fools Fall in Love,2:17,88.1,1956,Rock 1950s
 308,Jackie Wilson,Lonely Teardrops,2:42,139.2,1959,Rock 1950s
 309,Tina Turner,What's Love Got to Do With It,3:49,97.9,1984,Slow
 310,Black Sabbath,Iron Man,3:27,156.8,1970,Rock 1970s
@@ -493,7 +493,7 @@ Place,Artist,Song,Length,BPM,Year,Genre
 492,Jackson Browne,Running on Empty,4:47,136.5,1996,Rock 1990s
 493,The Crystals,Then He Kissed Me,2:28,134.6,1963,Rock 1960s
 494,The Eagles,Desperado,3:32,121.9,1972,Slow
-495,Smokey Robinson�and�The Miracles,Shop Around,2:44,135.5,1983,Rock 1970s
+495,Smokey Robinson,Shop Around,2:44,135.5,1983,Rock 1970s
 496,The Rolling Stones,Miss You,4:48,110.3,1978,TBD
 497,Weezer,Buddy Holly,2:40,121.2,1994,Rock 1990s
 498,Brook Benton,Rainy Night in Georgia,3:59,137.3,1970,Slow

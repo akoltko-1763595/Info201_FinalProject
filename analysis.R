@@ -1,14 +1,19 @@
+library(Rspotify)
+library(dplyr)
+source("spotify_token.R")
 
+#Run this once to update Spotify data
+#source("spotify_data_file_creation.R")
 
+albums <- read.csv("data/RSAlbumnsWithSpotifyData.csv", stringsAsFactors = FALSE)
+songs <- read.csv("data/RSSongsWithSpotifyData.csv", stringsAsFactors = FALSE)
 
 
 ## Primary Analytics
 
 
 
-
 ## Question 1: Does Greatness Hold Up? (Sam)
-
 
 
 
