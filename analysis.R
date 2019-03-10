@@ -5,9 +5,15 @@ library(scales)
 
 #Run this once to update Spotify data
 #source("spotify_data_file_creation.R")
+if (sys.nframe() == 0){
+  albums <- read.csv("data/RSAlbumsWithSpotifyData.csv", stringsAsFactors = FALSE)
+  songs <- read.csv("data/RSSongsWithSpotifyData.csv", stringsAsFactors = FALSE)
+} else {
+  albums <- read.csv("../data/RSAlbumsWithSpotifyData.csv", stringsAsFactors = FALSE)
+  songs <- read.csv("../data/RSSongsWithSpotifyData.csv", stringsAsFactors = FALSE)
+}
 
-albums <- read.csv("data/RSAlbumsWithSpotifyData.csv", stringsAsFactors = FALSE)
-songs <- read.csv("data/RSSongsWithSpotifyData.csv", stringsAsFactors = FALSE)
+
 
 ## Primary Analytics
 
