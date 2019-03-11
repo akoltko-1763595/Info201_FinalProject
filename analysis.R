@@ -1,13 +1,20 @@
 library(Rspotify)
 library(dplyr)
 library(scales)
+library(openxlsx)
 #source("spotify_token.R")
 
 #Run this once to update Spotify data
 #source("spotify_data_file_creation.R")
+if (sys.nframe() == 0){
+  albums <- read.csv("data/RSAlbumsWithSpotifyData.csv", stringsAsFactors = FALSE)
+  songs <- read.csv("data/RSSongsWithSpotifyData.csv", stringsAsFactors = FALSE)
+} else {
+  albums <- read.csv("../data/RSAlbumsWithSpotifyData.csv", stringsAsFactors = FALSE)
+  songs <- read.csv("../data/RSSongsWithSpotifyData.csv", stringsAsFactors = FALSE)
+}
 
-albums <- read.csv("data/RSAlbumsWithSpotifyData.csv", stringsAsFactors = FALSE)
-songs <- read.csv("data/RSSongsWithSpotifyData.csv", stringsAsFactors = FALSE)
+
 
 ## Primary Analytics
 
@@ -136,7 +143,20 @@ RS_SP_AS_pop <-
 
 
 
-## Quesiton 4: How well do sales dictate greatness? (Spencer)
+## Question 4: How well do sales dictate greatness? (Spencer)
+best_albums <- read.csv("data/RollingStonesTop500Albums.csv", stringsAsFactors = FALSE) %>%
+  select(Artist, Album, Year, Genre, Subgenre, Place)
 
+# Going to use the Probable sales data instead of Minimal or Range
+record_sales <- read.xlsx("data/CombinedRecordSales.xlsx") %>%
+  select(Artist, Album.Title, Probable) # Numbers are in millions
+colnames(record_sales)[2] <- "Album"
 
+# Combined the "best" albums with the best selling albums of all time
+# Of 300 possible overlapping albums, only 41 actually do
+# Of these 41, almost all of them are Rock and from the 80s and 90s
+combined_best_and_sales <- left_join(best_albums, record_sales, by = "Album") %>%
+  filter(!is.na(Probable)) %>%
+  select(Artist.x, Album, Year, Genre, Subgenre, Place, Probable)
+colnames(combined_best_and_sales)[1] <- "Artist"
 

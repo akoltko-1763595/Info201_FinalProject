@@ -37,3 +37,4 @@ rsconnect/
 
 # Spotify token file
 spotify_token.R
+.Rproj.user
