@@ -13,6 +13,7 @@ albums$Popularity <- NA
 songs$Artist_Id <- NA
 songs$Followers <- NA
 songs$Popularity <- NA
+songs$song_popularity <- NA
 
 #For every Artist in the Rolling Stone list, retrieve their artist_id, popularity, and followers and add to albums
 for (num in 1:500) {
@@ -40,10 +41,18 @@ for (num in 1:500) {
   songs$Popularity[num] = current_artist$popularity
 }
 
+for (num in 1:500) {
+  filtered_songs <- songs %>% 
+    filter(Place == num)
+  current_song <- searchTrack(filtered_songs$Song, token = my_token)
+  if (nrow(current_song) > 1) {
+    current_song <- current_song %>% head(1)
+  }
+  songs$song_popularity[num] = current_song$popularity
+}
+
 #New csv files with spotify data
 write.csv(albums, "data/RSAlbumsWithSpotifyData.csv")
 write.csv(songs, "data/RSSongsWithSpotifyData.csv")
-
-
 
 
