@@ -6,6 +6,20 @@ source("../analysis.R")
 
 server <- function(input, output) {
   
+  output$danceability <- renderText ({
+    track <- songs %>% filter(input$song_choice == Song) %>% select(track_id) %>% pull()
+    features <- getFeatures(track, my_token)
+    features <- features[2] %>% pull()
+    features
+  })
+  
+  output$dance_plot <- renderPlot ({
+    p <- ggplot(data = songs) +
+      geom_point(mapping = aes(x = Genre, y = danceability))
+    
+    p
+  })
+  
   ## Question 1: Does Greatness Hold Up? (Sam)
   output$plotQ1 <- renderPlot({
 
@@ -67,6 +81,7 @@ server <- function(input, output) {
       )
     plot2
   })
+
   
   years <- popularity_comparison_data %>% 
     group_by(Artist) %>% 
@@ -89,7 +104,7 @@ server <- function(input, output) {
       plot3
   })
 
-  
+
   ## Question 2: What Makes an album great? (Andrew)
   
   
@@ -100,33 +115,62 @@ server <- function(input, output) {
   
   
   
-  ## Quesiton 4: How well do sales dictate greatness? (Spencer)
-  
-  # Note: need to finish this, just seeing if pushing to github will work as intended
-  
-  # Gonna
-  
+  ## Question 4: How well do sales dictate greatness? (Spencer)
+
   # Sales versus Rank
-  ggplot(data = combined_best_and_sales, mapping = aes(Probable, Place)) +
-    geom_point(mapping = aes(color = Year)) +
-    geom_smooth() +
-    scale_y_continuous(limits = c(0, 500)) +
-    labs(
-      title = "Total Sales versus Album Rank", # plot title
-      x = "Probable Album Sales", # x-axis label
-      y = "Rolling Stones' Ranking", # y-axis label
-      color = "Year" # legend label for the "color" property
-    )
-  
-  # Year versus Rank
-  ggplot(data = combined_best_and_sales, mapping = aes(Year, Place)) +
-    geom_col(mapping = aes(fill = Genre)) +
-    scale_x_continuous(breaks = combined_best_and_sales$Year) +
-    theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
-    # theme(panel.grid.minor=element_blank(),
-    # panel.grid.major=element_blank())
+  output$plotQ4 <- renderPlot({
+    plot <- ggplot(data = combined_best_and_sales, mapping = aes(Probable, Place)) +
+      geom_point(colour  = "#739E88", alpha = .65) +
+      geom_smooth(se = F, size = 2, colour = "#DE646C") +
+      scale_y_continuous(limits = c(0, 500)) +
+      labs(title = "How Album Sales Dictates Greatness",
+           x = "Sales (millions)", y = "Greatness Ranking") +
+      theme_minimal() +
+      theme(plot.title = element_text(size = 20, hjust = .5),
+            axis.text.x = element_text(size = 15, angle = 50, vjust = .5),
+            axis.text.y = element_text(size = 15),
+            axis.title.x = element_text(size = 15, vjust = 0),
+            axis.title.y = element_text(size = 15, vjust = 2),
+            text = element_text(size = 15))
     
-    # Genre versus Sales
-    # ggplot(data = combined_best_and_sales, mapping = aes(Genre, Probable)) +
-    # geom_col()
+    plot
+  })
+  
+  # Genre vs. Sales with Year selector
+  output$plotQ4num2 <- renderPlot({
+    df <- filter(combined_best_and_sales, Year == input$year_choice)
+    
+    plot <- ggplot(data = df, mapping = aes(Genre, Probable)) +
+      geom_col() +
+      labs(title = "How Album Sales Dictates Greatness",
+           x = "Sales (millions)", y = "Greatness Ranking") +
+      theme_minimal() +
+      theme(plot.title = element_text(size = 20, hjust = .5),
+            axis.text.x = element_text(size = 15, angle = 50, vjust = .5),
+            axis.text.y = element_text(size = 15),
+            axis.title.x = element_text(size = 15, vjust = 0),
+            axis.title.y = element_text(size = 15, vjust = 2),
+            text = element_text(size = 15))
+    
+    plot
+  })
+  
+  # Genre vs. Ranking with Year selector
+  output$plotQ4num3 <- renderPlot({
+    df <- filter(combined_best_and_sales, Year == input$year_choice)
+    
+    plot <- ggplot(data = df, mapping = aes(Genre, Place)) +
+      geom_point() +
+      labs(title = "How Album Sales Dictates Greatness",
+           x = "Sales (millions)", y = "Greatness Ranking") +
+      theme_minimal() +
+      theme(plot.title = element_text(size = 20, hjust = .5),
+            axis.text.x = element_text(size = 15, angle = 50, vjust = .5),
+            axis.text.y = element_text(size = 15),
+            axis.title.x = element_text(size = 15, vjust = 0),
+            axis.title.y = element_text(size = 15, vjust = 2),
+            text = element_text(size = 15))
+    
+    plot
+  })
 }
