@@ -150,11 +150,11 @@ RS_SP_AS_pop <-
 
 
 ## Question 4: How well do sales dictate greatness? (Spencer)
-best_albums %>%
+best_albums <- best_albums %>%
   select(Artist, Album, Year, Genre, Subgenre, Place)
 
 # Going to use the Probable sales data instead of Minimal or Range
-record_sales %>%
+record_sales <- record_sales %>%
   select(Artist, Album.Title, Probable) # Numbers are in millions
 colnames(record_sales)[2] <- "Album"
 
