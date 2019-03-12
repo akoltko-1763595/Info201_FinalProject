@@ -14,11 +14,8 @@ songs$Artist_Id <- NA
 songs$Followers <- NA
 songs$Popularity <- NA
 songs$song_popularity <- NA
-<<<<<<< HEAD
-=======
 songs$track_id <- NA
 songs$danceability <- NA
->>>>>>> 4df97f6203ad7008d90a01b084f1f40c35cb5e5e
 
 #For every Artist in the Rolling Stone list, retrieve their artist_id, popularity, and followers and add to albums
 for (num in 1:500) {
