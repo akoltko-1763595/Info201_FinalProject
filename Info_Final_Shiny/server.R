@@ -136,23 +136,41 @@ server <- function(input, output) {
     plot
   })
   
-  
-  
-  
-  
-  
-  
-  
-  # Year versus Rank
-  # ggplot(data = combined_best_and_sales, mapping = aes(Year, Place)) +
-    # geom_col(mapping = aes(fill = Genre)) +
-    # scale_x_continuous(breaks = combined_best_and_sales$Year) +
-    # theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
-    # theme(panel.grid.minor=element_blank(),
-    # panel.grid.major=element_blank())
+  # Genre vs. Sales with Year selector
+  output$plotQ4num2 <- renderPlot({
+    df <- filter(combined_best_and_sales, Year == input$year_choice)
     
-    # Genre versus Sales
-    # ggplot(data = combined_best_and_sales, mapping = aes(Genre, Probable)) +
-    # geom_col()
-
+    plot <- ggplot(data = df, mapping = aes(Genre, Probable)) +
+      geom_col() +
+      labs(title = "How Album Sales Dictates Greatness",
+           x = "Sales (millions)", y = "Greatness Ranking") +
+      theme_minimal() +
+      theme(plot.title = element_text(size = 20, hjust = .5),
+            axis.text.x = element_text(size = 15, angle = 50, vjust = .5),
+            axis.text.y = element_text(size = 15),
+            axis.title.x = element_text(size = 15, vjust = 0),
+            axis.title.y = element_text(size = 15, vjust = 2),
+            text = element_text(size = 15))
+    
+    plot
+  })
+  
+  # Genre vs. Ranking with Year selector
+  output$plotQ4num3 <- renderPlot({
+    df <- filter(combined_best_and_sales, Year == input$year_choice)
+    
+    plot <- ggplot(data = df, mapping = aes(Genre, Place)) +
+      geom_point() +
+      labs(title = "How Album Sales Dictates Greatness",
+           x = "Sales (millions)", y = "Greatness Ranking") +
+      theme_minimal() +
+      theme(plot.title = element_text(size = 20, hjust = .5),
+            axis.text.x = element_text(size = 15, angle = 50, vjust = .5),
+            axis.text.y = element_text(size = 15),
+            axis.title.x = element_text(size = 15, vjust = 0),
+            axis.title.y = element_text(size = 15, vjust = 2),
+            text = element_text(size = 15))
+    
+    plot
+  })
 }
