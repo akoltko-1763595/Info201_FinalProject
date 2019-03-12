@@ -1,5 +1,6 @@
-library(Rspotify)
+#library(Rspotify)
 library(dplyr)
+library(tidyr)
 library(scales)
 library(openxlsx)
 #source("../spotify_token.R")
@@ -18,7 +19,6 @@ if (sys.nframe() == 0){
   album_sales <- read.csv("../data/CombinedRecordSales.csv", stringsAsFactors = FALSE)
   best_albums <- read.csv("../data/RollingStonesTop500Albums.csv", stringsAsFactors = FALSE) 
   record_sales <- read.csv("../data/CombinedRecordSales.csv", stringsAsFactors = FALSE)
-  
 }
 
 
@@ -124,8 +124,6 @@ RS_SP_pop <-
   )
 
 
-
-
 AS_pop <- 
   album_sales %>% 
   group_by(Artist) %>% 
@@ -200,7 +198,24 @@ ggplot(data = RS_SP_AS_pop) +
 
 ## Question 3: What do fans and critics agree on? (Alex)
 
+# Compare Genre critic scores & fan scores
+# Bar graph that shows the differenc between fans and critics
 
+songs$song_popularity <- rescale(songs$song_popularity, to = c(1, 500))
+
+genre_frame <- songs %>% 
+  select(Genre, Place, song_popularity) %>% 
+  filter(Genre != "TBD") %>% 
+  arrange(Genre)
+
+# Combine Scores
+genre_ranking <- genre_frame %>% 
+  group_by(Genre) %>% 
+  summarize(
+    critic_ranking = sum(501 - Place),
+    fan_ranking = sum(501 - song_popularity)
+  ) %>% 
+  gather(key = category, value = score, -Genre)
 
 
 ## Question 4: How well do sales dictate greatness? (Spencer)
