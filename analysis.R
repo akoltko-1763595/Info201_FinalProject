@@ -153,8 +153,9 @@ RS_SP_AS_pop <-
 songs$song_popularity <- rescale(songs$song_popularity, to = c(1, 500))
 
 genre_frame <- songs %>% 
- select(Genre, Place, song_popularity) %>% 
- arrange(Genre)
+  select(Genre, Place, song_popularity) %>% 
+  filter(Genre != "TBD") %>% 
+  arrange(Genre)
 
 # Combine Scores
 genre_ranking <- genre_frame %>% 
