@@ -39,8 +39,19 @@ ui <- navbarPage(title = "Questions", inverse = TRUE, id = "nav",
   
   
   ## Quesiton 4: How well do sales dictate greatness? (Spencer)
-  tabPanel(title = "Q4"
-    
+  tabPanel(title = "Q4",
+           sidebarLayout(
+             sidebarPanel(
+               titlePanel("How well do sales dictate greatness? The answer may surprise you!"),
+               p("Between Rolling Stone's 500 best albums and a dataset of the top 316 bestselling albums,
+                 only 41 albums overlapped. This number itself is surprising and it is even more surprising
+                 that the higher selling albums tended to be more poorly received by Rolling Stone.")
+               ),
+             mainPanel(
+               plotOutput("plotQ4")
+             )
+           )
   )
+  
   
 )

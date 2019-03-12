@@ -85,7 +85,7 @@ record_sales <- read.xlsx("data/CombinedRecordSales.xlsx") %>%
 colnames(record_sales)[2] <- "Album"
 
 # Combined the "best" albums with the best selling albums of all time
-# Of 300 possible overlapping albums, only 41 actually do
+# Of 316 possible overlapping albums, only 41 actually do
 # Of these 41, almost all of them are Rock and from the 80s and 90s
 combined_best_and_sales <- left_join(best_albums, record_sales, by = "Album") %>%
   filter(!is.na(Probable)) %>%
