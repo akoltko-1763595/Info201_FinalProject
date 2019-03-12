@@ -119,6 +119,7 @@ RS_SP_pop <-
 
 album_sales <- read.csv("data/CombinedRecordSales.csv", stringsAsFactors = FALSE)
 
+
 AS_pop <- 
   album_sales %>% 
   group_by(Artist) %>% 
@@ -132,11 +133,64 @@ AS_pop$AS_Place = rownames(AS_pop)
 AS_pop$Artist = substring(AS_pop$Artist, 2)
 
 RS_SP_AS_pop <-
-  full_join(
+  inner_join(
     RS_SP_pop,
     AS_pop,
     by = c("Artist")
   )
+
+  
+
+RS_SP_AS_pop <- RS_SP_AS_pop %>% arrange(RS_Place)
+RS_SP_AS_pop$RS_Place = rownames(RS_SP_AS_pop)
+RS_SP_AS_pop <- RS_SP_AS_pop %>% arrange(Spotify_Place)
+RS_SP_AS_pop$Spotify_Place = rownames(RS_SP_AS_pop)
+RS_SP_AS_pop <- RS_SP_AS_pop %>% arrange(desc(minimum_sales), desc(probable_sales))
+RS_SP_AS_pop$AS_Place = rownames(RS_SP_AS_pop)
+
+  
+  
+RS_SP_AS_pop <-
+  RS_SP_AS_pop %>% 
+  mutate(
+    RS_Place = as.numeric(RS_Place),
+    AS_Place = as.numeric(AS_Place),
+    Spotify_Place = as.numeric(Spotify_Place)
+  ) %>% 
+  mutate(
+    Avg_Place = (RS_Place + AS_Place + Spotify_Place)/3
+  ) %>% 
+  arrange(Avg_Place) 
+
+RS_SP_AS_pop$Overall_Place = as.numeric(rownames(RS_SP_AS_pop))
+
+RS_SP_AS_pop <-
+  RS_SP_AS_pop %>% 
+  mutate(
+    RS_Dist = abs(Overall_Place - RS_Place),
+    Spotify_Dist = abs(Overall_Place - Spotify_Place),
+    AS_Dist = abs(Overall_Place - AS_Place)
+  )
+library(ggplot2)
+
+ggplot(data = RS_SP_AS_pop) +
+  geom_smooth(mapping = aes(x = Overall_Place, y = Avg_Place, color = "Average"), se = F, size = 1.5) +
+  geom_smooth(mapping = aes(x = Overall_Place, y = RS_Place, color = "Rolling Stone"), se = F, size = 1.5) +
+  geom_smooth(mapping = aes(x = Overall_Place, y = Spotify_Place, color = "Spotify"), se = F, size = 1.5) +
+  geom_smooth(mapping = aes(x = Overall_Place, y = AS_Place, color = "Total Sales"), se = F, size = 1.5) + 
+  scale_color_manual(
+    name = "Legend",
+    values = c(
+      Spotify="#739E88", 
+      "Rolling Stone"="#DE646C", 
+      Average = "Black", 
+      "Total Sales" = "#e6e600"
+    )
+  ) + 
+  labs(
+    x = "Overall Place", 
+    y = "Individual Ranking"
+  ) 
 
 ## Question 3: What do fans and critics agree on? (Alex)
 

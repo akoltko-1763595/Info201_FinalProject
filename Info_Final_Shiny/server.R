@@ -10,9 +10,9 @@ server <- function(input, output) {
   output$plotQ1 <- renderPlot({
 
   plot <- ggplot(data = popularity_comparison_data) +
-    geom_smooth(se = F, mapping = aes(x = Year, y = Spotify_popularity, color = "spotify"),
+    geom_smooth(se = F, mapping = aes(x = Year, y = Spotify_popularity, color = "Spotify"),
                 size = 2) +
-    geom_smooth(se = F, mapping = aes(x = Year, y = RS_popularity, color = "rolling_stone"),
+    geom_smooth(se = F, mapping = aes(x = Year, y = RS_popularity, color = "Rolling Stone"),
                 size = 2) +
     labs(title = "Ranking Trends Over Time", y = "Popularity", x = "Year") +
     theme_minimal() +
@@ -24,7 +24,7 @@ server <- function(input, output) {
           legend.title = element_blank(),
           text = element_text(size = 15)) +
     scale_colour_manual(name="Legend",
-                        values=c(spotify="#739E88", rolling_stone="#DE646C"))
+                        values=c(Spotify="#739E88", "Rolling Stone"="#DE646C"))
     
   plot
   })
