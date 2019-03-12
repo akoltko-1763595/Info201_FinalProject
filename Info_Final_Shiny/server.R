@@ -101,5 +101,32 @@ server <- function(input, output) {
   
   
   ## Quesiton 4: How well do sales dictate greatness? (Spencer)
-
+  
+  # Note: need to finish this, just seeing if pushing to github will work as intended
+  
+  # Gonna
+  
+  # Sales versus Rank
+  ggplot(data = combined_best_and_sales, mapping = aes(Probable, Place)) +
+    geom_point(mapping = aes(color = Year)) +
+    geom_smooth() +
+    scale_y_continuous(limits = c(0, 500)) +
+    labs(
+      title = "Total Sales versus Album Rank", # plot title
+      x = "Probable Album Sales", # x-axis label
+      y = "Rolling Stones' Ranking", # y-axis label
+      color = "Year" # legend label for the "color" property
+    )
+  
+  # Year versus Rank
+  ggplot(data = combined_best_and_sales, mapping = aes(Year, Place)) +
+    geom_col(mapping = aes(fill = Genre)) +
+    scale_x_continuous(breaks = combined_best_and_sales$Year) +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+    # theme(panel.grid.minor=element_blank(),
+    # panel.grid.major=element_blank())
+    
+    # Genre versus Sales
+    # ggplot(data = combined_best_and_sales, mapping = aes(Genre, Probable)) +
+    # geom_col()
 }
