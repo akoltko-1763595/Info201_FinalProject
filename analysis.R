@@ -2,7 +2,7 @@ library(Rspotify)
 library(dplyr)
 library(scales)
 library(openxlsx)
-source("../spotify_token.R")
+#source("../spotify_token.R")
 
 #Run this once to update Spotify data
 #source("spotify_data_file_creation.R")
@@ -11,13 +11,13 @@ if (sys.nframe() == 0){
   songs <- read.csv("data/RSSongsWithSpotifyData.csv", stringsAsFactors = FALSE)
   album_sales <- read.csv("data/CombinedRecordSales.csv", stringsAsFactors = FALSE)
   best_albums <- read.csv("data/RollingStonesTop500Albums.csv", stringsAsFactors = FALSE) 
-  record_sales <- read.xlsx("data/CombinedRecordSales.xlsx")
+  record_sales <- read.csv("data/CombinedRecordSales.csv", stringsAsFactors = FALSE)
 } else {
   albums <- read.csv("../data/RSAlbumsWithSpotifyData.csv", stringsAsFactors = FALSE)
   songs <- read.csv("../data/RSSongsWithSpotifyData.csv", stringsAsFactors = FALSE)
   album_sales <- read.csv("../data/CombinedRecordSales.csv", stringsAsFactors = FALSE)
   best_albums <- read.csv("../data/RollingStonesTop500Albums.csv", stringsAsFactors = FALSE) 
-  record_sales <- read.xlsx("../data/CombinedRecordSales.xlsx")
+  record_sales <- read.csv("../data/CombinedRecordSales.csv", stringsAsFactors = FALSE)
   
 }
 
@@ -211,15 +211,15 @@ best_albums <- best_albums %>%
 record_sales <- record_sales %>%
   transmute(
     Artist = substring(Artist,2), 
-    Album = Album.Title, 
+    Album = substring(Album.Title, 2), 
     Probable = Probable) # Numbers are in millions 
 
 
 # Combined the "best" albums with the best selling albums of all time
 # Of 316 possible overlapping albums, only 41 actually do
 # Of these 41, almost all of them are Rock and from the 80s and 90s
-combined_best_and_sales <- left_join(best_albums, record_sales, by = c("Artist")) %>% # by = NULL might be better once this works again
+combined_best_and_sales <- inner_join(best_albums, record_sales, by = c("Album", "Artist")) %>% # by = NULL might be better once this works again
   #filter(!is.na(Probable)) %>%
-  select(Artist, Album.x, Year, Genre, Subgenre, Place, Probable)
+  select(Artist, Album, Year, Genre, Subgenre, Place, Probable)
 colnames(combined_best_and_sales)[1] <- "Artist"
 

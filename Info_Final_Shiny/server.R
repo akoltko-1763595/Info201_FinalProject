@@ -5,13 +5,13 @@ library(dplyr)
 source("../analysis.R")
 
 server <- function(input, output) {
-  
-  output$danceability <- renderText ({
-    track <- songs %>% filter(input$song_choice == Song) %>% select(track_id) %>% pull()
-    features <- getFeatures(track, my_token)
-    features <- features[2] %>% pull()
-    features
-  })
+  ## Not Functional
+  #output$danceability <- renderText ({
+  #  track <- songs %>% filter(input$song_choice == Song) %>% select(track_id) %>% pull()
+  #  features <- getFeatures(track, my_token)
+  #  features <- features[2] %>% pull()
+  #  features
+  #})
   
   output$dance_plot <- renderPlot ({
     p <- ggplot(data = songs) +
