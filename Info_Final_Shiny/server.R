@@ -96,11 +96,17 @@ server <- function(input, output) {
   
   
   ## Question 3: What do fans and critics agree on? (Alex)
-  outputplotQ3 <- renderPlot({
+  output$plotQ3 <- renderPlot({
     chosen_genre <- genre_ranking %>% 
-      filter(Genre = genre_choice)
+      filter(Genre == input$genre_choice)
     plot <- ggplot(data = chosen_genre) +
-      geom_col(mapping = aes(x = genre_choice, y = critic_ranking))
+      geom_col(mapping = aes(x = category, y = score, fill = category)) +
+      labs(
+        title = paste("Critic Score vs Fan Score for", input$genre_choice, "music"),
+        x = "Critics vs. Fans",
+        y = "Score"
+      )
+    
     plot
   })
   
@@ -113,22 +119,22 @@ server <- function(input, output) {
   # Gonna
   
   # Sales versus Rank
-  ggplot(data = combined_best_and_sales, mapping = aes(Probable, Place)) +
-    geom_point(mapping = aes(color = Year)) +
-    geom_smooth() +
-    scale_y_continuous(limits = c(0, 500)) +
-    labs(
-      title = "Total Sales versus Album Rank", # plot title
-      x = "Probable Album Sales", # x-axis label
-      y = "Rolling Stones' Ranking", # y-axis label
-      color = "Year" # legend label for the "color" property
-    )
+  #ggplot(data = combined_best_and_sales, mapping = aes(Probable, Place)) +
+  # geom_point(mapping = aes(color = Year)) +
+  #  geom_smooth() +
+  #  scale_y_continuous(limits = c(0, 500)) +
+  #  labs(
+  #    title = "Total Sales versus Album Rank", # plot title
+  #    x = "Probable Album Sales", # x-axis label
+  #    y = "Rolling Stones' Ranking", # y-axis label
+  #    color = "Year" # legend label for the "color" property
+  #  )
   
   # Year versus Rank
-  ggplot(data = combined_best_and_sales, mapping = aes(Year, Place)) +
-    geom_col(mapping = aes(fill = Genre)) +
-    scale_x_continuous(breaks = combined_best_and_sales$Year) +
-    theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  #ggplot(data = combined_best_and_sales, mapping = aes(Year, Place)) +
+  #  geom_col(mapping = aes(fill = Genre)) +
+  #  scale_x_continuous(breaks = combined_best_and_sales$Year) +
+  #  theme(axis.text.x = element_text(angle = 90, hjust = 1)) #+
     # theme(panel.grid.minor=element_blank(),
     # panel.grid.major=element_blank())
     

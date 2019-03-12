@@ -1,18 +1,24 @@
-library(Rspotify)
+#library(Rspotify)
 library(dplyr)
 library(tidyr)
 library(scales)
-library(openxlsx)
-#source("spotify_token.R")
+#library(openxlsx)
+#source("../spotify_token.R")
 
 #Run this once to update Spotify data
 #source("spotify_data_file_creation.R")
 if (sys.nframe() == 0){
   albums <- read.csv("data/RSAlbumsWithSpotifyData.csv", stringsAsFactors = FALSE)
   songs <- read.csv("data/RSSongsWithSpotifyData.csv", stringsAsFactors = FALSE)
+  album_sales <- read.csv("data/CombinedRecordSales.csv", stringsAsFactors = FALSE)
+  best_albums <- read.csv("data/RollingStonesTop500Albums.csv", stringsAsFactors = FALSE)
+  #record_sales <- read.xlsx("data/CombinedRecordSales.xlsx")
 } else {
   albums <- read.csv("../data/RSAlbumsWithSpotifyData.csv", stringsAsFactors = FALSE)
   songs <- read.csv("../data/RSSongsWithSpotifyData.csv", stringsAsFactors = FALSE)
+  album_sales <- read.csv("../data/CombinedRecordSales.csv", stringsAsFactors = FALSE)
+  best_albums <- read.csv("../data/RollingStonesTop500Albums.csv", stringsAsFactors = FALSE)
+  #record_sales <- read.xlsx("../data/CombinedRecordSales.xlsx")
 }
 
 
@@ -118,7 +124,7 @@ RS_SP_pop <-
   )
 
 
-album_sales <- read.csv("data/CombinedRecordSales.csv", stringsAsFactors = FALSE)
+#album_sales <- read.csv("data/CombinedRecordSales.csv", stringsAsFactors = FALSE)
 
 AS_pop <- 
   album_sales %>% 
@@ -144,9 +150,9 @@ RS_SP_AS_pop <-
 # Compare Genre critic scores & fan scores
 # Bar graph that shows the differenc between fans and critics
 
-songs$song_popularity <- rescale(song_rankings$song_popularity, to = c(1, 500))
+songs$song_popularity <- rescale(songs$song_popularity, to = c(1, 500))
 
-genre_frame <- song_rankings %>% 
+genre_frame <- songs %>% 
  select(Genre, Place, song_popularity) %>% 
  arrange(Genre)
 
@@ -154,25 +160,26 @@ genre_frame <- song_rankings %>%
 genre_ranking <- genre_frame %>% 
   group_by(Genre) %>% 
   summarize(
-    critic_ranking = 501 - mean(Place),
-    fan_ranking = 501 - mean(song_popularity)
-  )
+    critic_ranking = sum(501 - Place),
+    fan_ranking = sum(501 - song_popularity)
+  ) %>% 
+  gather(key = category, value = score, -Genre)
 
 
 ## Question 4: How well do sales dictate greatness? (Spencer)
-best_albums <- read.csv("data/RollingStonesTop500Albums.csv", stringsAsFactors = FALSE) %>%
-  select(Artist, Album, Year, Genre, Subgenre, Place)
+#best_albums <- read.csv("data/RollingStonesTop500Albums.csv", stringsAsFactors = FALSE) %>%
+#  select(Artist, Album, Year, Genre, Subgenre, Place)
 
 # Going to use the Probable sales data instead of Minimal or Range
-record_sales <- read.xlsx("data/CombinedRecordSales.xlsx") %>%
-  select(Artist, Album.Title, Probable) # Numbers are in millions
-colnames(record_sales)[2] <- "Album"
+#record_sales <- read.xlsx("data/CombinedRecordSales.xlsx") %>%
+#  select(Artist, Album.Title, Probable) # Numbers are in millions
+#colnames(record_sales)[2] <- "Album"
 
 # Combined the "best" albums with the best selling albums of all time
 # Of 300 possible overlapping albums, only 41 actually do
 # Of these 41, almost all of them are Rock and from the 80s and 90s
-combined_best_and_sales <- left_join(best_albums, record_sales, by = "Album") %>%
-  filter(!is.na(Probable)) %>%
-  select(Artist.x, Album, Year, Genre, Subgenre, Place, Probable)
-colnames(combined_best_and_sales)[1] <- "Artist"
+#combined_best_and_sales <- left_join(best_albums, record_sales, by = "Album") %>%
+#  filter(!is.na(Probable)) %>%
+#  select(Artist.x, Album, Year, Genre, Subgenre, Place, Probable)
+#colnames(combined_best_and_sales)[1] <- "Artist"
 
