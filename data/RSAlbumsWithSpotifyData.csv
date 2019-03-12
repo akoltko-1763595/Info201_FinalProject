@@ -1,4 +1,5 @@
 "","Place","Year","Album","Artist","Genre","Subgenre","Artist_Id","Followers","Popularity"
+<<<<<<< HEAD
 "1",1,1967,"Sgt. Pepper's Lonely Hearts Club Band","The Beatles","Rock","Rock & Roll, Psychedelic Rock","3WrFJ7ztbogyGnTHbHJFl2",11229735,87
 "2",2,1966,"Pet Sounds","The Beach Boys","Rock","Pop Rock, Psychedelic Rock","3oDbviiivRWhXwIE8hxkVV",1794854,73
 "3",3,1966,"Revolver","The Beatles","Rock","Psychedelic Rock, Pop Rock","3WrFJ7ztbogyGnTHbHJFl2",11229736,87
@@ -499,3 +500,505 @@
 "498",498,1989,"The Stone Roses","The Stone Roses","Rock","Indie Rock","1lYT0A0LV5DUfxr6doRP3d",671659,63
 "499",499,1971,"Live in Cook County Jail","B.B. King","Blues","Electric Blues","5xLSa7l4IV1gsQfhAMvl0U",1471328,64
 "500",500,1998,"Aquemini","OutKast","Hip Hop","Reggae, Gangsta, Soul, Conscious","1G9G7WwrXka3Z1r7aIDjI7",1049315,75
+=======
+"1",1,1967,"Sgt. Pepper's Lonely Hearts Club Band","The Beatles","Rock","Rock & Roll, Psychedelic Rock","3WrFJ7ztbogyGnTHbHJFl2",11231896,87
+"2",2,1966,"Pet Sounds","The Beach Boys","Rock","Pop Rock, Psychedelic Rock","3oDbviiivRWhXwIE8hxkVV",1795189,73
+"3",3,1966,"Revolver","The Beatles","Rock","Psychedelic Rock, Pop Rock","3WrFJ7ztbogyGnTHbHJFl2",11231899,87
+"4",4,1965,"Highway 61 Revisited","Bob Dylan","Rock","Folk Rock, Blues Rock","74ASZWbe4lXaubB36ztrGX",3096551,75
+"5",5,1965,"Rubber Soul","The Beatles","Rock, Pop","Pop Rock","3WrFJ7ztbogyGnTHbHJFl2",11231899,87
+"6",6,1971,"What's Going On","Marvin Gaye","Funk / Soul","Soul","3koiLjNrgRTNbOwViDipeA",2679144,75
+"7",7,1972,"Exile on Main St.","The Rolling Stones","Rock","Blues Rock, Rock & Roll, Classic Rock","22bE4uQ6baNwSHPVcDxLCe",6326485,80
+"8",8,1979,"London Calling","The Clash","Rock","Punk, New Wave","3RGLhK1IP9jnYFH4BRFJBS",1493784,73
+"9",9,1966,"Blonde on Blonde","Bob Dylan","Rock, Blues","Folk Rock, Rhythm & Blues","74ASZWbe4lXaubB36ztrGX",3096551,75
+"10",10,1968,"The Beatles (""The White Album"")","The Beatles","Rock","Rock & Roll, Pop Rock, Psychedelic Rock, Experimental","3WrFJ7ztbogyGnTHbHJFl2",11231899,87
+"11",11,1976,"The Sun Sessions","Elvis Presley","Rock","Rock & Roll","43ZHCT0cAZBISjO8DG9PnE",2828876,78
+"12",12,1959,"Kind of Blue","Miles Davis","Jazz","Modal","0kbYTNQb4Pb1rPbbaF0pT4",1495430,65
+"13",13,1967,"The Velvet Underground & Nico","The Velvet Underground","Rock","Garage Rock, Art Rock, Experimental","1nJvji2KIlWSseXRSlNYsC",781185,65
+"14",14,1969,"Abbey Road","The Beatles","Rock","Psychedelic Rock, Classic Rock, Pop Rock","3WrFJ7ztbogyGnTHbHJFl2",11231899,87
+"15",15,1967,"Are You Experienced","Jimi Hendrix","Rock, Blues","Blues Rock, Psychedelic Rock","776Uo845nYHJpNaStv1Ds4",3006437,73
+"16",16,1975,"Blood on the Tracks","Bob Dylan","Rock","Folk Rock, Acoustic, Ballad","74ASZWbe4lXaubB36ztrGX",3096551,75
+"17",17,1991,"Nevermind","Nirvana","Rock","Alternative Rock, Grunge","6olE6TJLqED3rqDCT0FyPh",8270455,80
+"18",18,1975,"Born to Run","Bruce Springsteen","Rock","Pop Rock","3eqjTLE0HfPfh78zjh6TqT",2041313,76
+"19",19,1968,"Astral Weeks","Van Morrison","Jazz, Rock, Blues, Folk, World, & Country","Acoustic, Classic Rock, Free Improvisation","44NX2ffIYHr6D4n7RaZF7A",1036806,74
+"20",20,1982,"Thriller","Michael Jackson","Funk / Soul, Pop","Disco","3fMbdgg4jU18AjLCKBhRSm",9217274,84
+"21",21,1982,"The Great Twenty_Eight","Chuck Berry","Rock","Rock & Roll","293zczrfYafIItmnmM3coR",821906,66
+"22",22,1990,"The Complete Recordings","Robert Johnson","Blues","Delta Blues","0f8MDDzIc6M4uH1xH0o0gy",288581,49
+"23",23,1970,"Plastic Ono Band","John Lennon","Rock","Pop Rock","4x1nvY2FN8jxqAFA0DA02H",2315420,71
+"24",24,1973,"Innervisions","Stevie Wonder","Funk / Soul","Soul","7guDJrEfX3qb6FEbdPA5qi",3333764,77
+"25",25,1963,"Live at the Apollo, 1962","James Brown","Funk / Soul","Rhythm & Blues, Soul","7GaxyUddsPok8BuhxN6OUW",1244345,66
+"26",26,1977,"Rumours","Fleetwood Mac","Rock","Pop Rock","08GQAI4eElDnROBrJRGE0X",2974926,80
+"27",27,1987,"The Joshua Tree","U2","Rock","Alternative Rock, Pop Rock","51Blml2LZPmy7TTiAg47vQ",4530764,79
+"28",28,1971,"Who's Next","The Who","Rock","Hard Rock, Mod, Prog Rock, Psychedelic Rock","67ea9eGLXYMsO2eYQRui3w",2311783,72
+"29",29,1969,"Led Zeppelin","Led Zeppelin","Rock","Blues Rock, Hard Rock","36QJpDe2go2KgaRleHCDTp",6689475,80
+"30",30,1971,"Blue","Joni Mitchell","Pop","Acoustic, Ballad, Folk","5hW4L92KnC6dX9t7tYM4Ve",518459,66
+"31",31,1965,"Bringing It All Back Home","Bob Dylan","Rock, Folk, World, & Country","Folk Rock, Folk","74ASZWbe4lXaubB36ztrGX",3096551,75
+"32",32,1969,"Let It Bleed","The Rolling Stones","Rock","Blues Rock, Hard Rock","22bE4uQ6baNwSHPVcDxLCe",6326485,80
+"33",33,1976,"Ramones","Ramones","Rock","Rock & Roll, Punk","1co4F2pPNH8JjTutZkmgSm",1390167,67
+"34",34,1968,"Music From Big Pink","The Band","Rock","Folk Rock, Acoustic, Blues Rock","4wQ3PyMz3WwJGI5uEqHUVR",623396,66
+"35",35,1972,"The Rise and Fall of Ziggy Stardust and the Spiders From Mars","David Bowie","Rock","Classic Rock, Glam","0oSGxfWSnnOXhD2fKuz2Gy",3703498,81
+"36",36,1971,"Tapestry","Carole King","Rock, Pop","Folk Rock, Soft Rock","319yZVtYM9MBGqmSQnMyY6",491018,65
+"37",37,1976,"Hotel California","Eagles","Rock","Classic Rock","0ECwFtbIWEVNwjlrfc6xoL",2797089,77
+"38",38,2001,"The Anthology","Muddy Waters","Folk, World, & Country","Folk","4y6J8jwRAwO4dssiSmN91R",692555,57
+"39",39,1963,"Please Please Me","The Beatles","Rock","Beat, Rock & Roll","3WrFJ7ztbogyGnTHbHJFl2",11231899,87
+"40",40,1967,"Forever Changes","Love","Rock","Folk Rock, Psychedelic Rock","3aGFCoR8xGN6DKwvdzeSja",270796,71
+"41",41,1977,"Never Mind the Bollocks Here's the Sex Pistols","Sex Pistols","Rock","Punk","1u7kkVrr14iBvrpYnZILJR",847476,58
+"42",42,1967,"The Doors","The Doors","Rock","Psychedelic Rock","22WZ7M8sxp5THdruNY3gXt",3705438,75
+"43",43,1973,"The Dark Side of the Moon","Pink Floyd","Rock","Prog Rock","0k17h0D3J5VfsdmQ1iZtE9",8547222,81
+"44",44,1975,"Horses","Patti Smith","Rock","Art Rock","0vYkHhJ48Bs3jWcvZXvOrP",425931,59
+"45",45,1969,"The Band (""The Brown Album"")","The Band","Classical, Stage & Screen","Soundtrack, Modern Classical, Contemporary, Score","4wQ3PyMz3WwJGI5uEqHUVR",623396,66
+"46",46,1984,"Legend: The Best of Bob Marley and The Wailers","Bob Marley & The Wailers","Reggae","Reggae, Roots Reggae","2QsynagSdAqZj3U9HgDzjD",6379822,81
+"47",47,1965,"A Love Supreme","John Coltrane","Jazz","Free Jazz, Hard Bop, Modal","2hGh5VOeeqimQFxqXvfCUf",893492,66
+"48",48,1988,"It Takes a Nation of Millions to Hold Us Back","Public Enemy","Hip Hop","Conscious","6Mo9PoU6svvhgEum7wh2Nd",445703,59
+"49",49,1971,"At Fillmore East","The Allman Brothers Band","Rock, Blues","Blues Rock","4wQ3PyMz3WwJGI5uEqHUVR",623396,66
+"50",50,1957,"Here's Little Richard","Little Richard","Rock, Blues","Rock & Roll, Rhythm & Blues","4xls23Ye9WR9yy3yYMpAMm",362294,59
+"51",51,1970,"Bridge Over Troubled Water","Simon & Garfunkel","Rock","Folk Rock, Classic Rock","70cRZdQywnSFp9pnc2WTCE",1743699,74
+"52",52,1975,"Greatest Hits","Al Green","Funk / Soul","Soul","3dkbV4qihUeMsqN4vBGg93",1027630,69
+"53",53,1964,"Meet The Beatles!","The Beatles","Rock","Beat, Rock & Roll","3WrFJ7ztbogyGnTHbHJFl2",11231899,87
+"54",54,1991,"The Birth of Soul","Ray Charles","Jazz, Funk / Soul","Rhythm & Blues, Big Band, Soul, Soul-Jazz","1eYhYunlNJlDoQhtYBvPsi",1330822,67
+"55",55,1968,"Electric Ladyland","The Jimi Hendrix Experience","Rock, Blues","Electric Blues, Psychedelic Rock","776Uo845nYHJpNaStv1Ds4",3006437,73
+"56",56,1956,"Elvis Presley","Elvis Presley","Rock","Rock & Roll, Rockabilly","43ZHCT0cAZBISjO8DG9PnE",2828876,78
+"57",57,1976,"Songs in the Key of Life","Stevie Wonder","Funk / Soul","Soul, Disco","7guDJrEfX3qb6FEbdPA5qi",3333764,77
+"58",58,1968,"Beggars Banquet","The Rolling Stones","Rock, Funk / Soul, Pop","Blues Rock, Southern Rock, Classic Rock","22bE4uQ6baNwSHPVcDxLCe",6326484,80
+"59",59,1976,"Chronicle: The 20 Greatest Hits","Creedence Clearwater Revival","Rock","None","3IYUhFvPQItj6xySrBmZkd",2434833,78
+"60",60,1969,"Trout Mask Replica","Captain Beefheart & His Magic Band","Rock, Blues","Dialogue, Field Recording, Avantgarde, Electric Blues, Psychedelic Rock, Experimental","2k8kY9zHUWxuTtwV4UutHw",82054,47
+"61",61,1970,"Greatest Hits","Sly & The Family Stone","Funk / Soul","Rhythm & Blues, Funk","3DFoVPonoAAt4EZ1FEI8ue",159215,59
+"62",62,1987,"Appetite for Destruction","Guns N' Roses","Rock","Hard Rock, Heavy Metal","3qm84nBOXUEQ2vnTfUTTFC",11168255,81
+"63",63,1991,"Achtung Baby","U2","Electronic, Rock","Pop Rock, Synth-pop, Alternative Rock, Arena Rock","51Blml2LZPmy7TTiAg47vQ",4530766,79
+"64",64,1971,"Sticky Fingers","The Rolling Stones","Rock","Classic Rock","22bE4uQ6baNwSHPVcDxLCe",6326484,80
+"65",65,1991,"Back to Mono (1958-1969)","Phil Spector","Rock, Funk / Soul, Pop","Doo Wop, Pop Rock, Ballad, Rhythm & Blues","3jVMgT4X7YeuYE4aludcmE",10494,26
+"66",66,1970,"Moondance","Van Morrison","Jazz, Rock, Funk / Soul, Folk, World, & Country","Folk Rock, Rhythm & Blues, Classic Rock, Contemporary Jazz","44NX2ffIYHr6D4n7RaZF7A",1036806,74
+"67",67,2000,"Kid A","Radiohead","Electronic, Rock","Alternative Rock, IDM, Experimental","4Z8W4fKeB5YxbusRsdQVPb",3956050,79
+"68",68,1979,"Off the Wall","Michael Jackson","Funk / Soul, Pop","Disco, Soul, Ballad","3fMbdgg4jU18AjLCKBhRSm",9217274,84
+"69",69,1971,"[Led Zeppelin IV]","Led Zeppelin","Rock","Hard Rock, Classic Rock, Blues Rock","36QJpDe2go2KgaRleHCDTp",6689475,80
+"70",70,1977,"The Stranger","Billy Joel","Rock","Pop Rock","6zFYqv1mOsgBRQbae3JJ9e",1574634,76
+"71",71,1986,"Graceland","Paul Simon","Jazz, Rock, Funk / Soul, Pop, Folk, World, & Country","Folk Rock, Pop Rock, African, Afrobeat, Zydeco, Funk, Rhythm & Blues","2CvCyf1gEVhI0mX6aFXmVI",937438,71
+"72",72,1972,"Superfly","Curtis Mayfield","Funk / Soul, Stage & Screen","Soundtrack, Soul","2AV6XDIs32ofIJhkkDevjm",524116,62
+"73",73,1975,"Physical Graffiti","Led Zeppelin","Rock","Classic Rock","36QJpDe2go2KgaRleHCDTp",6689475,80
+"74",74,1970,"After the Gold Rush","Neil Young","Rock","Rock & Roll, Country Rock","6v8FB84lnmJs434UJf2Mrm",1302742,71
+"75",75,1991,"Star Time","James Brown","Funk / Soul","Soul, Funk, Disco","7GaxyUddsPok8BuhxN6OUW",1244345,66
+"76",76,1984,"Purple Rain","Prince and the Revolution","Electronic, Rock, Funk / Soul, Stage & Screen","Pop Rock, Funk, Soundtrack, Synth-pop","5a2EaR3hamoenG9rDuVn8j",3234744,74
+"77",77,1980,"Back in Black","AC/DC","Rock","Hard Rock","711MCceyCBcFnzjGY4Q7Un",10409633,82
+"78",78,1965,"Otis Blue: Otis Redding Sings Soul","Otis Redding","Funk / Soul","Soul","60df5JBRRPcnSpsIMxxwQm",1256090,70
+"79",79,1969,"Led Zeppelin II","Led Zeppelin","Rock","Blues Rock, Classic Rock, Hard Rock","36QJpDe2go2KgaRleHCDTp",6689475,80
+"80",80,1971,"Imagine","John Lennon","Rock","Pop Rock","4x1nvY2FN8jxqAFA0DA02H",2315420,71
+"81",81,1977,"The Clash","The Clash","Rock","Punk","3RGLhK1IP9jnYFH4BRFJBS",1493784,73
+"82",82,1972,"Harvest","Neil Young","Rock","Folk Rock, Country Rock, Classic Rock","6v8FB84lnmJs434UJf2Mrm",1302742,71
+"83",83,1967,"Axis: Bold as Love","The Jimi Hendrix Experience","Rock","Psychedelic Rock, Electric Blues","776Uo845nYHJpNaStv1Ds4",3006437,73
+"84",84,1967,"I Never Loved a Man the Way I Love You","Aretha Franklin","Funk / Soul","Soul","7nwUJBm0HE4ZxD3f5cy5ok",1763960,74
+"85",85,1968,"Lady Soul","Aretha Franklin","Funk / Soul","Soul","7nwUJBm0HE4ZxD3f5cy5ok",1763960,74
+"86",86,1984,"Born in the U.S.A.","Bruce Springsteen","Rock","Pop Rock","3eqjTLE0HfPfh78zjh6TqT",2041313,76
+"87",87,1979,"The Wall","Pink Floyd","Rock","Alternative Rock, Prog Rock","0k17h0D3J5VfsdmQ1iZtE9",8547224,81
+"88",88,1968,"At Folsom Prison","Johnny Cash","Folk, World, & Country","Country","6kACVPfCOnqzgfEF5ryl0x",3067802,77
+"89",89,1969,"Dusty in Memphis","Dusty Springfield","Rock, Funk / Soul","Pop Rock, Soul","5zaXYwewAXedKNCff45U5l",189148,64
+"90",90,1972,"Talking Book","Stevie Wonder","Funk / Soul","Soul, Funk","7guDJrEfX3qb6FEbdPA5qi",3333764,77
+"91",91,1973,"Goodbye Yellow Brick Road","Elton John","Rock","Pop Rock, Classic Rock","3PhoLpVuITZKcymswpck5b",2475889,81
+"92",92,1978,"20 Golden Greats","Buddy Holly","Rock","Rock & Roll","3wYyutjgII8LJVVOLrGI0D",467279,60
+"93",93,1987,"Sign ""Peace"" the Times","Prince","Rock, Reggae","Ska, Reggae-Pop","3MHaV05u0io8fQbZ2XPtlC",3811646,82
+"94",94,1984,"40 Greatest Hits","Hank Williams","Folk, World, & Country","Country","2dyeCWctcFRt3Pha76ONgb",500869,65
+"95",95,1970,"Bitches Brew","Miles Davis","Jazz","Fusion","0kbYTNQb4Pb1rPbbaF0pT4",1495429,65
+"96",96,1969,"Tommy","The Who","Rock","Psychedelic Rock","67ea9eGLXYMsO2eYQRui3w",2311783,72
+"97",97,1963,"The Freewheelin' Bob Dylan","Bob Dylan","Folk, World, & Country","Folk","74ASZWbe4lXaubB36ztrGX",3096551,75
+"98",98,1978,"This Year's Model","Elvis Costello","Rock","New Wave","2BGRfQgtzikz1pzAD0kaEn",239596,57
+"99",99,1971,"There's a Riot Goin' On","Sly & The Family Stone","Funk / Soul","Rhythm & Blues, Funk","3DFoVPonoAAt4EZ1FEI8ue",159215,59
+"100",100,1968,"Odessey and Oracle","The Zombies","Rock","Psychedelic Rock","2jgPkn6LuUazBoBk6vvjh5",333451,61
+"101",101,1955,"In the Wee Small Hours","Frank Sinatra","Jazz, Pop","Big Band, Ballad","1Mxqyy3pSjf8kZZL4QVxS0",2770022,77
+"102",102,1966,"Fresh Cream","Cream","Rock, Blues","Blues Rock, Electric Blues","74oJ4qxwOZvX6oSsu1DGnw",885931,66
+"103",103,1959,"Giant Steps","John Coltrane","Jazz","Hard Bop","2hGh5VOeeqimQFxqXvfCUf",893492,66
+"104",104,1970,"Sweet Baby James","James Taylor","Rock","Folk Rock, Acoustic, Soft Rock","0vn7UBvSQECKJm2817Yf1P",831719,69
+"105",105,1962,"Modern Sounds in Country and Western Music","Ray Charles","Funk / Soul, Folk, World, & Country","Country, Rhythm & Blues","1eYhYunlNJlDoQhtYBvPsi",1330822,67
+"106",106,1977,"Rocket to Russia","Ramones","Rock","Rock & Roll, Punk","1co4F2pPNH8JjTutZkmgSm",1390167,67
+"107",107,2003,"Portrait of a Legend 1951-1964","Sam Cooke","Latin, Funk / Soul","Soul, Rhythm & Blues, Gospel, Cha-Cha","6hnWRPzGGKiapVX1UCdEAC",782196,70
+"108",108,1971,"Hunky Dory","David Bowie","Rock","Classic Rock, Glam","0oSGxfWSnnOXhD2fKuz2Gy",3703498,81
+"109",109,1966,"Aftermath","The Rolling Stones","Rock","Blues Rock, Pop Rock","22bE4uQ6baNwSHPVcDxLCe",6326484,80
+"110",110,1970,"Loaded","The Velvet Underground","Rock","Art Rock, Classic Rock","1nJvji2KIlWSseXRSlNYsC",781185,65
+"111",111,1995,"The Bends","Radiohead","Rock","Alternative Rock","4Z8W4fKeB5YxbusRsdQVPb",3956050,79
+"112",112,1966,"If You Can Believe Your Eyes and Ears","The Mamas and the Papas","Rock","Folk Rock, Pop Rock","1bs7HoMkSyQwcobCpE9KpN",537988,65
+"113",113,1974,"Court and Spark","Joni Mitchell","Rock","Soft Rock, Pop Rock","5hW4L92KnC6dX9t7tYM4Ve",518459,66
+"114",114,1967,"Disraeli Gears","Cream","Rock","Psychedelic Rock, Blues Rock","74oJ4qxwOZvX6oSsu1DGnw",885931,66
+"115",115,1967,"The Who Sell Out","The Who","Rock","Psychedelic Rock, Mod","67ea9eGLXYMsO2eYQRui3w",2311783,72
+"116",116,1965,"Out of Our Heads","The Rolling Stones","Rock","Blues Rock, Rock & Roll","22bE4uQ6baNwSHPVcDxLCe",6326484,80
+"117",117,1970,"Layla and Other Assorted Love Songs","Derek and the Dominos","Rock","Blues Rock","2rc78XDH9zuJP6bm78lU8Z",233178,62
+"118",118,2005,"Late Registration","Kanye West","Hip Hop","None","5K4W6rqBFWDnAN6FQUkS6x",9351218,90
+"119",119,1960,"At Last!","Etta James","Funk / Soul, Blues","Rhythm & Blues, Soul","0iOVhN3tnSvgDbcg25JoJb",811874,67
+"120",120,1968,"Sweetheart of the Rodeo","The Byrds","Rock","Folk Rock, Country Rock","1PCZpxHJz7WAMF8EEq8bfc",405695,62
+"121",121,1969,"Stand!","Sly & The Family Stone","Funk / Soul","Funk, Psychedelic, Disco","3DFoVPonoAAt4EZ1FEI8ue",159215,59
+"122",122,1972,"The Harder They Come","Various Artists","Reggae,ÊPop,ÊFolk, World, & Country,ÊStage & Screen","Reggae,ÊRoots Reggae,ÊRocksteady,ÊContemporary,ÊSoundtrack","4vNhOl5osBeaXUSu0dnuzq",3143,7
+"123",123,1986,"Raising Hell","Run D.M.C.","Hip Hop","None","3CQIn7N5CuRDP8wEI7FiDA",529349,63
+"124",124,1967,"Moby Grape","Moby Grape","Rock","Folk Rock, Psychedelic Rock","0NHSh9S0VQiFfsEFbvhRXN",19072,29
+"125",125,1971,"Pearl","Janis Joplin","Rock, Blues","Blues Rock","4NgfOZCL9Ml67xzM0xzIvC",1553392,66
+"126",126,1973,"Catch a Fire","The Wailers","Reggae","Roots Reggae","2QsynagSdAqZj3U9HgDzjD",6379825,81
+"127",127,1967,"Younger Than Yesterday","The Byrds","Rock","Folk Rock, Psychedelic Rock","1PCZpxHJz7WAMF8EEq8bfc",405695,62
+"128",128,1973,"Raw Power","Iggy and The Stooges","Rock","Garage Rock, Hard Rock, Punk","4BFMTELQyWJU1SwqcXMBm3",256937,55
+"129",129,1980,"Remain in Light","Talking Heads","Electronic, Rock","New Wave, Art Rock, Funk","2x9SpqnPi8rlE9pjHBwmSC",858424,70
+"130",130,1977,"Marquee Moon","Television","Rock","New Wave, Punk","0S7Zur2g8YhqlzqtlYStli",145351,52
+"131",131,1970,"Paranoid","Black Sabbath","Rock","Hard Rock, Heavy Metal","5M52tdBnJaKSvOpJGz8mfZ",3355754,73
+"132",132,1977,"Saturday Night Fever: The Original Movie Sound Track","Various Artists","Electronic,ÊStage & Screen","Soundtrack,ÊDisco","4vNhOl5osBeaXUSu0dnuzq",3143,7
+"133",133,1973,"The Wild, the Innocent & the E Street Shuffle","Bruce Springsteen","Rock","None","3eqjTLE0HfPfh78zjh6TqT",2041313,76
+"134",134,1994,"Ready to Die","The Notorious B.I.G.","Hip Hop","Thug Rap","5me0Irg2ANcsgc93uaYrpb",3607121,79
+"135",135,1992,"Slanted and Enchanted","Pavement","Rock","Alternative Rock","3inCNiUr4R6XQ3W43s9Aqi",208309,60
+"136",136,1974,"Greatest Hits","Elton John","Rock","Classic Rock","3PhoLpVuITZKcymswpck5b",2475889,81
+"137",137,1985,"Tim","The Replacements","Rock","Indie Rock","4WPY0N74T3KUja57xMQTZ3",122947,54
+"138",138,1992,"The Chronic","Dr. Dre","Hip Hop","Gangsta","6DPYiyq5kWVQS4RGwxzPC7",4062788,80
+"139",139,1974,"Rejuvenation","The Meters","Funk / Soul","Bayou Funk, Soul","2JRvXPGWiINrnJljNJhG5s",113189,56
+"140",140,1978,"Parallel Lines","Blondie","Electronic, Rock","New Wave, Pop Rock, Punk, Disco","4tpUmLEVLCGFr93o8hFFIB",532145,68
+"141",141,1965,"Live at the Regal","B.B. King","Blues","Chicago Blues","5xLSa7l4IV1gsQfhAMvl0U",1471507,64
+"142",142,1963,"A Christmas Gift for You From Phil Spector","Phil Spector","Rock, Funk / Soul, Pop","Pop Rock","3jVMgT4X7YeuYE4aludcmE",10494,26
+"143",143,1968,"Gris Gris","Dr. John","Jazz, Rock, Funk / Soul, Blues","Soul-Jazz, Louisiana Blues, Fusion, Bayou Funk","320TrJub4arztwXRm7kqVO",124454,56
+"144",144,1988,"Straight Outta Compton","N.W.A","Hip Hop","Gangsta","4EnEZVjo3w1cwcQYePccay",2169617,67
+"145",145,1977,"Aja","Steely Dan","Jazz, Rock","Jazz-Rock, Classic Rock","6P7H3ai06vU1sGvdpBwDmE",719358,69
+"146",146,1967,"Surrealistic Pillow","Jefferson Airplane","Rock","Folk Rock, Psychedelic Rock","2qFr8w5sWUITRlzZ9kZotF",673107,62
+"147",147,1970,"Deja vu","Crosby, Stills, Nash & Young","Rock","Classic Rock","1CYsQCypByMVgnv17qsSbQ",492710,64
+"148",148,1973,"Houses of the Holy","Led Zeppelin","Rock","Classic Rock","36QJpDe2go2KgaRleHCDTp",6689475,80
+"149",149,1969,"Santana","Santana","Rock, Latin, Funk / Soul","Afro-Cuban, Psychedelic Rock","0O1cTzccAEKaEFShgzAK9V",64939,71
+"150",150,1978,"Darkness on the Edge of Town","Bruce Springsteen","Rock","Pop Rock","3eqjTLE0HfPfh78zjh6TqT",2041313,76
+"151",151,2004,"Funeral","Arcade Fire","Rock","Indie Rock","3kjuyTCjPG1WMFCiyc5IuB",1445127,70
+"152",152,1979,"The B 52's / Play Loud","The B 52's","Electronic, Rock, Pop","New Wave, Punk, Mod","3gdbcIdNypBsYNu3iiCjtN",352015,61
+"153",153,1991,"The Low End Theory","A Tribe Called Quest","Hip Hop","Conscious","09hVIj6vWgoCDtT03h8ZCa",916910,69
+"154",154,1958,"Moanin' in the Moonlight","Howlin' Wolf","Blues","Chicago Blues","0Wxy5Qka8BN9crcFkiAxSR",288563,53
+"155",155,1980,"Pretenders","Pretenders","Rock","Alternative Rock, New Wave","0GByy3DcfbQwDvXGCWmzv9",441346,65
+"156",156,1989,"Paul's Boutique","Beastie Boys","Hip Hop, Rock, Funk / Soul","Alternative Rock, Pop Rap, Psychedelic","03r4iKL2g2442PT9n2UKsx",1188210,70
+"157",157,1980,"Closer","Joy Division","Rock","Post-Punk, New Wave","432R46LaYsJZV2Gmc4jUV5",963251,66
+"158",158,1975,"Captain Fantastic and the Brown Dirt Cowboy","Elton John","Rock","Pop Rock, Classic Rock","3PhoLpVuITZKcymswpck5b",2475889,81
+"159",159,1975,"Alive!","KISS","Rock","Hard Rock, Glam","07XSN3sPlIlB2L2XNcTwJw",3262688,73
+"160",160,1971,"Electric Warrior","T. Rex","Rock","Glam, Classic Rock","3dBVyJ7JuOMt4GE9607Qin",354987,62
+"161",161,1968,"The Dock of the Bay","Otis Redding","Funk / Soul","Rhythm & Blues, Soul","60df5JBRRPcnSpsIMxxwQm",1256090,70
+"162",162,1997,"OK Computer","Radiohead","Electronic, Rock","Alternative Rock","4Z8W4fKeB5YxbusRsdQVPb",3956050,79
+"163",163,1982,"1999","Prince","Funk / Soul, Pop","None","3MHaV05u0io8fQbZ2XPtlC",3811646,82
+"164",164,2002,"The Very Best of Linda Ronstadt","Linda Ronstadt","Rock, Pop","Soft Rock, Pop Rock","1sXbwvCQLGZnaH0Jp2HTVc",256108,61
+"165",165,1973,"Let's Get It On","Marvin Gaye","Funk / Soul","Soul","3koiLjNrgRTNbOwViDipeA",2679145,75
+"166",166,1982,"Imperial Bedroom","Elvis Costello & The Attractions","Rock","Alternative Rock, New Wave","2BGRfQgtzikz1pzAD0kaEn",239596,57
+"167",167,1986,"Master Of Puppets","Metallica","Rock","Thrash, Speed Metal","2ye2Wgw4gimLv2eAKyk1NB",9809011,82
+"168",168,1977,"My Aim Is True","Elvis Costello","Rock","New Wave, Pop Rock","2BGRfQgtzikz1pzAD0kaEn",239596,57
+"169",169,1977,"Exodus","Bob Marley & The Wailers","Reggae","Reggae, Roots Reggae","2QsynagSdAqZj3U9HgDzjD",6379825,81
+"170",170,1970,"Live at Leeds","The Who","Rock","Classic Rock, Blues Rock, Hard Rock","67ea9eGLXYMsO2eYQRui3w",2311784,72
+"171",171,1968,"The Notorious Byrd Brothers","The Byrds","Rock","Psychedelic Rock, Folk Rock, Country Rock, Pop Rock","1PCZpxHJz7WAMF8EEq8bfc",405695,62
+"172",172,1971,"Every Picture Tells a Story","Rod Stewart","Rock","Pop Rock","2y8Jo9CKhJvtfeKOsYzRdT",1241127,73
+"173",173,1972,"Something/Anything?","Todd Rundgren","Rock","Power Pop, Pop Rock, Prog Rock","0Lpr5wXzWLtDWm1SjNbpPb",116953,55
+"174",174,1976,"Desire","Bob Dylan","Rock","Folk Rock","74ASZWbe4lXaubB36ztrGX",3096551,75
+"175",175,1970,"Close to You","Carpenters","Rock, Pop","Pop Rock, Vocal","1eEfMU2AhEo7XnKgL7c304",770218,67
+"176",176,1976,"Rocks","Aerosmith","Rock","Hard Rock, Classic Rock","7Ey4PD4MYsKc5I2dolUwbH",6117945,77
+"177",177,1978,"One Nation Under a Groove","Funkadelic","Funk / Soul","P.Funk","5SMVzTJyKFJ7TUb46DglcH",287298,58
+"178",178,1992,"The Anthology: 1961-1977","Curtis Mayfield and The Impressions","Funk / Soul","Rhythm & Blues, Soul, Funk","2ix5hK8ZoH1xIvZ1N9RFAj",178,9
+"179",179,2001,"The Definitive Collection","ABBA","Electronic, Pop","Europop, Synth-pop, Disco","0LcJLqbBmaGUft1e9Mm8HV",2195063,78
+"180",180,1965,"The Rolling Stones, Now!","The Rolling Stones","Rock, Blues, Pop","Pop Rock, Rhythm & Blues, Rock & Roll","22bE4uQ6baNwSHPVcDxLCe",6326484,80
+"181",181,1974,"Natty Dread","Bob Marley & The Wailers","Reggae","Reggae, Roots Reggae","2QsynagSdAqZj3U9HgDzjD",6379825,81
+"182",182,1975,"Fleetwood Mac","Fleetwood Mac","Rock, Pop","Folk Rock, Pop Rock","08GQAI4eElDnROBrJRGE0X",2974926,80
+"183",183,1975,"Red Headed Stranger","Willie Nelson","Folk, World, & Country","Country","5W5bDNCqJ1jbCgTxDD0Cb3",785039,69
+"184",184,1990,"The Immaculate Collection","Madonna","Electronic, Pop","Synth-pop","6tbjWDEIzxoDsBA1FuhfPW",2874889,77
+"185",185,1969,"The Stooges","The Stooges","Rock","Garage Rock, Punk","4BFMTELQyWJU1SwqcXMBm3",256937,55
+"186",186,1973,"Fresh","Sly & The Family Stone","Funk / Soul","Rhythm & Blues, Funk","3DFoVPonoAAt4EZ1FEI8ue",159215,59
+"187",187,1986,"So","Peter Gabriel","Electronic, Rock, Funk / Soul, Pop","Art Rock, Pop Rock, Synth-pop, Funk","7C4sUpWGlTy7IANjruj02I",657467,64
+"188",188,1967,"Buffalo Springfield Again","Buffalo Springfield","Rock, Pop","Country Rock","3eskO5m0H4yiF64vRySBjr",289942,61
+"189",189,1969,"Happy Trails","Quicksilver Messenger Service","Rock","Acid Rock, Psychedelic Rock","7DCnwoFMqGN6eZULdcLZeL",48435,37
+"190",190,1969,"From Elvis in Memphis","Elvis Presley","Rock, Funk / Soul, Folk, World, & Country","Country, Soul","43ZHCT0cAZBISjO8DG9PnE",2828876,78
+"191",191,1970,"Fun House","The Stooges","Rock","Garage Rock, Punk","4BFMTELQyWJU1SwqcXMBm3",256937,55
+"192",192,1969,"The Gilded Palace of Sin","The Flying Burrito Brothers","Rock, Folk, World, & Country","Country Rock","0rESpKEusFHxhW59MIf7eM",50242,48
+"193",193,1994,"Dookie","Green Day","Rock","Alternative Rock, Pop Punk, Punk","7oPftvlwr6VrsViSDV7fJY",8350338,81
+"194",194,1972,"Transformer","Lou Reed","Rock","Glam","42TFhl7WlMRXiNqzSrnzPL",827292,66
+"195",195,1966,"Blues Breakers With Eric Clapton (""The Beano Album"")","John Mayall & The Bluesbreakers","Rock,ÊBlues","Blues Rock,ÊElectric Blues,ÊHarmonica Blues","5s4z3mRAE7nxE3jjft8J3h",94375,47
+"196",196,1998,"Nuggets: Original Artyfacts From the First Psychedelic Era, 1965-1968","Various Artists","Rock","Garage Rock,ÊPsychedelic Rock","4vNhOl5osBeaXUSu0dnuzq",3143,7
+"197",197,1983,"Murmur","R.E.M.","Rock","Alternative Rock","4KWTAlx2RvbpseOGMEmROg",1699132,74
+"198",198,1967,"The Best of Little Walter","Little Walter","Blues","Chicago Blues","22JuR9OeENcP54XN5TlNWS",111416,46
+"199",199,2001,"Is This It","The Strokes","Rock","Indie Rock","0epOFNiUfyON9EYx7Tpr6V",2586815,75
+"200",200,1979,"Highway to Hell","AC/DC","Rock","Hard Rock","711MCceyCBcFnzjGY4Q7Un",10409635,82
+"201",201,1994,"The Downward Spiral","Nine Inch Nails","Electronic, Rock","Industrial","0X380XXQSNBYuleKzav5UO",1125764,67
+"202",202,1966,"Parsley, Sage, Rosemary and Thyme","Simon & Garfunkel","Rock, Pop, Folk, World, & Country","Folk Rock, Pop Rock","70cRZdQywnSFp9pnc2WTCE",1743699,74
+"203",203,1987,"Bad","Michael Jackson","Funk / Soul, Pop","Pop Rock, Ballad, Funk, Soul","3fMbdgg4jU18AjLCKBhRSm",9217275,84
+"204",204,2006,"Modern Times","Bob Dylan","Rock","Blues Rock, Folk Rock","74ASZWbe4lXaubB36ztrGX",3096551,75
+"205",205,1968,"Wheels of Fire","Cream","Rock, Blues","Blues Rock, Psychedelic Rock, Classic Rock","74oJ4qxwOZvX6oSsu1DGnw",885931,66
+"206",206,1980,"Dirty Mind","Prince","Funk / Soul","None","3MHaV05u0io8fQbZ2XPtlC",3811646,82
+"207",207,1970,"Abraxas","Santana","Rock, Latin","Fusion, Hard Rock, Psychedelic Rock","0O1cTzccAEKaEFShgzAK9V",64939,71
+"208",208,1970,"Tea for the Tillerman","Cat Stevens","Rock, Stage & Screen","Folk Rock, Pop Rock","08F3Y3SctIlsOEmKd6dnH8",719453,71
+"209",209,1991,"Ten","Pearl Jam","Rock","Grunge","1w5Kfo2jwwIPruYS2UWh56",4376648,77
+"210",210,1969,"Everybody Knows This Is Nowhere","Neil Young & Crazy Horse","Rock","Folk Rock, Country Rock, Classic Rock","6v8FB84lnmJs434UJf2Mrm",1302742,71
+"211",211,1975,"Wish You Were Here","Pink Floyd","Rock","Classic Rock, Prog Rock","0k17h0D3J5VfsdmQ1iZtE9",8547228,81
+"212",212,1994,"Crooked Rain Crooked Rain","Pavement","Rock","Alternative Rock, Indie Rock","3inCNiUr4R6XQ3W43s9Aqi",208309,60
+"213",213,1981,"Tattoo You","The Rolling Stones","Rock","Classic Rock","22bE4uQ6baNwSHPVcDxLCe",6326484,80
+"214",214,1991,"Proud Mary: The Best of Ike and Tina Turner","Ike & Tina Turner","Funk / Soul","Rhythm & Blues, Bayou Funk, Soul","1ZikppG9dPedbIgMfnfx8k",102825,56
+"215",215,1973,"New York Dolls","New York Dolls","Rock","Glam","0WhGV9lzljq2QKJ8ipw6jx",111147,44
+"216",216,1986,"Bo Diddley/Go Bo Diddley","Bo Diddley","Rock, Blues","Rhythm & Blues, Rock & Roll","2bmixwMZXlkl2sbIbOfviq",180948,50
+"217",217,1961,"Two Steps From The Blues","Bobby Blue Bland","Funk / Soul, Blues","Rhythm & Blues, Soul","48nwxUvPJZkm8uPa7xMzmj",76161,51
+"218",218,1986,"The Queen Is Dead","The Smiths","Rock, Pop","Indie Rock","3yY2gUcIsjMr8hjo51PoJ8",1708851,73
+"219",219,1986,"Licensed to Ill","Beastie Boys","Hip Hop","None","03r4iKL2g2442PT9n2UKsx",1188210,70
+"220",220,1970,"Look-Ka Py Py","The Meters","Funk / Soul","Bayou Funk, Soul, Funk","2JRvXPGWiINrnJljNJhG5s",113189,56
+"221",221,1991,"Loveless","My Bloody Valentine","Rock","Alternative Rock, Shoegaze","3G3Gdm0ZRAOxLrbyjfhii5",217246,53
+"222",222,1972,"New Orleans Piano","Professor Longhair","Funk / Soul, Blues","Piano Blues","2RyY5yFlJh6jIPfMDhHgyD",23527,43
+"223",223,1983,"War","U2","Rock","Pop Rock","51Blml2LZPmy7TTiAg47vQ",4530766,79
+"224",224,1999,"The Neil Diamond Collection","Neil Diamond","Rock, Pop","Soft Rock, Ballad","7mEIug7XUlQHikrFxjTWes",686726,69
+"225",225,2004,"American Idiot","Green Day","Rock","Pop Rock, Punk","7oPftvlwr6VrsViSDV7fJY",8350338,81
+"226",226,1982,"Nebraska","Bruce Springsteen","Rock","Acoustic","3eqjTLE0HfPfh78zjh6TqT",2041313,76
+"227",227,1989,"Doolittle","Pixies","Rock","Indie Rock","6zvul52xwTWzilBZl6BUbT",1157967,69
+"228",228,1987,"Paid in Full","Eric B. & Rakim","Hip Hop","None","6jHG1YQkqgojdEzerwvrVv",262654,55
+"229",229,1975,"Toys in the Attic","Aerosmith","Rock","Hard Rock, Blues Rock","7Ey4PD4MYsKc5I2dolUwbH",6117945,77
+"230",230,1989,"Nick of Time","Bonnie Raitt","Rock, Pop","Blues Rock, Pop Rock","4KDyYWR7IpxZ7xrdYbKrqY",268375,59
+"231",231,1975,"A Night at the Opera","Queen","Rock","Hard Rock, Pop Rock, Prog Rock","1dfeR4HaWDbWqFHLkxsg1d",13897022,94
+"232",232,1972,"The Kink Kronikles","The Kinks","Rock","Rock & Roll, Pop Rock","1SQRv42e4PjEYfPhS0Tk9E",1063764,69
+"233",233,1965,"Mr. Tambourine Man","The Byrds","Rock","Folk Rock, Garage Rock, Pop Rock","1PCZpxHJz7WAMF8EEq8bfc",405695,62
+"234",234,1968,"Bookends","Simon & Garfunkel","Rock","Folk Rock, Classic Rock","70cRZdQywnSFp9pnc2WTCE",1743699,74
+"235",235,2000,"The Ultimate Collection","Patsy Cline","Folk, World, & Country","None","7dNsHhGeGU5MV01r06O8gK",327148,59
+"236",236,1992,"Mr. Excitement!","Jackie Wilson","Funk / Soul","None","4VnomLtKTm9Ahe1tZfmZju",188775,63
+"237",237,1965,"My Generation","The Who","Rock","Mod","67ea9eGLXYMsO2eYQRui3w",2311784,72
+"238",238,1962,"Howlin' Wolf","Howlin' Wolf","Blues","None","0Wxy5Qka8BN9crcFkiAxSR",288563,53
+"239",239,1989,"Like a Prayer","Madonna","Electronic, Pop","Synth-pop","6tbjWDEIzxoDsBA1FuhfPW",2874891,77
+"240",240,1972,"Can't Buy a Thrill","Steely Dan","Rock","Classic Rock","6P7H3ai06vU1sGvdpBwDmE",719358,69
+"241",241,1984,"Let It Be","The Replacements","Rock","Alternative Rock, Power Pop, Punk, Indie Rock","4WPY0N74T3KUja57xMQTZ3",122947,54
+"242",242,1984,"Run D.M.C.","Run D.M.C.","Hip Hop","None","3CQIn7N5CuRDP8wEI7FiDA",529349,63
+"243",243,1970,"Black Sabbath","Black Sabbath","Rock","Blues Rock, Heavy Metal","5M52tdBnJaKSvOpJGz8mfZ",3355754,73
+"244",244,2000,"The Marshall Mathers LP","Eminem","Hip Hop","Pop Rap, Hardcore Hip-Hop, Horrorcore","7dGJo4pcD2V6oG8kP0tJRR",24957398,93
+"245",245,1993,"All Killer No Filler! The Jerry Lee Lewis Anthology","Jerry Lee Lewis","Rock, Blues, Folk, World, & Country","Country Blues, Rock & Roll, Rhythm & Blues","2zyz0VJqrDXeFDIyrfVXSo",318283,58
+"246",246,1966,"Freak Out!","The Mothers of Invention","Electronic, Rock","Musique Concr?te, Avantgarde, Symphonic Rock, Rhythm & Blues, Psychedelic Rock, Experimental, Parody","3P2gYnypDVi90ZavnaAhfL",16867,45
+"247",247,1969,"Live/Dead","The Grateful Dead","Rock","Folk Rock, Country Rock, Psychedelic Rock, Experimental","4TMHGUX5WI7OOm53PqSDAT",668779,69
+"248",248,1959,"The Shape of Jazz to Come","Ornette Coleman","Jazz","Free Jazz","47odibUtrN3lnWx0p0pk2P",56723,40
+"249",249,1992,"Automatic for the People","R.E.M.","Rock","Alternative Rock","4KWTAlx2RvbpseOGMEmROg",1699132,74
+"250",250,1996,"Reasonable Doubt","Jay Z","Hip Hop","None","3nFkdlSjzX9mRTtwJOzDYB",4711679,81
+"251",251,1977,"Low","David Bowie","Electronic, Rock","Art Rock, Ambient, Experimental","0oSGxfWSnnOXhD2fKuz2Gy",3703501,81
+"252",252,2001,"The Blueprint","Jay Z","Hip Hop","None","3nFkdlSjzX9mRTtwJOzDYB",4711679,81
+"253",253,1980,"The River","Bruce Springsteen","Rock","Folk Rock, Pop Rock, Classic Rock","3eqjTLE0HfPfh78zjh6TqT",2041313,76
+"254",254,1966,"Complete & Unbelievable: The Otis Redding Dictionary of Soul","Otis Redding","Funk / Soul","Soul","60df5JBRRPcnSpsIMxxwQm",1256090,70
+"255",255,1991,"Metallica (""The Black Album"")","Metallica","Rock","Heavy Metal","2ye2Wgw4gimLv2eAKyk1NB",9809011,82
+"256",256,1977,"Trans Europa Express","Kraftwerk","Electronic","Electro","0dmPX6ovclgOy8WWJaFEUU",337354,55
+"257",257,1985,"Whitney Houston","Whitney Houston","Funk / Soul, Pop","Synth-pop, Rhythm & Blues","6XpaIBNiVzIetEPCWDvAFP",3837641,77
+"258",258,1968,"The Kinks Are The Village Green Preservation Society","The Kinks","Rock","Psychedelic Rock, Pop Rock","1SQRv42e4PjEYfPhS0Tk9E",1063764,69
+"259",259,1997,"The Velvet Rope","Janet","Electronic, Funk / Soul, Pop","RnB/Swing, Downtempo","4qwGe91Bz9K2T8jXTZ815W",1405144,68
+"260",260,1978,"Stardust","Willie Nelson","Pop, Folk, World, & Country","Vocal","5W5bDNCqJ1jbCgTxDD0Cb3",785039,69
+"261",261,1970,"American Beauty","Grateful Dead","Rock","Folk Rock","4TMHGUX5WI7OOm53PqSDAT",668779,69
+"262",262,1969,"Crosby, Stills & Nash","Crosby, Stills & Nash","Rock, Folk, World, & Country","Folk Rock, Classic Rock","1CYsQCypByMVgnv17qsSbQ",492710,64
+"263",263,1988,"Tracy Chapman","Tracy Chapman","Rock","None","7oPgCQqMMXEXrNau5vxYZP",748659,70
+"264",264,1970,"Workingman's Dead","Grateful Dead","Rock","Folk Rock, Country Rock, Classic Rock","4TMHGUX5WI7OOm53PqSDAT",668779,69
+"265",265,1959,"The Genius of Ray Charles","Ray Charles","Jazz, Pop","Soul-Jazz, Big Band","1eYhYunlNJlDoQhtYBvPsi",1330822,67
+"266",266,1968,"Child Is Father to the Man","Blood, Sweat & Tears","Rock","Blues Rock, Jazz-Rock, Classic Rock","24GaH9tRBgZjlvOhpFuKi2",186475,47
+"267",267,1973,"Quadrophenia","The Who","Rock","Hard Rock, Classic Rock, Mod","67ea9eGLXYMsO2eYQRui3w",2311784,72
+"268",268,1972,"Paul Simon","Paul Simon","Rock","Folk Rock, Pop Rock","2CvCyf1gEVhI0mX6aFXmVI",937438,71
+"269",269,1985,"Psychocandy","The Jesus and Mary Chain","Rock","Noise","4rjlerN21ygkIhmUv55irs",207383,57
+"270",270,1978,"Some Girls","The Rolling Stones","Rock","Blues Rock, Rock & Roll, Classic Rock, Disco","22bE4uQ6baNwSHPVcDxLCe",6326484,80
+"271",271,1965,"The Beach Boys Today!","The Beach Boys","Rock","Pop Rock, Psychedelic Rock","3oDbviiivRWhXwIE8hxkVV",1795189,73
+"272",272,1997,"Dig Me Out","Sleater Kinney","Rock","Indie Rock","4wLIbcoqmqI4WZHDiBxeCB",116119,48
+"273",273,1966,"Going to a Go-Go","Smokey Robinson & The Miracles","Funk / Soul","Soul","6TKOZZDd5uV5KnyC5G4MUt",499443,60
+"274",274,1974,"Nightbirds","LaBelle","Funk / Soul","Funk, Disco","0ty0xha1dbprYIUAQufkFn",382280,55
+"275",275,1999,"The Slim Shady LP","Eminem","Hip Hop","None","7dGJo4pcD2V6oG8kP0tJRR",24957400,93
+"276",276,1975,"Mothership Connection","Parliament","Funk / Soul","P.Funk, Funk","5SMVzTJyKFJ7TUb46DglcH",287298,58
+"277",277,1989,"Rhythm Nation 1814","Janet Jackson","Electronic, Hip Hop, Pop","RnB/Swing, Downtempo, Synth-pop","4qwGe91Bz9K2T8jXTZ815W",1405144,68
+"278",278,1997,"Anthology of American Folk Music","Various","Blues, Folk, World, & Country","Cajun, Country, Field Recording, Gospel, Delta Blues, Folk","55GxwgjpoIuWz7TCMD5Xns",5220,22
+"279",279,1973,"Aladdin Sane","David Bowie","Rock","Glam","0oSGxfWSnnOXhD2fKuz2Gy",3703501,81
+"280",280,2000,"All That You Can't Leave Behind","U2","Rock","Pop Rock","51Blml2LZPmy7TTiAg47vQ",4530766,79
+"281",281,1994,"My Life","Mary J. Blige","Hip Hop","RnB/Swing","1XkoF8ryArs86LZvFOkbyr",1767065,70
+"282",282,1964,"Folk Singer","Muddy Waters","Blues","Delta Blues","4y6J8jwRAwO4dssiSmN91R",692555,57
+"283",283,1974,"Can't Get Enough","Barry White","Funk / Soul","Soul, Disco","3rfgbfpPSfXY40lzRK7Syt",696771,66
+"284",284,1978,"The Cars","The Cars","Electronic, Rock","New Wave, Pop Rock, Synth-pop","6DCIj8jNaNpBz8e5oKFPtp",575924,66
+"285",285,1972,"Music of My Mind","Stevie Wonder","Funk / Soul","Soul-Jazz, Soul","7guDJrEfX3qb6FEbdPA5qi",3333764,77
+"286",286,1972,"I'm Still in Love With You","Al Green","Funk / Soul","Rhythm & Blues, Soul","3dkbV4qihUeMsqN4vBGg93",1027630,69
+"287",287,1980,"Los Angeles","X","Rock","Punk, Rock & Roll","3NPpFNZtSTHheNBaWC82rB",1451210,76
+"288",288,1968,"Anthem of the Sun","Grateful Dead","Rock","Psychedelic Rock","4TMHGUX5WI7OOm53PqSDAT",668779,69
+"289",289,1967,"Something Else by The Kinks","The Kinks","Rock","Pop Rock, Psychedelic Rock, Mod","1SQRv42e4PjEYfPhS0Tk9E",1063764,69
+"290",290,1973,"Call Me","Al Green","Funk / Soul","Rhythm & Blues, Soul","3dkbV4qihUeMsqN4vBGg93",1027630,69
+"291",291,1977,"Talking Heads: 77","Talking Heads","Rock","New Wave","2x9SpqnPi8rlE9pjHBwmSC",858424,70
+"292",292,1975,"The Basement Tapes","Bob Dylan and the Band","Rock","Folk Rock, Country Rock, Classic Rock","74ASZWbe4lXaubB36ztrGX",3096551,75
+"293",293,1968,"White Light/White Heat","The Velvet Underground","Rock","Avantgarde, Experimental","1nJvji2KIlWSseXRSlNYsC",781185,65
+"294",294,1969,"Kick Out the Jams","MC5","Rock","Garage Rock, Hard Rock, Punk, Blues Rock","4WquJweZPIK9qcfVFhTKvf",77385,42
+"295",295,1970,"Songs of Love and Hate","Leonard Cohen","Folk, World, & Country","Folk Rock, Folk, Ballad","5l8VQNuIg0turYE1VtM9zV",1235324,68
+"296",296,1985,"Meat Is Murder","The Smiths","Rock","Alternative Rock, Indie Rock","3yY2gUcIsjMr8hjo51PoJ8",1708851,73
+"297",297,1968,"We're Only in It for the Money","The Mothers of Invention","Electronic, Rock","Modern Classical, Avantgarde, Psychedelic Rock, Experimental, Parody","3P2gYnypDVi90ZavnaAhfL",16867,45
+"298",298,2003,"The College Dropout","Kanye West","Hip Hop","Pop Rap, Conscious, Contemporary R&B","5K4W6rqBFWDnAN6FQUkS6x",9351218,90
+"299",299,1994,"Weezer (Blue Album)","Weezer","Rock","Alternative Rock, Emo","3jOstUTkEu2JkjvRdBA5Gu",1521812,77
+"300",300,1971,"Master of Reality","Black Sabbath","Rock","Hard Rock, Heavy Metal","5M52tdBnJaKSvOpJGz8mfZ",3355754,73
+"301",301,1971,"Coat of Many Colors","Dolly Parton","Folk, World, & Country","Country","32vWCbZh0xZ4o9gkz4PsEU",726980,73
+"302",302,1990,"Fear of a Black Planet","Public Enemy","Hip Hop","Conscious","6Mo9PoU6svvhgEum7wh2Nd",445703,59
+"303",303,1967,"John Wesley Harding","Bob Dylan","Rock","Folk Rock, Country Rock","74ASZWbe4lXaubB36ztrGX",3096551,75
+"304",304,1994,"Grace","Jeff Buckley","Rock","Alternative Rock, Folk Rock","3nnQpaTvKb5jCQabZefACI",486101,64
+"305",305,1998,"Car Wheels on a Gravel Road","Lucinda Williams","Folk, World, & Country","Country, Folk","60ht0hWRy1yjUDfNsLuHuP",104588,54
+"306",306,1996,"Odelay","Beck","Electronic, Hip Hop, Funk / Soul, Pop","Electro, Downtempo, Hip Hop, Disco, Afrobeat, Abstract","3vbKDsSS70ZX9D2OcvbZmS",874005,69
+"307",307,1964,"A Hard Day's Night","The Beatles","Rock, Stage & Screen","Soundtrack, Beat, Pop Rock","3WrFJ7ztbogyGnTHbHJFl2",11231900,87
+"308",308,1956,"Songs for Swingin' Lovers!","Frank Sinatra","Jazz, Pop","Vocal, Easy Listening","1Mxqyy3pSjf8kZZL4QVxS0",2770022,77
+"309",309,1969,"Willy and the Poor Boys","Creedence Clearwater Revival","Rock","Blues Rock, Rock & Roll, Classic Rock","3IYUhFvPQItj6xySrBmZkd",2434833,78
+"310",310,1991,"Blood Sugar Sex Magik","Red Hot Chili Peppers","Rock","Alternative Rock, Funk Metal","0L8ExT028jH3ddEcZwqJJ5",9901750,85
+"311",311,1994,"The Sun Records Collection","Various","Rock, Funk / Soul, Blues, Pop, Folk, World, & Country","Country Blues, Rock & Roll, Rockabilly","55GxwgjpoIuWz7TCMD5Xns",5220,22
+"312",312,1988,"Nothing's Shocking","Jane's Addiction","Rock","Alternative Rock","02NfyD6AlLA12crYzw5YcR",577642,58
+"313",313,1994,"MTV Unplugged in New York","Nirvana","Rock","Folk Rock, Acoustic, Grunge","6olE6TJLqED3rqDCT0FyPh",8270459,80
+"314",314,1998,"The Miseducation of Lauryn Hill","Lauryn Hill","Hip Hop","RnB/Swing, Conscious","2Mu5NfyYm8n5iTomuKAEHl",1141969,69
+"315",315,1979,"Damn the Torpedoes","Tom Petty and the Heartbreakers","Rock","Soft Rock, Hard Rock, Pop Rock","4tX2TplrkIP4v05BNC903e",896978,70
+"316",316,1969,"The Velvet Underground","The Velvet Underground","Rock","Garage Rock, Art Rock, Experimental","1nJvji2KIlWSseXRSlNYsC",781185,65
+"317",317,1988,"Surfer Rosa","Pixies","Rock","Alternative Rock","6zvul52xwTWzilBZl6BUbT",1157967,69
+"318",318,1972,"Back Stabbers","The O'Jays","Funk / Soul","Soul","38h03gA85YYPeDPd9ER9rT",451334,62
+"319",319,1973,"Burnin'","The Wailers","Reggae","Reggae","2QsynagSdAqZj3U9HgDzjD",6379827,81
+"320",320,2001,"Amnesiac","Radiohead","Electronic, Rock","Alternative Rock, Experimental","4Z8W4fKeB5YxbusRsdQVPb",3956051,79
+"321",321,1972,"Pink Moon","Nick Drake","Rock, Folk, World, & Country","Folk, Folk Rock, Acoustic","5c3GLXai8YOMid29ZEuR9y",337128,62
+"322",322,1972,"Sail Away","Randy Newman","Rock, Pop","None","3HQyFCFFfJO3KKBlUfZsyW",101125,62
+"323",323,1981,"Ghost in the Machine","The Police","Rock, Pop","Alternative Rock, New Wave, Pop Rock","5NGO30tJxFlKixkPSgXcFE",2508252,76
+"324",324,1976,"Station to Station","David Bowie","Rock, Funk / Soul","Classic Rock, Soul, Funk, Art Rock","0oSGxfWSnnOXhD2fKuz2Gy",3703501,81
+"325",325,1977,"Slowhand","Eric Clapton","Rock","None","6PAt558ZEZl0DmdXlnjMgD",2539088,75
+"326",326,1989,"Disintegration","The Cure","Electronic, Rock","New Wave, Alternative Rock","7bu3H8JO7d0UbMoVzbo70s",1823696,75
+"327",327,1993,"Exile in Guyville","Liz Phair","Rock","Lo-Fi, Indie Rock","2LXeJdQVcFkhkWydphLI74",63302,48
+"328",328,1988,"Daydream Nation","Sonic Youth","Rock","Alternative Rock, Indie Rock","5UqTO8smerMvxHYA5xsXb6",487481,59
+"329",329,1986,"In the Jungle Groove","James Brown","Funk / Soul","Soul, Funk","7GaxyUddsPok8BuhxN6OUW",1244345,66
+"330",330,1975,"Tonight's the Night","Neil Young","Rock","Blues Rock, Folk Rock, Classic Rock","6v8FB84lnmJs434UJf2Mrm",1302742,71
+"331",331,1965,"Help!","The Beatles","Rock, Stage & Screen","Beat, Soundtrack, Pop Rock","3WrFJ7ztbogyGnTHbHJFl2",11231900,87
+"332",332,1982,"Shoot Out the Lights","Richard & Linda Thompson","Rock, Folk, World, & Country","Folk Rock","6kBDZFXuLrZgHnvmPu9NsG",430006,64
+"333",333,1981,"Wild Gift","X","Rock","Rock & Roll, Punk","3NPpFNZtSTHheNBaWC82rB",1451210,76
+"334",334,1979,"Squeezing Out Sparks","Graham Parker & The Rumour","Rock, Blues","None","6c8INA1EQQe9TkukfEdiCA",18312,34
+"335",335,1994,"Superunknown","Soundgarden","Rock","Alternative Rock","5xUf6j4upBrXZPg6AI4MRK",1777897,70
+"336",336,2007,"In Rainbows","Radiohead","Electronic, Rock","Alternative Rock, Art Rock","4Z8W4fKeB5YxbusRsdQVPb",3956051,79
+"337",337,1971,"Aqualung","Jethro Tull","Rock","Classic Rock, Prog Rock","6w6z8m4WXX7Tub4Rb6Lu7R",741898,61
+"338",338,1968,"Cheap Thrills","Big Brother & the Holding Company","Rock","Folk Rock, Blues Rock, Psychedelic Rock","4J69yWrKwWJgjv3DKTZcGo",95143,58
+"339",339,1974,"The Heart of Saturday Night","Tom Waits","Jazz, Pop, Folk, World, & Country","Contemporary Jazz, Spoken Word","7x83XhcMbOTl1UdYsPTuZM",708333,63
+"340",340,1981,"Damaged","Black Flag","Rock","Hardcore, Punk","5Mhs3Eu8lU6sRCtRYsmABV",265936,53
+"341",341,1999,"Play","Moby","Electronic","Breakbeat, Leftfield, Downtempo","3OsRAKCvk37zwYcnzRf5XF",957948,71
+"342",342,1990,"Violator","Depeche Mode","Electronic","Synth-pop","762310PdDnwsDxAQxzQkfX",2046098,74
+"343",343,1977,"Bat Out of Hell","Meat Loaf","Rock","Pop Rock","7dnB1wSxbYa8CejeVg98hz",357827,63
+"344",344,1973,"Berlin","Lou Reed","Rock","Hard Rock","42TFhl7WlMRXiNqzSrnzPL",827292,66
+"345",345,1984,"Stop Making Sense","Talking Heads","Rock, Funk / Soul","Funk, Indie Rock, New Wave","2x9SpqnPi8rlE9pjHBwmSC",858424,70
+"346",346,1989,"3 Feet High and Rising","De La Soul","Hip Hop","None","1Z8ODXyhEBi3WynYw0Rya6",393920,61
+"347",347,1967,"The Piper at the Gates of Dawn","Pink Floyd","Rock","Psychedelic Rock","0k17h0D3J5VfsdmQ1iZtE9",8547229,81
+"348",348,1960,"Muddy Waters at Newport 1960","Muddy Waters","Rock, Blues","Blues Rock, Chicago Blues","4y6J8jwRAwO4dssiSmN91R",692555,57
+"349",349,2003,"The Black Album","Jay Z","Hip Hop","None","3nFkdlSjzX9mRTtwJOzDYB",4711679,81
+"350",350,1966,"Roger the Engineer","The Yardbirds","Rock, Blues","Blues Rock, Pop Rock","2lxX1ivRYp26soIavdG9bX",371214,56
+"351",351,1979,"Rust Never Sleeps","Neil Young & Crazy Horse","Rock","Hard Rock, Arena Rock","6v8FB84lnmJs434UJf2Mrm",1302742,71
+"352",352,1985,"Brothers in Arms","Dire Straits","Rock","AOR, Classic Rock","0WwSkZ7LtFUFjGjMZBMt6T",2160313,75
+"353",353,2010,"My Beautiful Dark Twisted Fantasy","Kanye West","Hip Hop","None","5K4W6rqBFWDnAN6FQUkS6x",9351218,90
+"354",354,1978,"52nd Street","Billy Joel","Jazz, Rock, Pop","Pop Rock, Ballad, Latin Jazz","6zFYqv1mOsgBRQbae3JJ9e",1574634,76
+"355",355,1965,"Having a Rave Up","The Yardbirds","Rock","Blues Rock, Psychedelic Rock","2lxX1ivRYp26soIavdG9bX",371214,56
+"356",356,1970,"12 Songs","Randy Newman","Rock, Pop","Pop Rock, Vocal","3HQyFCFFfJO3KKBlUfZsyW",101125,62
+"357",357,1967,"Between the Buttons","The Rolling Stones","Rock","Blues Rock, Psychedelic Rock, Pop Rock","22bE4uQ6baNwSHPVcDxLCe",6326484,80
+"358",358,1960,"Sketches of Spain","Miles Davis","Jazz","Modal","0kbYTNQb4Pb1rPbbaF0pT4",1495429,65
+"359",359,1972,"Honky Ch‰teau","Elton John","Rock","Pop Rock,ÊClassic Rock","3PhoLpVuITZKcymswpck5b",2475893,81
+"360",360,1979,"Singles Going Steady","Buzzcocks","Rock","Punk","2DxlS3lTLFIq70S7ap5H3y",181595,55
+"361",361,2000,"Stankonia","OutKast","Hip Hop, Funk / Soul","Gangsta, P.Funk, Crunk, Conscious","1G9G7WwrXka3Z1r7aIDjI7",1049401,75
+"362",362,1993,"Siamese Dream","The Smashing Pumpkins","Rock","Alternative Rock","40Yq4vzPs9VNUrIBG5Jr2i",1933241,72
+"363",363,1987,"Substance 1987","New Order","Electronic","Synth-pop","0yNLKJebCb8Aueb54LYya3",821173,68
+"364",364,1971,"L.A. Woman","The Doors","Rock","Blues Rock, Classic Rock","22WZ7M8sxp5THdruNY3gXt",3705439,75
+"365",365,1992,"Rage Against the Machine","Rage Against the Machine","Hip Hop, Rock","Funk Metal","2d0hyoQ5ynDBnkvAbJKORj",2568348,73
+"366",366,1994,"American Recordings","Johnny Cash","Folk, World, & Country","Country, Gospel, Folk","6kACVPfCOnqzgfEF5ryl0x",3067804,77
+"367",367,1998,"Ray of Light","Madonna","Electronic, Pop","House, Techno, Downtempo, Vocal, Ambient","6tbjWDEIzxoDsBA1FuhfPW",2874891,77
+"368",368,1972,"Eagles","Eagles","Rock","Country Rock, Classic Rock","0ECwFtbIWEVNwjlrfc6xoL",2797089,77
+"369",369,1987,"Louder Than Bombs","The Smiths","Rock","Alternative Rock, Indie Rock","3yY2gUcIsjMr8hjo51PoJ8",1708851,73
+"370",370,1973,"Mott","Mott the Hoople","Rock","Classic Rock","6ysQi6NI88X627t2srsWz6",80316,52
+"371",371,2006,"Whatever People Say I Am, That's What I'm Not","Arctic Monkeys","Rock","Indie Rock","7Ln80lUS6He07XvHI8qqHH",7498423,83
+"372",372,1979,"Reggatta de Blanc","The Police","Rock, Pop","New Wave, Pop Rock","5NGO30tJxFlKixkPSgXcFE",2508252,76
+"373",373,1969,"Volunteers","Jefferson Airplane","Rock","Psychedelic Rock, Folk Rock, Country Rock, Honky Tonk","2qFr8w5sWUITRlzZ9kZotF",673107,62
+"374",374,1975,"Siren","Roxy Music","Rock","Art Rock, Pop Rock, Glam","3fhOTtm0LBJ3Ojn4hIljLo",341441,62
+"375",375,1974,"Late for the Sky","Jackson Browne","Rock","Pop Rock","5lkiCO9UQ8B23dZ1o0UV4m",450175,64
+"376",376,1995,"Post","Bjork","Electronic","Breakbeat, IDM, Electro","7w29UYBi0qsHi5RTcv3lmA",872795,63
+"377",377,1991,"The Ultimate Collection: 1948-1990","John Lee Hooker","Blues","Country Blues, Electric Blues, Chicago Blues, Jump Blues","1yNOfXGQNGjAynk77wv85x",389274,56
+"378",378,1995,"(What's the Story) Morning Glory?","Oasis","Rock, Pop","Brit Pop","2DaxqgrOhkeH0fpeiQq2f4",3708292,79
+"379",379,1994,"CrazySexyCool","TLC","Electronic, Hip Hop, Funk / Soul","RnB/Swing","0TImkz4nPqjegtVSMZnMRq",1488141,71
+"380",380,1973,"Funky Kingston","Toots & The Maytals","Reggae","Reggae Gospel, Reggae, Roots Reggae, Rocksteady","6ZFv3wQwwWPiVDWhv0mjQK",214648,59
+"381",381,2011,"The Smile Sessions","The Beach Boys","Rock","Pop Rock, Psychedelic Rock","3oDbviiivRWhXwIE8hxkVV",1795189,73
+"382",382,1976,"The Modern Lovers","The Modern Lovers","Rock","Art Rock, Indie Rock","2eRdPaLHWAL4d1WcNUO9Vz",65160,55
+"383",383,1978,"More Songs About Buildings and Food","Talking Heads","Rock","New Wave, Indie Rock","2x9SpqnPi8rlE9pjHBwmSC",858424,70
+"384",384,1966,"A Quick One","The Who","Rock","Mod, Beat, Psychedelic Rock","67ea9eGLXYMsO2eYQRui3w",2311787,72
+"385",385,2001,"""Love and Theft""","Bob Dylan","Rock","Folk Rock, Blues Rock","74ASZWbe4lXaubB36ztrGX",3096551,75
+"386",386,1974,"Pretzel Logic","Steely Dan","Jazz, Rock","Jazz-Rock, Pop Rock, Classic Rock","6P7H3ai06vU1sGvdpBwDmE",719358,69
+"387",387,1993,"Enter the Wu_Tang: 36 Chambers","Wu Tang Clan","Hip Hop","Gangsta","34EP7KEpOjXcM2TCat1ISk",1239717,70
+"388",388,1985,"The Indestructible Beat of Soweto","Various Artists","Funk / Soul,ÊFolk, World, & Country","African","4vNhOl5osBeaXUSu0dnuzq",3143,7
+"389",389,1989,"The End of the Innocence","Don Henley","Rock","Pop Rock","5dbuFbrHa1SJlQhQX9OUJ2",482003,65
+"390",390,2003,"Elephant","The White Stripes","Rock","Blues Rock, Garage Rock, Alternative Rock","4F84IBURUo98rz4r61KF70",1654119,73
+"391",391,1976,"The Pretender","Jackson Browne","Rock","Soft Rock, Pop Rock","5lkiCO9UQ8B23dZ1o0UV4m",450175,64
+"392",392,1970,"Let It Be","The Beatles","Rock","Pop Rock","3WrFJ7ztbogyGnTHbHJFl2",11231900,87
+"393",393,2007,"Kala","M.I.A.","Electronic, Hip Hop, Reggae, Pop","Grime, Bollywood, Hip Hop, Dancehall","0QJIPDAEDILuo8AIq3pMuU",759638,67
+"394",394,1974,"Good Old Boys","Randy Newman","Rock, Pop","Pop Rock, Vocal","3HQyFCFFfJO3KKBlUfZsyW",101125,62
+"395",395,2007,"Sound of Silver","LCD Soundsystem","Electronic, Rock","Leftfield, Alternative Rock, Electro, Disco","066X20Nz7iquqkkCW6Jxy6",575316,65
+"396",396,1973,"For Your Pleasure","Roxy Music","Rock","Art Rock, Avantgarde, Glam","3fhOTtm0LBJ3Ojn4hIljLo",341441,62
+"397",397,1991,"Blue Lines","Massive Attack","Electronic, Reggae","Dub, Downtempo","6FXMGgJwohJLUSr5nVlf9X",1073274,67
+"398",398,1983,"Eliminator","ZZ Top","Rock","Pop Rock","2AM4ilv6UzW0uMRuqKtDgN",1815153,69
+"399",399,1985,"Rain Dogs","Tom Waits","Rock, Blues","Blues Rock","7x83XhcMbOTl1UdYsPTuZM",708333,63
+"400",400,1995,"Anthology: The Best of The Temptations","The Temptations","Electronic, Funk / Soul","Soul, Disco","3RwQ26hR2tJtA8F9p2n7jG",1240240,70
+"401",401,1999,"Californication","Red Hot Chili Peppers","Rock","Alternative Rock, Funk Metal","0L8ExT028jH3ddEcZwqJJ5",9901750,85
+"402",402,1994,"Illmatic","Nas","Hip Hop","None","20qISvAhX20dpIbOOzGK3q",1498673,74
+"403",403,1973,"(pronounced 'leh-'nerd 'skin-'nerd)","Lynyrd Skynyrd","Rock","Blues Rock, Hard Rock, Southern Rock","4MVyzYMgTwdP7Z49wAZHx0",1861913,73
+"404",404,1972,"Dr. John's Gumbo","Dr. John","Funk / Soul","Bayou Funk, Funk, Rhythm & Blues","320TrJub4arztwXRm7kqVO",124454,56
+"405",405,1974,"Radio City","Big Star","Rock","Power Pop","3UvcmAOZt64oKpP95f6MMM",66494,50
+"406",406,1993,"Rid of Me","PJ Harvey","Rock","Indie Rock","12VaqyEhgwDRuFfEqbnrpz",454979,59
+"407",407,1980,"Sandinista!","The Clash","Rock, Reggae","Rock & Roll, Dub, Punk","3RGLhK1IP9jnYFH4BRFJBS",1493784,73
+"408",408,1989,"I Do Not Want What I Haven't Got","Sinead O'Connor","Rock, Funk / Soul, Blues","Blues Rock, Rhythm & Blues, Soul","4sD9znwiVFx9cgRPZ42aQ1",351824,61
+"409",409,1967,"Strange Days","The Doors","Rock","Psychedelic Rock","22WZ7M8sxp5THdruNY3gXt",3705439,75
+"410",410,1997,"Time Out of Mind","Bob Dylan","Rock, Blues","Blues Rock","74ASZWbe4lXaubB36ztrGX",3096551,75
+"411",411,1974,"461 Ocean Boulevard","Eric Clapton","Rock","Blues Rock","6PAt558ZEZl0DmdXlnjMgD",2539090,75
+"412",412,1977,"Pink Flag","Wire","Rock","Punk","2i8ynmFv4qgRksyDlBgi6d",75718,49
+"413",413,1984,"Double Nickels on the Dime","Minutemen","Rock","Alternative Rock, Hardcore, Punk","0z6zRFzl5njXWLVAisXQBz",65416,48
+"414",414,1981,"Beauty and the Beat","The Go Go's","Rock","Pop Rock","2mG8HHQ9S9kcbjcrb5N1FE",228742,51
+"415",415,1978,"Van Halen","Van Halen","Rock","Hard Rock","2cnMpRsOVqtPMfq7YiFE6K",2246325,73
+"416",416,1999,"Mule Variations","Tom Waits","Electronic, Rock","Abstract, Art Rock","7x83XhcMbOTl1UdYsPTuZM",708333,63
+"417",417,1980,"Boy","U2","Rock","New Wave, Pop Rock","51Blml2LZPmy7TTiAg47vQ",4530766,79
+"418",418,1973,"Band on the Run","Paul McCartney & Wings","Rock","Pop Rock","4STHEaNw4mPZ2tzheohgXB",2069661,74
+"419",419,1994,"Dummy","Portishead","Electronic","Trip Hop, Downtempo","6liAMWkVf5LH7YR9yfFy1Y",861382,62
+"420",420,1957,"The ""Chirping"" Crickets","The Crickets","Rock, Pop","Rockabilly, Rock & Roll","4r7JUeiYy24L7BuzCq9EjR",41737,45
+"421",421,1990,"The Best of the Girl Groups, Volume 1","Various Artists","Rock,ÊPop","Pop Rock, Vocal","4vNhOl5osBeaXUSu0dnuzq",3143,7
+"422",422,1963,"Presenting the Fabulous Ronettes Featuring Veronica","The Ronettes","Rock, Pop","Rock & Roll, Vocal","7CyeXFnOrfC1N6z4naIpgo",100670,60
+"423",423,2001,"Anthology","Diana Ross & The Supremes","Electronic, Funk / Soul","Pop Rock, Soul, Disco","3MdG05syQeRYPPcClLaUGl",784843,67
+"424",424,2002,"The Rising","Bruce Springsteen","Rock","Folk Rock, Classic Rock","3eqjTLE0HfPfh78zjh6TqT",2041313,76
+"425",425,1974,"Grievous Angel","Gram Parsons","Rock, Folk, World, & Country","Country Rock, Honky Tonk","1KA3WXYMPLxomNuoE22LYd",54061,47
+"426",426,1978,"Cheap Trick at Budokan","Cheap Trick","Rock","Power Pop, Pop Rock, Arena Rock, Hard Rock","1LB8qB5BPb3MHQrfkvifXU",538403,63
+"427",427,2002,"Sleepless","Peter Wolf","Rock, Blues, Pop","Blues Rock, Pop Rock, Ballad","003kZCrZhoxCckVJ2jCiJC",6382,32
+"428",428,1978,"Outlandos d'Amour","The Police","Rock","Alternative Rock, New Wave, Punk","5NGO30tJxFlKixkPSgXcFE",2508252,76
+"429",429,1975,"Another Green World","Brian Eno","Electronic","Experimental, Ambient","7MSUfLeTdDEoZiJPDSBXgi",298273,68
+"430",430,2007,"Vampire Weekend","Vampire Weekend","Rock","Indie Rock","5BvJzeQpmsdsFp4HGUYUEx",1262109,73
+"431",431,2000,"Stories From the City, Stories From the Sea","PJ Harvey","Rock","Indie Rock","12VaqyEhgwDRuFfEqbnrpz",454979,59
+"432",432,1973,"Here Come the Warm Jets","Brian Eno","Rock","Art Rock, Glam","7MSUfLeTdDEoZiJPDSBXgi",298273,68
+"433",433,1970,"All Things Must Pass","George Harrison","Rock","Pop Rock","7FIoB5PHdrMZVC3q2HE5MS",1013910,69
+"434",434,1972,"#1 Record","Big Star","Rock","Power Pop","3UvcmAOZt64oKpP95f6MMM",66494,50
+"435",435,1993,"In Utero","Nirvana","Rock","Grunge, Alternative Rock","6olE6TJLqED3rqDCT0FyPh",8270460,80
+"436",436,2002,"Sea Change","Beck","Rock","Alternative Rock, Post Rock","3vbKDsSS70ZX9D2OcvbZmS",874005,69
+"437",437,2008,"Tha Carter III","Lil Wayne","Hip Hop, Funk / Soul","RnB/Swing, Screw, Pop Rap, Thug Rap","55Aa2cqylxrFIXC767Z865",7503597,90
+"438",438,1979,"Boys Don't Cry","The Cure","Rock","New Wave, Post-Punk","7bu3H8JO7d0UbMoVzbo70s",1823696,75
+"439",439,1985,"Live at the Harlem Square Club, 1963","Sam Cooke","Funk / Soul","Soul","6hnWRPzGGKiapVX1UCdEAC",782196,70
+"440",440,1985,"Rum Sodomy & the Lash","The Pogues","Rock, Folk, World, & Country","Folk Rock, Celtic, Punk","2wzMOQwNT6ZvVB4amvhFAH",233356,59
+"441",441,1977,"Suicide","Suicide","Electronic, Rock","New Wave, Experimental","1VPmR4DJC1PlOtd0IADAO0",1283572,82
+"442",442,1978,"Q: Are We Not Men? A: We Are Devo!","DEVO","Rock","New Wave","0UKfenbZb15sqhfPC6zbt3",202915,57
+"443",443,1977,"In Color","Cheap Trick","Rock","Power Pop, Pop Rock, Hard Rock","1LB8qB5BPb3MHQrfkvifXU",538403,63
+"444",444,1972,"The World Is a Ghetto","War","Funk / Soul","Funk","6VDdCwrBM4qQaGxoAyxyJC",494704,65
+"445",445,1976,"Fly Like an Eagle","Steve Miller Band","Rock","Pop Rock","6QtGlUje9TIkLrgPZrESuk",988307,67
+"446",446,1970,"Back in the USA","MC5","Rock","Garage Rock, Rock & Roll","4WquJweZPIK9qcfVFhTKvf",77385,42
+"447",447,1964,"Getz/Gilberto","Stan Getz","Jazz","Bossa Nova,ÊLatin Jazz","0FMucZsEnCxs5pqBjHjIc8",187695,65
+"448",448,1983,"Synchronicity","The Police","Rock, Pop","New Wave, Pop Rock","5NGO30tJxFlKixkPSgXcFE",2508252,76
+"449",449,1978,"Third/Sister Lovers","Big Star","Rock","Lo-Fi,ÊIndie Rock","3UvcmAOZt64oKpP95f6MMM",66494,50
+"450",450,1973,"For Everyman","Jackson Browne","Rock","Pop Rock, Classic Rock","5lkiCO9UQ8B23dZ1o0UV4m",450175,64
+"451",451,2006,"Back to Black","Amy Winehouse","Funk / Soul, Pop","Soul","6Q192DXotxtaysaqNPy5yR",5406156,77
+"452",452,1971,"John Prine","John Prine","Folk, World, & Country","Country, Folk","0nJUwPwC9Ti4vvuJ0q3MfT",159208,62
+"453",453,1987,"Strictly Business","EPMD","Hip Hop","None","3zpKjsMg2gw1St5WcWoUJN",173357,54
+"454",454,1971,"Love It to Death","Alice Cooper","Rock","Classic Rock","3EhbVgyfGd7HkpsagwL9GS",1304313,64
+"455",455,1984,"How Will the Wolf Survive?","Los Lobos","Rock, Latin","Blues Rock","6OWapcJm9xd55ci9CYbAuT",62555,57
+"456",456,1978,"Here, My Dear","Marvin Gaye","Funk / Soul","Soul","3koiLjNrgRTNbOwViDipeA",2679145,75
+"457",457,2005,"Z","My Morning Jacket","Rock","Alternative Rock","43O3c6wewpzPKwVaGEEtBM",315348,57
+"458",458,1970,"Tumbleweed Connection","Elton John","Rock, Folk, World, & Country","Soft Rock, Country Rock","3PhoLpVuITZKcymswpck5b",2475893,81
+"459",459,1968,"The Drifters' Golden Hits","The Drifters","Rock, Funk / Soul","Rhythm & Blues, Soul","1FqqOl9itIUpXr4jZPIVoT",197120,60
+"460",460,1994,"Live Through This","Hole","Rock","Grunge","5SHQUMAmEK5KmuSb0aDvsn",353237,59
+"461",461,1979,"Metal Box","Public Image Ltd.","Electronic, Rock","Post-Punk, Dub, Avantgarde, Experimental","70MMkLXtue3Edj3RJhJkYp",114475,49
+"462",462,1987,"Document","R.E.M.","Rock","None","4KWTAlx2RvbpseOGMEmROg",1699132,74
+"463",463,1981,"Heaven Up Here","Echo and The Bunnymen","Rock","New Wave, Indie Rock","0fgYKF9Avljex0L9Wt5b8Z",328779,60
+"464",464,1987,"Hysteria","Def Leppard","Rock","Hard Rock, Arena Rock","6H1RjVyNruCmrBEWRbD0VZ",1715703,70
+"465",465,1999,"69 Love Songs","The Magnetic Fields","Electronic, Rock","Synth-pop, Indie Rock","6RWjTQqILL7a1tQ0VapyLK",119771,53
+"466",466,2002,"A Rush of Blood to the Head","Coldplay","Rock","Alternative Rock, Pop Rock","4gzpq5DPGxSnKTe4SA8HAU",18337388,87
+"467",467,1987,"Tunnel of Love","Bruce Springsteen","Rock","None","3eqjTLE0HfPfh78zjh6TqT",2041313,76
+"468",468,1965,"The Paul Butterfield Blues Band","The Paul Butterfield Blues Band","Rock, Blues","Blues Rock, Electric Blues, Chicago Blues, Modern Electric Blues, Harmonica Blues","6kz7WuPaUa4QVreP27I33i",37695,38
+"469",469,1996,"The Score","Fugees","Hip Hop","Pop Rap, Conscious","2WKdxPFRD7IqZvlIAvhMgY",559337,67
+"470",470,1985,"Radio","LL Cool J","Hip Hop","None","1P8IfcNKwrkQP5xJWuhaOC",665724,63
+"471",471,1974,"I Want to See the Bright Lights Tonight","Richard & Linda Thompson","Rock","Classic Rock, Folk Rock","6kBDZFXuLrZgHnvmPu9NsG",430006,64
+"472",472,1987,"Faith","George Michael","Electronic, Rock, Funk / Soul, Blues, Pop","Downtempo, Soft Rock, Pop Rock, Synth-pop","19ra5tSw0tWufvUp8GotLo",1506590,73
+"473",473,1984,"The Smiths","The Smiths","Rock","Indie Rock","3yY2gUcIsjMr8hjo51PoJ8",1708851,73
+"474",474,2001,"Proxima estacion: Esperanza","Manu Chao","Rock, Reggae, Latin","Folk Rock, Reggae, Reggae-Pop","6wH6iStAh4KIaWfuhf0NYM",799449,68
+"475",475,1979,"Armed Forces","Elvis Costello & The Attractions","Rock","New Wave, Pop Rock","2BGRfQgtzikz1pzAD0kaEn",239596,57
+"476",476,1997,"Life After Death","The Notorious B.I.G.","Hip Hop","None","5me0Irg2ANcsgc93uaYrpb",3607124,79
+"477",477,1996,"Down Every Road","Merle Haggard","Folk, World, & Country","Country","2ptmyXoL7poH6Zq62h1QT9",480082,61
+"478",478,2002,"All Time Greatest Hits","Loretta Lynn","Folk, World, & Country","Country","1FE0rls8gfQT3laAeRYNgl",255658,56
+"479",479,1971,"Maggot Brain","Funkadelic","Rock, Funk / Soul","P.Funk, Psychedelic Rock","5SMVzTJyKFJ7TUb46DglcH",287298,58
+"480",480,1995,"Only Built 4 Cuban Linx","Raekwon","Hip Hop","None","2yQf6b8hxahZaT5dHlWaB1",289237,65
+"481",481,2000,"Voodoo","D'Angelo","Hip Hop, Funk / Soul","Soul, Funk, Neo Soul","336vr2M3Va0FjyvB55lJEd",675908,65
+"482",482,1986,"Guitar Town","Steve Earle","Rock, Folk, World, & Country","Country, Honky Tonk","2UBTfUoLI07iRqGeUrwhZh",133419,58
+"483",483,1979,"Entertainment!","Gang of Four","Rock","Post-Punk, New Wave","3AmWjMXXtBJOmNGpUFSOAl",80746,49
+"484",484,1972,"All the Young Dudes","Mott the Hoople","Rock","Classic Rock, Glam","6ysQi6NI88X627t2srsWz6",80316,52
+"485",485,1994,"Vitalogy","Pearl Jam","Rock","Alternative Rock, Hard Rock","1w5Kfo2jwwIPruYS2UWh56",4376651,77
+"486",486,1975,"That's the Way of the World","Earth, Wind & Fire","Funk / Soul","Soul, Funk, Disco","4QQgXkCYTt3BlENzhyNETg",1617952,74
+"487",487,1983,"She's So Unusual","Cyndi Lauper","Electronic, Rock","Pop Rock, Synth-pop","2BTZIqw0ntH9MvilQ3ewNY",796823,71
+"488",488,1985,"New Day Rising","Husker Du","Rock","Alternative Rock, Hardcore, Punk","16bN8mhtDFdegWbg0z3s10",97140,49
+"489",489,1976,"Destroyer","KISS","Rock","Hard Rock","07XSN3sPlIlB2L2XNcTwJw",3262690,73
+"490",490,1973,"Tres hombres","ZZ Top","Rock","Blues Rock, Classic Rock","2AM4ilv6UzW0uMRuqKtDgN",1815153,69
+"491",491,1967,"Born Under a Bad Sign","Albert King","Funk / Soul, Blues","Electric Blues, Rhythm & Blues, Soul","5aygfDCEaX5KTZOxSCpT9o",205446,51
+"492",492,1983,"Touch","Eurythmics","Electronic, Pop","New Wave, Synth-pop","0NKDgy9j66h3DLnN8qu1bB",648590,70
+"493",493,2002,"Yankee Hotel Foxtrot","Wilco","Rock","Alternative Rock","2QoU3awHVdcHS8LrZEKvSM",435161,62
+"494",494,2007,"Oracular Spectacular","MGMT","Electronic, Rock, Pop","Synth-pop, Indie Rock","0SwO7SWeDHJijQ3XNS7xEE",1391286,74
+"495",495,1972,"Give It Up","Bonnie Raitt","Rock","Blues Rock","4KDyYWR7IpxZ7xrdYbKrqY",268375,59
+"496",496,1969,"Boz Scaggs","Boz Scaggs","Rock","Pop Rock","46njgd2Rq9tZc4ZjeQMgbh",250963,60
+"497",497,2001,"White Blood Cells","The White Stripes","Rock","Indie Rock, Alternative Rock, Blues Rock, Garage Rock","4F84IBURUo98rz4r61KF70",1654120,73
+"498",498,1989,"The Stone Roses","The Stone Roses","Rock","Indie Rock","1lYT0A0LV5DUfxr6doRP3d",671707,63
+"499",499,1971,"Live in Cook County Jail","B.B. King","Blues","Electric Blues","5xLSa7l4IV1gsQfhAMvl0U",1471507,64
+"500",500,1998,"Aquemini","OutKast","Hip Hop","Reggae, Gangsta, Soul, Conscious","1G9G7WwrXka3Z1r7aIDjI7",1049401,75
+>>>>>>> 4df97f6203ad7008d90a01b084f1f40c35cb5e5e

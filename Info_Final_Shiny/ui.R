@@ -1,5 +1,18 @@
 library(shiny)
-ui <- navbarPage(title = "Questions", inverse = TRUE, id = "nav",
+ui <- navbarPage(title = "Music Analysis", inverse = TRUE, id = "nav",
+  
+   tabPanel(title = "Overview",
+      sidebarLayout(
+        sidebarPanel(    
+          titlePanel("The Top-500s of Music"),
+          selectInput(inputId = "song_choice", label = "Songs", choices = songs$Song)
+        ),
+        mainPanel(
+          textOutput("danceability"),
+          plotOutput("dance_plot")
+        )
+      )
+   ),
                  
   
   ## Question 1: Does Greatness Hold Up? (Sam)
