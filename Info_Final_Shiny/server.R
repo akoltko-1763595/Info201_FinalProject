@@ -112,12 +112,50 @@ server <- function(input, output) {
   
   ## Question 3: What do fans and critics agree on? (Alex)
   
+  output$plotQ3_num1 <- renderPlot({
+    plot_1 <- ggplot(data = genre_ranking) +
+      geom_col(mapping = aes(x = Genre, y = score, fill = category)) +
+      labs(
+        title = "Genre Scores",
+        x = "Genres",
+        y = "Scores"
+      ) +
+      coord_flip() +
+      theme_minimal() +
+      theme(plot.title = element_text(size=20, hjust = 0.5),
+            axis.text.y = element_text(size = 15),
+            axis.title.x = element_text(size = 15, vjust = 0),
+            axis.title.y = element_text(size = 15, vjust = 2),
+            legend.title = element_blank(),
+            text = element_text(size = 15))
+    plot_1
+  })
   
+  output$plotQ3_num2 <- renderPlot({
+    chosen_genre <- genre_ranking %>% 
+      filter(Genre == input$genre_choice)
+    plot_2 <- ggplot(data = chosen_genre) +
+      geom_col(mapping = aes(x = category, y = score, fill = category)) +
+      labs(
+        title = paste("Critic Score vs Fan Score for", input$genre_choice, "music"),
+        x = "Critics vs. Fans",
+        y = "Score"
+      ) +
+      theme_minimal() +
+      theme(plot.title = element_text(size=20, hjust = 0.5),
+            axis.text.y = element_text(size = 15),
+            axis.title.x = element_text(size = 15, vjust = 0),
+            axis.title.y = element_text(size = 15, vjust = 2),
+            legend.title = element_blank(),
+            text = element_text(size = 15))
+    plot_2
+  })
   
   
   ## Question 4: How well do sales dictate greatness? (Spencer)
 
   # Sales versus Rank
+
   output$plotQ4 <- renderPlot({
     plot <- ggplot(data = combined_best_and_sales, mapping = aes(Probable, Place)) +
       geom_point(colour  = "#739E88", alpha = .65) +
