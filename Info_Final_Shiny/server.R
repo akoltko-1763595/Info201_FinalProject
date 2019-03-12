@@ -74,7 +74,7 @@ server <- function(input, output) {
   
   
   ## Question 3: What do fans and critics agree on? (Alex)
-  
+  updateSelectInput() # Change dropdown box
   
   
   

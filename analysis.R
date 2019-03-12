@@ -72,8 +72,42 @@ popularity_comparison_data <- popularity_comparison_data %>%
 
 ## Question 3: What do fans and critics agree on? (Alex)
 
+# Compare song place vs song popularity
+# See which song has the closest popularity and place and which album has the closest popularity and place
+# Bar graph that shows the similarity between the two variables
 
+fan_critic_similarity <- function(spotify_songs, spotify_albums) { # Change these later
+  spotify_songs$Difference <- abs(spotify_songs$Place - spotify_songs$Popularity)
+  #spotify_songs <- filter(spotify_songs, Difference == min(Difference) & Difference == max(Difference))
+  
+  spotify_albums$Difference <- abs(spotify_albums$Place - spotify_albums$Popularity)
+  #spotify_albums <- filter(spotify_albums, Difference == min(Difference) & Difference == max(Difference))
+}
 
+spotify_songs$Difference <- abs(spotify_songs$Place - spotify_songs$Popularity)
+#spotify_songs <- filter(spotify_songs, Difference == min(Difference) & Difference == max(Difference))
+  
+spotify_albums$Difference <- abs(spotify_albums$Place - spotify_albums$Popularity)
+#spotify_albums <- filter(spotify_albums, Difference == min(Difference) & Difference == max(Difference))
+
+#RS_Spotify_albums <- albums %>%
+#  select(Place, Artist, Album, Followers, Popularity) %>% 
+#  arrange(desc(Popularity)) %>% 
+#  head(300)
+#RS_Spotify_songs <- songs %>%
+#  select(Place, Artist, Song, Followers, Popularity) %>% 
+#  arrange(desc(Popularity)) %>% 
+#  head(300)
+
+# Check to see which scores are the closest
+#RS_Spotify_albums$Score <- abs(RS_Spotify_albums$Place - (RS_Spotify_albums$Popularity * 5))
+#RS_Spotify_songs$Score <- abs(RS_Spotify_songs$Place - (RS_Spotify_songs$Popularity * 5))
+#RS_Spotify_albums <- RS_Spotify_albums %>% 
+#  arrange(desc(Score))
+#RS_Spotify_songs <- RS_Spotify_songs %>% 
+#  arrange(desc(Score))
+#View(RS_Spotify_albums)
+#View(RS_Spotify_songs)
 
 ## Question 4: How well do sales dictate greatness? (Spencer)
 best_albums <- read.csv("data/RollingStonesTop500Albums.csv", stringsAsFactors = FALSE) %>%
