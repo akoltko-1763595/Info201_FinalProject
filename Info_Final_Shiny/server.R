@@ -193,22 +193,4 @@ server <- function(input, output) {
     plot
   })
   
-  # Genre vs. Ranking with Year selector
-  output$plotQ4num3 <- renderPlot({
-    df <- filter(combined_best_and_sales, Year == input$year_choice)
-    
-    plot <- ggplot(data = df, mapping = aes(Genre, Place)) +
-      geom_point() +
-      labs(title = paste("Which Genres Were The Best In", input$year_choice),
-           x = "Genre", y = "Greatness Ranking") +
-      theme_minimal() +
-      theme(plot.title = element_text(size = 20, hjust = .5),
-            axis.text.x = element_text(size = 15, angle = 50, vjust = .5),
-            axis.text.y = element_text(size = 15),
-            axis.title.x = element_text(size = 15, vjust = 0),
-            axis.title.y = element_text(size = 15, vjust = 2),
-            text = element_text(size = 15))
-    
-    plot
-  })
 }

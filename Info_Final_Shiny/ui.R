@@ -75,7 +75,7 @@ ui <- navbarPage(title = "Music Analysis", inverse = TRUE, id = "nav",
         plotOutput("plotQ3_num2")
       )
     )
-  )#,
+  ),
   
   
   
@@ -85,9 +85,9 @@ ui <- navbarPage(title = "Music Analysis", inverse = TRUE, id = "nav",
              sidebarPanel(
                titlePanel("How well do sales dictate greatness? The answer may surprise you!"),
                p("Between Rolling Stone's 500 best albums and a dataset of the top 316 bestselling albums,
-                 only 41 albums overlapped. This number itself is surprising and it is even more surprising
+                 only 39 albums overlapped. This number itself is surprising and it is even more surprising
                  that the higher selling albums tended to be more poorly received by Rolling Stone."),
-               h2("Fame and Fortune"),
+               h3("Fame and Fortune"),
                p("If you could go back in time, what genre of music could you create to maximize your wealth
                  and legacy as a great musician? Choose a year and see which genre of music would return the
                  most dough and notoriety."),
@@ -99,15 +99,8 @@ ui <- navbarPage(title = "Music Analysis", inverse = TRUE, id = "nav",
                br(),
                br(),
                br(),
-               plotOutput("plotQ4num2"),
-               br(),
-               br(),
-               br(),
-               br(),
-               plotOutput("plotQ4num3")
+               plotOutput("plotQ4num2")
              )
            )
   )
- 
-  
 )

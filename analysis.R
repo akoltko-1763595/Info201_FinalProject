@@ -225,9 +225,10 @@ best_albums <- best_albums %>%
 # Going to use the Probable sales data instead of Minimal or Range
 record_sales <- record_sales %>%
   transmute(
+    SRank = X.,
     Artist = substring(Artist,2), 
     Album = substring(Album.Title, 2), 
-    Probable = Probable) # Numbers are in millions 
+    Probable = Probable) # Numbers are in millions
 
 
 # Combined the "best" albums with the best selling albums of all time
@@ -235,6 +236,7 @@ record_sales <- record_sales %>%
 # Of these 41, almost all of them are Rock and from the 80s and 90s
 combined_best_and_sales <- inner_join(best_albums, record_sales, by = c("Album", "Artist")) %>% # by = NULL might be better once this works again
   #filter(!is.na(Probable)) %>%
-  select(Artist, Album, Year, Genre, Subgenre, Place, Probable)
+  select(Artist, Album, Year, Genre, Subgenre, Place, Probable, SRank) %>%
+  mutate(CombinedRank = (Place / 500) + (SRank / 316))
 colnames(combined_best_and_sales)[1] <- "Artist"
 
