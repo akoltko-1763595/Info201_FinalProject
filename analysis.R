@@ -209,14 +209,17 @@ best_albums <- best_albums %>%
 
 # Going to use the Probable sales data instead of Minimal or Range
 record_sales <- record_sales %>%
-  select(Artist, Album.Title, Probable) # Numbers are in millions
-colnames(record_sales)[2] <- "Album"
+  transmute(
+    Artist = substring(Artist,2), 
+    Album = Album.Title, 
+    Probable = Probable) # Numbers are in millions 
+
 
 # Combined the "best" albums with the best selling albums of all time
 # Of 316 possible overlapping albums, only 41 actually do
 # Of these 41, almost all of them are Rock and from the 80s and 90s
-combined_best_and_sales <- left_join(best_albums, record_sales, by = "Album") %>% # by = NULL might be better once this works again
+combined_best_and_sales <- left_join(best_albums, record_sales, by = c("Artist")) %>% # by = NULL might be better once this works again
   #filter(!is.na(Probable)) %>%
-  select(Artist.x, Album, Year, Genre, Subgenre, Place, Probable)
+  select(Artist, Album.x, Year, Genre, Subgenre, Place, Probable)
 colnames(combined_best_and_sales)[1] <- "Artist"
 
