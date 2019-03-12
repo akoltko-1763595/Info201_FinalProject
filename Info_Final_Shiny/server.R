@@ -81,7 +81,7 @@ server <- function(input, output) {
       )
     plot2
   })
-<<<<<<< HEAD
+
   
   years <- popularity_comparison_data %>% 
     group_by(Artist) %>% 
@@ -104,20 +104,6 @@ server <- function(input, output) {
       plot3
   })
 
-=======
->>>>>>> 4df97f6203ad7008d90a01b084f1f40c35cb5e5e
-  
-  years <- popularity_comparison_data %>% 
-    group_by(Artist) %>% 
-    summarise(
-      avg_year = round(mean(Year))
-    )
-  
-  avg_year_data <- full_join(
-    years,
-    popularity_comparison_data,
-    by = "Artist"
-  )
 
   ## Question 2: What Makes an album great? (Andrew)
   
@@ -129,13 +115,8 @@ server <- function(input, output) {
   
   
   
-  ## Quesiton 4: How well do sales dictate greatness? (Spencer)
-<<<<<<< HEAD
-  
-  # Note: need to finish this, just seeing if pushing to github will work as intended
-  
-  # Gonna
-  
+  ## Question 4: How well do sales dictate greatness? (Spencer)
+
   # Sales versus Rank
   output$plotQ4 <- renderPlot({
     plot <- ggplot(data = combined_best_and_sales, mapping = aes(Probable, Place)) +
@@ -173,7 +154,5 @@ server <- function(input, output) {
     # Genre versus Sales
     # ggplot(data = combined_best_and_sales, mapping = aes(Genre, Probable)) +
     # geom_col()
-=======
 
->>>>>>> 4df97f6203ad7008d90a01b084f1f40c35cb5e5e
 }
