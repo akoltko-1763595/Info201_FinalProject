@@ -1,6 +1,7 @@
 library(shiny)
 library(ggplot2)
 library(tidyr)
+library(dplyr)
 source("../analysis.R")
 
 server <- function(input, output) {
@@ -65,6 +66,27 @@ server <- function(input, output) {
         text = element_text(size = 15)
       )
     plot2
+  })
+  
+  years <- popularity_comparison_data %>% 
+    group_by(Artist) %>% 
+    summarise(
+      avg_year = round(mean(Year))
+    )
+  
+  avg_year_data <- full_join(
+    years,
+    popularity_comparison_data,
+    by = "Artist"
+  )
+  
+  output$plotQ1num3 <- renderPlot({
+    plot3 <- ggplot(data = avg_year_data) +
+      geom_point(mapping = aes(x = avg_year, y = rescale(Spotify_popularity, to = c(1, 500))), color = "red") +
+      #geom_point(mapping = aes(x = avg_year, y = Place), color = "blue") +
+      theme_minimal()
+      
+      plot3
   })
 
   

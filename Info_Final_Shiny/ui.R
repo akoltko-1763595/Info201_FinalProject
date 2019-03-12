@@ -6,8 +6,13 @@ ui <- navbarPage(title = "Questions", inverse = TRUE, id = "nav",
   tabPanel(title = "Q1", #Is music like fine cheese?,
     sidebarLayout(
       sidebarPanel(
-        titlePanel("Does greatness hold up? It depends on who you trust."),
+        titlePanel("Does music have to be old to be good? It depends on who you trust."),
         p("As you can see in the graph to the right, Rolling Stone tends to rank older music much higher than recent music, whereas Spotify data shows that newer music is more popular."),
+        p("The significant dip in Rolling Stone ratings around 1970 show that in Rolling Stone's opinion, the greats really do hold up. Spotify users on the other hand
+          are much more liberal with their appreciation, and lean toward liking newer music more."),
+        p("For the 300 bands analyzed (300 due to the fact that artists needed to have \"great\" songs and albums) the popularity
+          score for each year was calculated by averaging all the bands scores for that year. To be included in a year, a band must
+          have produced an album or song that year."),
         selectInput(inputId = "band_choice", label = "Band", choices = popularity_comparison_data$Artist)
       ),
       mainPanel(
@@ -16,7 +21,12 @@ ui <- navbarPage(title = "Questions", inverse = TRUE, id = "nav",
         br(),
         br(),
         br(),
-        plotOutput("plotQ1num2")
+        plotOutput("plotQ1num2"),
+        br(),
+        br(),
+        br(),
+        br(),
+        plotOutput("plotQ1num3")
       )
              
     )
