@@ -2,8 +2,8 @@
 library(dplyr)
 library(tidyr)
 library(scales)
-#library(openxlsx)
-#source("../spotify_token.R")
+library(openxlsx)
+source("../spotify_token.R")
 
 #Run this once to update Spotify data
 #source("spotify_data_file_creation.R")
@@ -11,14 +11,14 @@ if (sys.nframe() == 0){
   albums <- read.csv("data/RSAlbumsWithSpotifyData.csv", stringsAsFactors = FALSE)
   songs <- read.csv("data/RSSongsWithSpotifyData.csv", stringsAsFactors = FALSE)
   album_sales <- read.csv("data/CombinedRecordSales.csv", stringsAsFactors = FALSE)
-  best_albums <- read.csv("data/RollingStonesTop500Albums.csv", stringsAsFactors = FALSE)
-  #record_sales <- read.xlsx("data/CombinedRecordSales.xlsx")
+  best_albums <- read.csv("data/RollingStonesTop500Albums.csv", stringsAsFactors = FALSE) 
+  record_sales <- read.xlsx("data/CombinedRecordSales.xlsx")
 } else {
   albums <- read.csv("../data/RSAlbumsWithSpotifyData.csv", stringsAsFactors = FALSE)
   songs <- read.csv("../data/RSSongsWithSpotifyData.csv", stringsAsFactors = FALSE)
   album_sales <- read.csv("../data/CombinedRecordSales.csv", stringsAsFactors = FALSE)
-  best_albums <- read.csv("../data/RollingStonesTop500Albums.csv", stringsAsFactors = FALSE)
-  #record_sales <- read.xlsx("../data/CombinedRecordSales.xlsx")
+  best_albums <- read.csv("../data/RollingStonesTop500Albums.csv", stringsAsFactors = FALSE) 
+  record_sales <- read.xlsx("../data/CombinedRecordSales.xlsx")
 }
 
 
@@ -124,8 +124,6 @@ RS_SP_pop <-
   )
 
 
-#album_sales <- read.csv("data/CombinedRecordSales.csv", stringsAsFactors = FALSE)
-
 AS_pop <- 
   album_sales %>% 
   group_by(Artist) %>% 
@@ -139,11 +137,64 @@ AS_pop$AS_Place = rownames(AS_pop)
 AS_pop$Artist = substring(AS_pop$Artist, 2)
 
 RS_SP_AS_pop <-
-  full_join(
+  inner_join(
     RS_SP_pop,
     AS_pop,
     by = c("Artist")
   )
+
+  
+
+RS_SP_AS_pop <- RS_SP_AS_pop %>% arrange(RS_Place)
+RS_SP_AS_pop$RS_Place = rownames(RS_SP_AS_pop)
+RS_SP_AS_pop <- RS_SP_AS_pop %>% arrange(Spotify_Place)
+RS_SP_AS_pop$Spotify_Place = rownames(RS_SP_AS_pop)
+RS_SP_AS_pop <- RS_SP_AS_pop %>% arrange(desc(minimum_sales), desc(probable_sales))
+RS_SP_AS_pop$AS_Place = rownames(RS_SP_AS_pop)
+
+  
+  
+RS_SP_AS_pop <-
+  RS_SP_AS_pop %>% 
+  mutate(
+    RS_Place = as.numeric(RS_Place),
+    AS_Place = as.numeric(AS_Place),
+    Spotify_Place = as.numeric(Spotify_Place)
+  ) %>% 
+  mutate(
+    Avg_Place = (RS_Place + AS_Place + Spotify_Place)/3
+  ) %>% 
+  arrange(Avg_Place) 
+
+RS_SP_AS_pop$Overall_Place = as.numeric(rownames(RS_SP_AS_pop))
+
+RS_SP_AS_pop <-
+  RS_SP_AS_pop %>% 
+  mutate(
+    RS_Dist = abs(Overall_Place - RS_Place),
+    Spotify_Dist = abs(Overall_Place - Spotify_Place),
+    AS_Dist = abs(Overall_Place - AS_Place)
+  )
+library(ggplot2)
+
+ggplot(data = RS_SP_AS_pop) +
+  geom_smooth(mapping = aes(x = Overall_Place, y = Avg_Place, color = "Average"), se = F, size = 1.5) +
+  geom_smooth(mapping = aes(x = Overall_Place, y = RS_Place, color = "Rolling Stone"), se = F, size = 1.5) +
+  geom_smooth(mapping = aes(x = Overall_Place, y = Spotify_Place, color = "Spotify"), se = F, size = 1.5) +
+  geom_smooth(mapping = aes(x = Overall_Place, y = AS_Place, color = "Total Sales"), se = F, size = 1.5) + 
+  scale_color_manual(
+    name = "Legend",
+    values = c(
+      Spotify="#739E88", 
+      "Rolling Stone"="#DE646C", 
+      Average = "Black", 
+      "Total Sales" = "#e6e600"
+    )
+  ) + 
+  labs(
+    x = "Overall Place", 
+    y = "Individual Ranking"
+  ) 
 
 ## Question 3: What do fans and critics agree on? (Alex)
 
@@ -168,19 +219,22 @@ genre_ranking <- genre_frame %>%
 
 
 ## Question 4: How well do sales dictate greatness? (Spencer)
-#best_albums <- read.csv("data/RollingStonesTop500Albums.csv", stringsAsFactors = FALSE) %>%
-#  select(Artist, Album, Year, Genre, Subgenre, Place)
+best_albums <- best_albums %>%
+  select(Artist, Album, Year, Genre, Subgenre, Place)
 
 # Going to use the Probable sales data instead of Minimal or Range
-#record_sales <- read.xlsx("data/CombinedRecordSales.xlsx") %>%
-#  select(Artist, Album.Title, Probable) # Numbers are in millions
-#colnames(record_sales)[2] <- "Album"
+record_sales <- record_sales %>%
+  transmute(
+    Artist = substring(Artist,2), 
+    Album = Album.Title, 
+    Probable = Probable) # Numbers are in millions 
+
 
 # Combined the "best" albums with the best selling albums of all time
-# Of 300 possible overlapping albums, only 41 actually do
+# Of 316 possible overlapping albums, only 41 actually do
 # Of these 41, almost all of them are Rock and from the 80s and 90s
-#combined_best_and_sales <- left_join(best_albums, record_sales, by = "Album") %>%
-#  filter(!is.na(Probable)) %>%
-#  select(Artist.x, Album, Year, Genre, Subgenre, Place, Probable)
-#colnames(combined_best_and_sales)[1] <- "Artist"
+combined_best_and_sales <- left_join(best_albums, record_sales, by = c("Artist")) %>% # by = NULL might be better once this works again
+  #filter(!is.na(Probable)) %>%
+  select(Artist, Album.x, Year, Genre, Subgenre, Place, Probable)
+colnames(combined_best_and_sales)[1] <- "Artist"
 
