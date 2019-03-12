@@ -54,7 +54,12 @@ ui <- navbarPage(title = "Questions", inverse = TRUE, id = "nav",
         selectInput(inputId = "genre_choice", label = "Genre", choices = genre_ranking$Genre, selected = 1)
       ),
       mainPanel(
-        plotOutput("plotQ3")
+        plotOutput("plotQ3_num1"),
+        br(),
+        br(),
+        br(),
+        br(),
+        plotOutput("plotQ3_num2")
       )
     )
   )#,
