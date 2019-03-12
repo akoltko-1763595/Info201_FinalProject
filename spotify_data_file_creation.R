@@ -14,6 +14,8 @@ songs$Artist_Id <- NA
 songs$Followers <- NA
 songs$Popularity <- NA
 songs$song_popularity <- NA
+songs$track_id <- NA
+songs$danceability <- NA
 
 #For every Artist in the Rolling Stone list, retrieve their artist_id, popularity, and followers and add to albums
 for (num in 1:500) {
@@ -49,10 +51,21 @@ for (num in 1:500) {
     current_song <- current_song %>% head(1)
   }
   songs$song_popularity[num] = current_song$popularity
+  songs$track_id[num] = current_song$id
 }
+
+for (num in 401:500) {
+  filtered_songs <- songs %>% 
+    filter(Place == num)
+  current_track <- getFeatures(filtered_songs$track_id, token = my_token)
+  if (nrow(current_track) > 1) {
+    current_track <- current_track %>% head(1)
+  }
+  songs$danceability[num] = current_track$danceability
+}
+
 
 #New csv files with spotify data
 write.csv(albums, "data/RSAlbumsWithSpotifyData.csv")
 write.csv(songs, "data/RSSongsWithSpotifyData.csv")
-
 

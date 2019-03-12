@@ -1,501 +1,501 @@
-"","Place","Artist","Song","Length","BPM","Year","Genre","Artist_Id","Followers","Popularity","song_popularity"
-"1",1,"Bob Dylan","Like a Rolling Stone","6:04",95.6,1965,"Rock 1960s","74ASZWbe4lXaubB36ztrGX",3096179,75,72
-"2",2,"The Rolling Stones","Satisfaction","3:43",134.7,1985,"Rock 1980s","22bE4uQ6baNwSHPVcDxLCe",6325632,80,77
-"3",3,"John Lennon","Imagine","3:02",152.6,1971,"Slow","4x1nvY2FN8jxqAFA0DA02H",2314947,71,90
-"4",4,"Marvin Gaye","What's Going On","3:47",101.5,1971,"Dance 1970s","3koiLjNrgRTNbOwViDipeA",2678876,75,69
-"5",5,"Aretha Franklin","Respect","2:23",114.5,1967,"Rock 1960s","7nwUJBm0HE4ZxD3f5cy5ok",1763702,74,74
-"6",6,"The Beach Boys","Good Vibrations","3:36",148.8,1966,"Rock 1960s","3oDbviiivRWhXwIE8hxkVV",1794858,73,71
-"7",7,"Chuck Berry","Johnny B. Goode","2:38",84.1,1958,"Rock 1950s","293zczrfYafIItmnmM3coR",821815,66,73
-"8",8,"The Beatles","Hey Jude","7:08",146.9,1969,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11229767,87,78
-"9",9,"Nirvana","Smells Like Teen Spirit","5:01",117.5,1991,"Rock 1990s","6olE6TJLqED3rqDCT0FyPh",8269364,80,75
-"10",10,"Ray Charles","What'd I Say (Parts 1 And 2)","5:06",89.6,1959,"Rock 1950s","1eYhYunlNJlDoQhtYBvPsi",1330740,67,7
-"11",11,"The Who","My Generation","3:17",97.2,1966,"Rock 1960s","67ea9eGLXYMsO2eYQRui3w",2311347,72,71
-"12",12,"Sam Cooke","A Change Is Gonna Come","3:13",138.3,1960,"TBD","6hnWRPzGGKiapVX1UCdEAC",782096,70,67
-"13",13,"The Beatles","Yesterday","2:05",97.6,1966,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11229767,87,75
-"14",14,"Bob Dylan","Blowin' in the Wind","2:46",93.8,1967,"TBD","74ASZWbe4lXaubB36ztrGX",3096179,75,69
-"15",15,"The Clash","London Calling","3:18",134.3,1979,"Rock 1970s","3RGLhK1IP9jnYFH4BRFJBS",1493664,73,73
-"16",16,"The Beatles","I Want to Hold Your Hand","2:26",131.1,1966,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11229766,87,76
-"17",17,"Jimi Hendrix","Purple Haze","2:50",110.2,1968,"Rock 1960s","776Uo845nYHJpNaStv1Ds4",3005922,73,71
-"18",18,"Chuck Berry","Maybellene","2:19",118.4,1955,"Rock 1950s","293zczrfYafIItmnmM3coR",821815,66,59
-"19",19,"Elvis Presley","Hound Dog","2:15",88.8,1956,"Rock 1950s","43ZHCT0cAZBISjO8DG9PnE",2828470,78,70
-"20",20,"The Beatles","Let It Be","3:52",137.5,1969,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11229766,87,79
-"21",21,"Bruce Springsteen","Born to Run","4:30",146.3,1975,"Rock 1970s","3eqjTLE0HfPfh78zjh6TqT",2041122,76,72
-"22",22,"The Ronettes","Be My Baby","2:37",128,1963,"Dance 1960s","7CyeXFnOrfC1N6z4naIpgo",100647,60,72
-"23",23,"The Beatles","In My Life","2:27",103.7,1966,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11229766,87,73
-"24",24,"The Impressions","People Get Ready","2:38",120.4,2003,"TBD","1b1N51wmSK0ckxFAMPSSHO",110652,53,75
-"25",25,"The Beach Boys","God Only Knows","2:52",116.6,1966,"TBD","3oDbviiivRWhXwIE8hxkVV",1794858,73,71
-"26",26,"The Beatles","A Day in the Life","5:06",130.3,1969,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11229766,87,66
-"27",27,"Derek & The Dominos","Layla","7:04",115.2,1972,"Rock 1970s","2rc78XDH9zuJP6bm78lU8Z",233135,62,75
-"28",28,"Otis Redding","(Sittin' On) the Dock of the Bay","2:41",103.3,1968,"Slow","60df5JBRRPcnSpsIMxxwQm",1255976,70,72
-"29",29,"The Beatles","Help!","2:20",95.2,1966,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11229766,87,78
-"30",30,"Johnny Cash","I Walk the Line","2:41",106.4,1956,"Country","6kACVPfCOnqzgfEF5ryl0x",3067537,77,71
-"31",31,"Led Zeppelin","Stairway to Heaven","7:59",99.7,1971,"Slow","36QJpDe2go2KgaRleHCDTp",6688432,80,79
-"32",32,"The Rolling Stones","Sympathy for the Devil","6:18",116.2,1968,"TBD","22bE4uQ6baNwSHPVcDxLCe",6325632,80,74
-"33",33,"Tina Turner","River Deep - Mountain High","3:40",102.9,1991,"Rock 1980s","1zuJe6b1roixEKMOtyrEak",1103636,69,60
-"34",34,"The Righteous Brothers","You've Lost That Lovin' Feelin'","3:41",96.1,1964,"Slow","4b0WsB47XCa9F83BmwQ7WX",162993,61,61
-"35",35,"The Doors","Light My Fire","7:06",125.1,1967,"Rock 1960s","22WZ7M8sxp5THdruNY3gXt",3704881,75,72
-"36",36,"U2","One","4:35",90.6,1992,"Slow","51Blml2LZPmy7TTiAg47vQ",4530039,79,89
-"37",37,"Bob Marley & The Wailers","No Woman No Cry","7:07",157.7,1974,"Reggae","2QsynagSdAqZj3U9HgDzjD",6379113,81,71
-"38",38,"The Rolling Stones","Gimme Shelter","4:32",118.9,1969,"TBD","22bE4uQ6baNwSHPVcDxLCe",6325632,80,75
-"39",39,"Buddy Holly","That'll Be the Day","2:16",116.3,1957,"Rock 1950s","3wYyutjgII8LJVVOLrGI0D",467193,60,61
-"40",40,"Martha Reeves & The Vandellas","Dancing in the Street","2:37",127.5,1964,"Dance 1960s","1Pe5hlKMCTULjosqZ6KanP",169865,61,75
-"41",41,"The Band","The Weight","4:31",144.2,1968,"Rock 1960s","4wQ3PyMz3WwJGI5uEqHUVR",623282,66,71
-"42",42,"The Kinks","Waterloo Sunset","3:17",107.3,1967,"TBD","1SQRv42e4PjEYfPhS0Tk9E",1063621,69,64
-"43",43,"Little Richard","Tutti-Frutti","2:22",184.6,1956,"Rock 1950s","4xls23Ye9WR9yy3yYMpAMm",362250,59,64
-"44",44,"Ray Charles","Georgia on My Mind","3:38",128.8,1960,"Slow","1eYhYunlNJlDoQhtYBvPsi",1330740,67,57
-"45",45,"Elvis Presley","Heartbreak Hotel","2:09",107.8,1956,"Rock 1950s","43ZHCT0cAZBISjO8DG9PnE",2828470,78,64
-"46",46,"David Bowie","Heroes","3:33",113.1,1998,"TBD","0oSGxfWSnnOXhD2fKuz2Gy",3702887,81,87
-"47",47,"Simon & Garfunkel","Bridge Over Troubled Water","4:51",87.2,1970,"Slow","70cRZdQywnSFp9pnc2WTCE",1743440,74,71
-"48",48,"Jimi Hendrix","All Along the Watchtower","4:01",114.3,1968,"Rock 1960s","776Uo845nYHJpNaStv1Ds4",3005922,73,77
-"49",49,"The Eagles","Hotel California","6:29",147.9,1977,"Slow","0ECwFtbIWEVNwjlrfc6xoL",2796211,77,83
-"50",50,"Smokey Robinson","Tracks of My Tears","2:55",97.7,1965,"Slow","6TKOZZDd5uV5KnyC5G4MUt",499365,60,63
-"51",51,"Grandmaster Flash & The Furious Five","The Message","7:07",101,1981,"R&B 1980s","5hQCwevTf03u1rECrRMeop",57313,49,66
-"52",52,"Prince","When Doves Cry","3:48",126.5,1984,"Dance 1980s","3MHaV05u0io8fQbZ2XPtlC",3810547,82,70
-"53",53,"Sex Pistols","Anarchy in the U.K.","3:32",134.3,1977,"Rock 1970s","1u7kkVrr14iBvrpYnZILJR",847398,58,54
-"54",54,"Percy Sledge","When a Man Loves a Woman","2:52",97.8,1966,"Slow","3rRmDmzPcAFwcUDvG5gBqO",227881,58,68
-"55",55,"The Kingsmen","Louie Louie","2:42",124,1963,"Rock 1960s","2iIn8H3l2NNBNHFpYKWbfo",15154,52,67
-"56",56,"Little Richard","Long Tall Sally","2:06",189.8,1956,"Rock 1950s","4xls23Ye9WR9yy3yYMpAMm",362250,59,63
-"57",57,"Procol Harum","A Whiter Shade of Pale","4:04",148.6,1967,"Slow","0GbqW5TJr7n4is453VOY4C",159705,54,68
-"58",58,"Michael Jackson","Billie Jean","4:54",117,1983,"Dance 1980s","3fMbdgg4jU18AjLCKBhRSm",9214495,84,83
-"59",59,"Bob Dylan","The Times They Are A-Changin'","3:11",86.1,1967,"Rock 1960s","74ASZWbe4lXaubB36ztrGX",3096180,75,70
-"60",60,"Al Green","Let's Stay Together","3:17",102.2,1971,"Slow","3dkbV4qihUeMsqN4vBGg93",1027528,69,76
-"61",61,"Jerry Lee Lewis","Whole Lotta Shakin' Going On","2:51",121,1957,"Rock 1950s","2zyz0VJqrDXeFDIyrfVXSo",318236,58,43
-"62",62,"Bo Diddley","Bo Diddley","2:20",106,1957,"TBD","2bmixwMZXlkl2sbIbOfviq",180937,50,54
-"63",63,"Buffalo Springfield","For What It's Worth (Stop, Hey What's That Sound)","2:38",99.4,1967,"Rock 1960s","3eskO5m0H4yiF64vRySBjr",289901,61,28
-"64",64,"The Beatles","She Loves You","2:22",149.8,1966,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11229766,87,67
-"65",65,"Cream","Sunshine of Your Love","4:11",115,1968,"Rock 1960s","74oJ4qxwOZvX6oSsu1DGnw",885746,66,72
-"66",66,"Bob Marley & The Wailers","Redemption Song","3:48",116,1980,"Reggae","2QsynagSdAqZj3U9HgDzjD",6379113,81,71
-"67",67,"Elvis Presley","Jailhouse Rock","2:27",84.2,1957,"Rock 1950s","43ZHCT0cAZBISjO8DG9PnE",2828470,78,73
-"68",68,"Bob Dylan","Tangled Up in Blue","5:43",99.2,1994,"TBD","74ASZWbe4lXaubB36ztrGX",3096180,75,63
-"69",69,"Roy Orbison","Crying","2:47",97.1,2006,"TBD","0JDkhL4rjiPNEp92jAgJnS",609283,68,76
-"70",70,"Dionne Warwick","Walk on By","2:44",99.3,1964,"Slow","2JSjCHK79gdaiPWdKiNUNp",342304,62,60
-"71",71,"The Beach Boys","California Girls","2:37",116.3,1965,"Rock 1960s","3oDbviiivRWhXwIE8hxkVV",1794858,73,58
-"72",72,"James Brown","Papa's Got a Brand New Bag Part 1","2:03",130.2,1965,"Rock 1960s","7GaxyUddsPok8BuhxN6OUW",1244247,66,0
-"73",73,"Eddie Cochran","Summertime Blues","1:59",157.2,1970,"Rock 1970s","1p0t3JtUTayV2wb1RGN9mO",115835,52,61
-"74",74,"Stevie Wonder","Superstition","4:25",101.3,1972,"Disco","7guDJrEfX3qb6FEbdPA5qi",3333404,77,71
-"75",75,"Led Zeppelin","Whole Lotta Love","5:33",92.1,1969,"Rock 1960s","36QJpDe2go2KgaRleHCDTp",6688432,80,77
-"76",76,"The Beatles","Strawberry Fields Forever","4:08",99.2,1969,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11229766,87,68
-"77",77,"Elvis Presley","Mystery Train","2:27",121,2000,"TBD","43ZHCT0cAZBISjO8DG9PnE",2828470,78,51
-"78",78,"James Brown","I Got You","2:46",147.5,1965,"Rock 1960s","7GaxyUddsPok8BuhxN6OUW",1244247,66,80
-"79",79,"The Byrds","Mr. Tambourine Man","2:18",122.3,1965,"Rock 1960s","1PCZpxHJz7WAMF8EEq8bfc",405635,62,64
-"80",80,"Marvin Gaye","I Heard It Through the Grapevine","5:03",118.1,1968,"Rock 1960s","3koiLjNrgRTNbOwViDipeA",2678877,75,59
-"81",81,"Fats Domino","Blueberry Hill","2:19",125.5,1956,"Slow","09C0xjtosNAIXP36wTnWxd",204948,57,59
-"82",82,"The Kinks","You Really Got Me","2:13",138,1964,"Rock 1960s","1SQRv42e4PjEYfPhS0Tk9E",1063621,69,72
-"83",83,"The Beatles","Norwegian Wood (This Bird Has Flown)","2:05",88.7,1966,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11229766,87,68
-"84",84,"The Police","Every Breath You Take","4:13",117.4,1983,"Slow","5NGO30tJxFlKixkPSgXcFE",2507613,76,75
-"85",85,"Patsy Cline","Crazy","2:41",110.8,1961,"Country","7dNsHhGeGU5MV01r06O8gK",327083,59,82
-"86",86,"Bruce Springsteen","Thunder Road","4:51",144,1975,"TBD","3eqjTLE0HfPfh78zjh6TqT",2041122,76,67
-"87",87,"Johnny Cash","Ring of Fire","2:38",103.4,1963,"Country","6kACVPfCOnqzgfEF5ryl0x",3067537,77,70
-"88",88,"The Temptations","My Girl","2:42",105.1,1965,"Slow","3RwQ26hR2tJtA8F9p2n7jG",1240044,70,81
-"89",89,"The Mamas & the Papas","California Dreamin'","2:39",113,1966,"Rock 1960s","1bs7HoMkSyQwcobCpE9KpN",537905,65,75
-"90",90,"The Five Satins","In the Still of the Night","3:02",105.4,1956,"Slow","2YP02JRa1JLejrg3XTssJS",21524,46,54
-"91",91,"Elvis Presley","Suspicious Minds","3:20",114.8,1969,"Rock 1960s","43ZHCT0cAZBISjO8DG9PnE",2828470,78,72
-"92",92,"Ramones","Blitzkrieg Bop","2:12",88.4,1976,"Rock 1970s","1co4F2pPNH8JjTutZkmgSm",1390044,67,70
-"93",93,"U2","I Still Haven't Found What I'm Looking For","4:37",100.6,1987,"Rock 1980s","51Blml2LZPmy7TTiAg47vQ",4530040,79,76
-"94",94,"Little Richard","Good Golly Miss Molly","2:07",84.4,1958,"Rock 1950s","4xls23Ye9WR9yy3yYMpAMm",362250,59,61
-"95",95,"Carl Perkins","Blue Suede Shoes","2:14",85.9,1956,"Rock 1950s","5hIClg6noTaCzMu2s5wp4f",66875,47,63
-"96",96,"Jerry Lee Lewis","Great Balls of Fire","1:51",161.2,1957,"Rock 1950s","2zyz0VJqrDXeFDIyrfVXSo",318236,58,64
-"97",97,"Chuck Berry","Roll Over Beethoven","2:25",92.8,1959,"TBD","293zczrfYafIItmnmM3coR",821815,66,60
-"98",98,"Al Green","Love And Happiness","5:07",98.9,1972,"TBD","3dkbV4qihUeMsqN4vBGg93",1027528,69,64
-"99",99,"Creedence Clearwater Revival","Fortunate Son","2:20",132.7,1969,"Rock 1970s","3IYUhFvPQItj6xySrBmZkd",2434413,78,80
-"100",100,"The Rolling Stones","You Can't Always Get What You Want","7:30",91.7,1969,"TBD","22bE4uQ6baNwSHPVcDxLCe",6325634,80,67
-"101",101,"Jimi Hendrix","Voodoo Child","5:13",118.6,1993,"TBD","776Uo845nYHJpNaStv1Ds4",3005922,73,66
-"102",102,"Gene Vincent","Be-Bop-A-Lula","2:35",127.8,1956,"Rock 1950s","7lKaTIgVek1R2lqpCulQmq",19402,40,46
-"103",103,"Donna Summer","Hot Stuff","3:50",120.1,1979,"Disco","2eogQKWWoohI3BSnoG7E2U",674331,64,65
-"104",104,"Stevie Wonder","Living for the City","7:25",99.1,1973,"Rock 1980s","7guDJrEfX3qb6FEbdPA5qi",3333404,77,50
-"105",105,"Simon & Garfunkel","The Boxer","5:09",96.2,1969,"Rock 1970s","70cRZdQywnSFp9pnc2WTCE",1743440,74,71
-"106",106,"Bob Dylan","Mr. Tambourine Man","5:28",88.1,1967,"TBD","74ASZWbe4lXaubB36ztrGX",3096180,75,64
-"107",107,"Buddy Holly","Not Fade Away","2:16",97.5,1999,"TBD","3wYyutjgII8LJVVOLrGI0D",467193,60,50
-"108",108,"Prince","Little Red Corvette","4:56",123.2,1983,"Dance 1980s","3MHaV05u0io8fQbZ2XPtlC",3810547,82,59
-"109",109,"Van Morrison","Brown Eyed Girl","3:03",151.1,1967,"Rock 1960s","44NX2ffIYHr6D4n7RaZF7A",1036637,74,80
-"110",110,"Otis Redding","I've Been Loving You Too Long (To Stop Now)","3:13",117.4,1965,"TBD","60df5JBRRPcnSpsIMxxwQm",1255976,70,36
-"111",111,"Hank Williams","I'm So Lonesome I Could Cry","2:49",111.9,1970,"TBD","2dyeCWctcFRt3Pha76ONgb",500714,65,48
-"112",112,"Elvis Presley","That's All Right","1:57",105.5,2000,"TBD","43ZHCT0cAZBISjO8DG9PnE",2828470,78,52
-"113",113,"The Drifters","Up on the Roof","2:37",121.3,1962,"Rock 1960s","1FqqOl9itIUpXr4jZPIVoT",197094,60,56
-"114",114,"The Crystals","Da Doo Ron Ron","2:18",147.6,1992,"TBD","7rewR1TVjhisjI6gauUamf",47577,53,57
-"115",115,"Sam Cooke","You Send Me","2:45",95.7,1957,"Slow","6hnWRPzGGKiapVX1UCdEAC",782096,70,65
-"116",116,"The Rolling Stones","Honky Tonk Woman","3:00",121.2,1969,"TBD","22bE4uQ6baNwSHPVcDxLCe",6325634,80,36
-"117",117,"Al Green","Take Me to the River","3:45",118,1974,"TBD","3dkbV4qihUeMsqN4vBGg93",1027528,69,64
-"118",118,"The Isley Brothers","Shout","4:36",138.9,1960,"Rock 1960s","53QzNeFpzAaXYnrDBbDrIp",723245,66,80
-"119",119,"Fleetwood Mac","Go Your Own Way","3:39",135.6,1977,"Rock 1970s","08GQAI4eElDnROBrJRGE0X",2974381,80,73
-"120",120,"The Jackson 5","I Want You Back","3:00",98.1,1969,"Dance 1960s","2iE18Oxc8YSumAU232n4rW",704299,71,69
-"121",121,"Ben E. King","Stand by Me","2:54",108.9,1961,"Slow","3plJVWt88EqjvtuB4ZDRV3",237869,66,79
-"122",122,"The Animals","House of the Rising Sun","4:28",116.7,1964,"Slow","3ICflSq6ZgYAIrm2CTkfVP",1004093,66,70
-"123",123,"James Brown","It's a Man's Man's Man's World","2:47",105.3,1991,"TBD","7GaxyUddsPok8BuhxN6OUW",1244247,66,62
-"124",124,"The Rolling Stones","Jumpin' Jack Flash","3:40",137.5,1968,"Rock 1960s","22bE4uQ6baNwSHPVcDxLCe",6325634,80,63
-"125",125,"The Shirelles","Will You Love Me Tomorrow","2:43",125.2,1961,"Rock 1960s","0x83OBqixqdCHnStP5VMcn",110040,55,64
-"126",126,"Big Joe Turner","Shake, Rattle And Roll","3:00",153,1954,"TBD","1DTgcOxytJHD8p17mhSgd7",16187,42,53
-"127",127,"David Bowie","Changes","3:34",114,1972,"Rock 1970s","0oSGxfWSnnOXhD2fKuz2Gy",3702889,81,88
-"128",128,"Chuck Berry","Rock & Roll Music","2:31",165.8,1957,"Rock 1950s","293zczrfYafIItmnmM3coR",821815,66,79
-"129",129,"Steppenwolf","Born to Be Wild","3:28",146.9,1968,"Rock 1960s","1WRM9i067hd2ujxxi8FI3m",567139,64,67
-"130",130,"Rod Stewart","Maggie May","4:58",128.8,1971,"Rock 1970s","2y8Jo9CKhJvtfeKOsYzRdT",1240894,73,73
-"131",131,"U2","With or Without You","4:56",110,1987,"Slow","51Blml2LZPmy7TTiAg47vQ",4530040,79,79
-"132",132,"Bo Diddley","Who Do You Love","2:30",114.3,1957,"TBD","2bmixwMZXlkl2sbIbOfviq",180937,50,92
-"133",133,"The Who","Won't Get Fooled Again","3:38",134.9,1971,"Rock 1970s","67ea9eGLXYMsO2eYQRui3w",2311347,72,63
-"134",134,"Wilson Pickett","In the Midnight Hour","2:36",112,1965,"Dance 1960s","0N5PyKJzS3M1XNlaCL7bbE",282900,60,60
-"135",135,"The Beatles","While My Guitar Gently Weeps","4:46",115.7,1969,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11229766,87,68
-"136",136,"Elton John","Your Song","4:00",117.9,1970,"Slow","3PhoLpVuITZKcymswpck5b",2475146,81,79
-"137",137,"The Beatles","Eleanor Rigby","2:08",138.3,1966,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11229766,87,68
-"138",138,"Sly & The Family Stone","Family Affair","3:02",108.6,1971,"Slow","3DFoVPonoAAt4EZ1FEI8ue",159196,59,71
-"139",139,"The Beatles","I Saw Her Standing There","2:51",160.7,1963,"TBD","3WrFJ7ztbogyGnTHbHJFl2",11229767,87,70
-"140",140,"Led Zeppelin","Kashmir","8:32",120.7,1990,"Rock 1970s","36QJpDe2go2KgaRleHCDTp",6688432,80,70
-"141",141,"Everly Brothers","All I Have to Do Is Dream","2:22",96.9,1958,"Slow","4ACplpEqD6JIVgKrafauzs",262020,60,65
-"142",142,"James Brown","Please, Please, Please","2:44",109.6,1991,"TBD","7GaxyUddsPok8BuhxN6OUW",1244247,66,91
-"143",143,"Prince","Purple Rain","6:32",113.7,1984,"Slow","3MHaV05u0io8fQbZ2XPtlC",3810547,82,76
-"144",144,"Ramones","I Wanna Be Sedated","2:28",162.5,1980,"Rock 1980s","1co4F2pPNH8JjTutZkmgSm",1390044,67,67
-"145",145,"Sly & The Family Stone","Everyday People","2:19",114.5,1969,"Dance 1960s","3DFoVPonoAAt4EZ1FEI8ue",159196,59,67
-"146",146,"The B-52's","Rock Lobster","6:50",91.1,1979,"Rock 1970s","3gdbcIdNypBsYNu3iiCjtN",351947,61,57
-"147",147,"Iggy Pop","Lust for Life","5:13",102,1977,"Rock 2000s","33EUXrFKGjpUSGacqEHhU4",684480,65,74
-"148",148,"Janis Joplin","Me And Bobby McGee","4:34",93.3,1973,"Rock 1970s","4NgfOZCL9Ml67xzM0xzIvC",1553138,66,70
-"149",149,"Everly Brothers","Cathy's Clown","2:22",121.3,1960,"Rock 1960s","4ACplpEqD6JIVgKrafauzs",262020,60,51
-"150",150,"The Byrds","Eight Miles High","3:36",122,1966,"TBD","1PCZpxHJz7WAMF8EEq8bfc",405635,62,56
-"151",151,"The Penguins","Earth Angel (Will You Be Mine)","2:55",103.8,1955,"Slow","6lOk7hCr8x3O9vHwylXyHR",24742,46,48
-"152",152,"Jimi Hendrix","Foxey Lady","3:16",99.3,1968,"Rock 1960s","776Uo845nYHJpNaStv1Ds4",3005922,73,62
-"153",153,"The Beatles","A Hard Day's Night","2:34",138.8,1966,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11229767,87,69
-"154",154,"Buddy Holly","Rave On","1:49",159.5,1958,"Rock 1950s","3wYyutjgII8LJVVOLrGI0D",467193,60,48
-"155",155,"Creedence Clearwater Revival","Proud Mary","3:07",120.4,1968,"Rock 1960s","3IYUhFvPQItj6xySrBmZkd",2434413,78,64
-"156",156,"Simon & Garfunkel","The Sounds of Silence","3:04",106.6,1965,"Slow","70cRZdQywnSFp9pnc2WTCE",1743440,74,68
-"157",157,"The Flamingos","I Only Have Eyes for You","3:22",88.6,1959,"Slow","6iygtKnPG7TRvDaTYcLOd6",23141,46,62
-"158",158,"Bill Haley and His Comets","Rock Around the Clock","2:10",89.9,1955,"Rock 1950s","3MFp4cYuYtTZe3d3xkLLbr",104565,54,58
-"159",159,"The Velvet Underground","I'm Waiting for the Man","4:40",125.4,2005,"TBD","1nJvji2KIlWSseXRSlNYsC",781095,65,58
-"160",160,"Public Enemy","Bring the Noise","3:47",110.2,2005,"TBD","6Mo9PoU6svvhgEum7wh2Nd",445632,59,52
-"161",161,"Ray Charles","I Can't Stop Loving You","4:21",107.3,1962,"TBD","1eYhYunlNJlDoQhtYBvPsi",1330740,67,66
-"162",162,"Sinead O'Connor","Nothing Compares 2 U","5:08",120,1990,"Slow","4sD9znwiVFx9cgRPZ42aQ1",351766,61,71
-"163",163,"Queen","Bohemian Rhapsody","5:53",108,1976,"Slow","1dfeR4HaWDbWqFHLkxsg1d",13891397,94,82
-"164",164,"Johnny Cash","Folsom Prison Blues","2:46",102.6,1956,"Country","6kACVPfCOnqzgfEF5ryl0x",3067537,77,69
-"165",165,"Tracy Chapman","Fast Car","4:53",103.7,1988,"Rock 1980s","7oPgCQqMMXEXrNau5vxYZP",748607,70,78
-"166",166,"Eminem","Lose Yourself","4:25",171.5,2005,"TBD","7dGJo4pcD2V6oG8kP0tJRR",24952376,93,81
-"167",167,"Marvin Gaye","Let's Get It On","3:59",83.5,1973,"Dance 1970s","3koiLjNrgRTNbOwViDipeA",2678877,75,68
-"168",168,"The Temptations","Papa Was a Rollin' Stone","6:54",121.2,1972,"Rock 1970s","3RwQ26hR2tJtA8F9p2n7jG",1240044,70,67
-"169",169,"R.E.M.","Losing My Religion","4:27",125.4,1991,"Rock 1990s","4KWTAlx2RvbpseOGMEmROg",1698899,74,82
-"170",170,"Joni Mitchell","Both Sides Now","5:46",111.3,1969,"TBD","5hW4L92KnC6dX9t7tYM4Ve",518385,66,61
-"171",171,"ABBA","Dancing Queen","3:52",100.4,1977,"Disco","0LcJLqbBmaGUft1e9Mm8HV",2194628,78,73
-"172",172,"Aerosmith","Dream On","4:25",154.8,1976,"Slow","7Ey4PD4MYsKc5I2dolUwbH",6116719,77,79
-"173",173,"Sex Pistols","God Save the Queen","3:18",148.5,1977,"Rock 1970s","1u7kkVrr14iBvrpYnZILJR",847398,58,52
-"174",174,"The Rolling Stones","Paint It Black","3:45",159.1,1966,"TBD","22bE4uQ6baNwSHPVcDxLCe",6325634,80,77
-"175",175,"The Bobby Fuller Four","I Fought the Law","2:18",148.3,1966,"Rock 1960s","5XoM6cP8fQykllfuK5V5TR",7326,44,65
-"176",176,"The Beach Boys","Don't Worry Baby","2:45",121.8,1964,"Slow","3oDbviiivRWhXwIE8hxkVV",1794858,73,63
-"177",177,"Tom Petty and The Heartbreakers","Free Fallin'","4:15",84.3,1989,"Slow","4tX2TplrkIP4v05BNC903e",896772,70,77
-"178",178,"Big Star","September Gurls","2:49",113.9,1978,"TBD","3UvcmAOZt64oKpP95f6MMM",66480,50,38
-"179",179,"Joy Division","Love Will Tear Us Apart","3:10",157.3,1980,"TBD","432R46LaYsJZV2Gmc4jUV5",963109,66,64
-"180",180,"OutKast","Hey Ya! [Radio Mix]","3:59",159,2003,"TBD","1G9G7WwrXka3Z1r7aIDjI7",1049317,75,78
-"181",181,"Booker T & The MG's","Green Onions","2:52",135.1,1962,"Rock 1960s","2vDV0T8sxx2ENnKXds75e5",107330,56,64
-"182",182,"The Drifters","Save the Last Dance for Me","2:27",144.2,1960,"Slow","1FqqOl9itIUpXr4jZPIVoT",197094,60,59
-"183",183,"B.B. King","The Thrill Is Gone","5:25",90.7,1998,"TBD","5xLSa7l4IV1gsQfhAMvl0U",1471328,64,63
-"184",184,"The Beatles","Please Please Me","2:03",139.4,1966,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11229767,87,91
-"185",185,"Bob Dylan","Desolation Row","11:20",110.4,1965,"TBD","74ASZWbe4lXaubB36ztrGX",3096180,75,51
-"186",186,"Aretha Franklin","I Never Loved a Man (The Way I Love You)","2:49",127.6,2002,"TBD","7nwUJBm0HE4ZxD3f5cy5ok",1763702,74,73
-"187",187,"AC/DC","Back in Black","4:16",93.6,1981,"Rock 1980s","711MCceyCBcFnzjGY4Q7Un",10407753,82,83
-"188",188,"Creedence Clearwater Revival","Who'll Stop the Rain","2:26",123.8,1970,"Slow","3IYUhFvPQItj6xySrBmZkd",2434415,78,67
-"189",189,"Bee Gees","Stayin' Alive","4:43",103.6,1977,"Disco","1LZEQNv7sE11VDY3SdxQeN",1753674,75,77
-"190",190,"Bob Dylan","Knockin' on Heaven's Door","2:30",139.3,1973,"Slow","74ASZWbe4lXaubB36ztrGX",3096180,75,77
-"191",191,"Lynyrd Skynyrd","Free Bird","9:01",149,1975,"Slow","4MVyzYMgTwdP7Z49wAZHx0",1861478,73,71
-"192",192,"Glen Campbell","Wichita Lineman","3:04",87,1968,"Country","59hLmB5DrdihCYtNeFeW1U",151136,61,61
-"193",193,"The Drifters","There Goes My Baby","2:07",119.8,1959,"Slow","1FqqOl9itIUpXr4jZPIVoT",197094,60,58
-"194",194,"Buddy Holly","Peggy Sue","2:29",148.8,1957,"Rock 1950s","3wYyutjgII8LJVVOLrGI0D",467193,60,55
-"195",195,"The Chantels","Maybe","2:52",103.9,1958,"TBD","08kLJJHCIH3KZGk4FZmWSK",22904,42,78
-"196",196,"Guns N' Roses","Sweet Child O' Mine","5:55",125,1988,"Rock 1980s","3qm84nBOXUEQ2vnTfUTTFC",11165482,81,75
-"197",197,"Elvis Presley","Don't Be Cruel","2:04",84.6,1956,"Rock 1950s","43ZHCT0cAZBISjO8DG9PnE",2828470,78,62
-"198",198,"Jimi Hendrix","Hey Joe","3:27",84.3,1968,"Rock 1960s","776Uo845nYHJpNaStv1Ds4",3005922,73,70
-"199",199,"Parliament","Flashlight","4:28",105.5,1978,"Dance 1970s","5SMVzTJyKFJ7TUb46DglcH",287224,58,73
-"200",200,"Beck","Loser","3:55",85.4,1994,"Rock 1990s","3vbKDsSS70ZX9D2OcvbZmS",873934,69,70
-"201",201,"New Order","Bizarre Love Triangle","6:42",118.4,1987,"Rock 1980s","0yNLKJebCb8Aueb54LYya3",821045,68,66
-"202",202,"The Beatles","Come Together","4:18",82.8,1969,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11229767,87,79
-"203",203,"Bob Dylan","Positively 4th Street","3:55",110,2000,"TBD","74ASZWbe4lXaubB36ztrGX",3096180,75,56
-"204",204,"Otis Redding","Try a Little Tenderness","3:16",104.1,1967,"Slow","60df5JBRRPcnSpsIMxxwQm",1255976,70,64
-"205",205,"Bill Withers","Lean on Me","3:45",150.6,1972,"Slow","1ThoqLcyIYvZn7iWbj8fsj",589173,70,68
-"206",206,"Four Tops","Reach Out (I'll Be There)","3:00",119.7,1966,"Rock 1960s","7fIvjotigTGWqjIz6EP1i4",443145,66,54
-"207",207,"Everly Brothers","Bye Bye Love","2:15",86.3,1957,"Rock 1950s","4ACplpEqD6JIVgKrafauzs",262020,60,61
-"208",208,"Van Morrison","Gloria","2:36",131.1,1965,"Rock 1960s","44NX2ffIYHr6D4n7RaZF7A",1036637,74,68
-"209",209,"The Beach Boys","In My Room","2:15",103.7,1963,"TBD","3oDbviiivRWhXwIE8hxkVV",1794858,73,63
-"210",210,"%3F%20%26%20The%20Mysterians","96 Tears","3:01",123.6,1997,"TBD","3ZZHB1Xh2PM88QTMiqHB62",15139,40,53
-"211",211,"The Beach Boys","Caroline, No","2:19",152.3,1966,"TBD","3oDbviiivRWhXwIE8hxkVV",1794858,73,48
-"212",212,"Prince","1999","3:37",119.2,1983,"Dance 1980s","3MHaV05u0io8fQbZ2XPtlC",3810547,82,83
-"213",213,"Hank Williams","Your Cheatin' Heart","2:42",128.5,1953,"Country","2dyeCWctcFRt3Pha76ONgb",500714,65,51
-"214",214,"Neil Young","Rockin' in the Free World","4:44",131.9,2004,"TBD","6v8FB84lnmJs434UJf2Mrm",1302573,71,63
-"215",215,"The Chords","Sh-Boom","2:27",137.5,1985,"TBD","3xXSg1WJPGJuNjQV0REAzk",5225,45,53
-"216",216,"The Lovin' Spoonful","Do You Believe in Magic","2:07",138.7,1965,"TBD","7CCn4PFRRRZF127jtCBAUe",167491,56,65
-"217",217,"Dolly Parton","Jolene","2:41",110,1974,"TBD","32vWCbZh0xZ4o9gkz4PsEU",726883,73,77
-"218",218,"John Lee Hooker","Boom Boom","2:10",91.5,1962,"TBD","1yNOfXGQNGjAynk77wv85x",389232,56,74
-"219",219,"Howlin' Wolf","Spoonful","2:45",119.9,2003,"TBD","0Wxy5Qka8BN9crcFkiAxSR",288550,53,65
-"220",220,"The Left Banke","Walk Away Renee","2:43",118.3,1967,"TBD","382aCtCMEd2Rg2DmcU9xw9",8383,29,44
-"221",221,"Lou Reed","Walk on the Wild Side","4:12",106.1,1973,"Rock 1970s","42TFhl7WlMRXiNqzSrnzPL",827222,66,75
-"222",222,"Roy Orbison","Oh, Pretty Woman","2:57",127.2,1964,"Rock 1960s","0JDkhL4rjiPNEp92jAgJnS",609283,68,72
-"223",223,"Sly & The Family Stone","Dance to the Music","2:58",128.1,1968,"Dance 1960s","3DFoVPonoAAt4EZ1FEI8ue",159196,59,61
-"224",224,"Chic","Good Times","3:44",110.2,1979,"Disco","0Xf8oDAJYd2D0k3NLI19OV",296269,64,71
-"225",225,"Muddy Waters","I'm Your Hoochie Coochie Man","2:52",108.9,1960,"TBD","4y6J8jwRAwO4dssiSmN91R",692485,57,54
-"226",226,"Van Morrison","Moondance","4:32",131.6,1970,"Rock 1970s","44NX2ffIYHr6D4n7RaZF7A",1036637,74,72
-"227",227,"James Taylor","Fire And Rain","3:22",151.7,1970,"Slow","0vn7UBvSQECKJm2817Yf1P",831584,69,73
-"228",228,"The Clash","Should I Stay or Should I Go?","3:07",113.3,1982,"Rock 1980s","3RGLhK1IP9jnYFH4BRFJBS",1493664,73,79
-"229",229,"Muddy Waters","Mannish Boy","2:58",105.4,1960,"TBD","4y6J8jwRAwO4dssiSmN91R",692485,57,61
-"230",230,"Bob Dylan","Just Like a Woman","4:52",116.3,1967,"TBD","74ASZWbe4lXaubB36ztrGX",3096180,75,53
-"231",231,"Marvin Gaye","Sexual Healing","3:59",93.9,1982,"Slow","3koiLjNrgRTNbOwViDipeA",2678877,75,71
-"232",232,"Roy Orbison","Only the Lonely (Know How I Feel)","2:26",119.9,1960,"Slow","0JDkhL4rjiPNEp92jAgJnS",609283,68,1
-"233",233,"The Animals","We Gotta Get Out of This Place","3:10",124.7,1965,"Rock 1960s","3ICflSq6ZgYAIrm2CTkfVP",1004093,66,51
-"234",234,"The Byrds","I'll Feel a Whole Lot Better","2:33",134.4,1965,"TBD","1PCZpxHJz7WAMF8EEq8bfc",405635,62,42
-"235",235,"Ray Charles","I've Got a Woman","2:55",99.4,1994,"TBD","1eYhYunlNJlDoQhtYBvPsi",1330741,67,67
-"236",236,"Buddy Holly","Everyday","2:07",136.5,1957,"Rock 1950s","3wYyutjgII8LJVVOLrGI0D",467193,60,84
-"237",237,"Afrika Bambaataa","Planet Rock","5:03",122.7,1985,"Rock 1980s","7cg61q8kK8jlFi8TKKw70p",58019,42,51
-"238",238,"Patsy Cline","I Fall to Pieces","2:49",111.2,1961,"Country","7dNsHhGeGU5MV01r06O8gK",327083,59,56
-"239",239,"Dion","The Wanderer","2:42",114.1,1961,"Rock 1960s","4S9EykWXhStSc15wEx8QFK",2112720,76,62
-"240",240,"Dusty Springfield","Son of a Preacher Man","2:27",90.9,1969,"Rock 1960s","5zaXYwewAXedKNCff45U5l",189132,64,71
-"241",241,"Sly & The Family Stone","Stand","3:08",108.3,2002,"TBD","3DFoVPonoAAt4EZ1FEI8ue",159196,59,79
-"242",242,"Elton John","Rocket Man","4:42",137,1974,"Rock 1970s","3PhoLpVuITZKcymswpck5b",2475146,81,81
-"243",243,"The B-52's","Love Shack","5:22",133.6,1989,"Rock 1980s","3gdbcIdNypBsYNu3iiCjtN",351947,61,69
-"244",244,"The Spencer Davis Group","Gimme Some Lovin'","2:53",147.5,1967,"Rock 1960s","3i9hP422d2KMjaupTzBNVS",105631,54,56
-"245",245,"The Band","The Night They Drove Old Dixie Down","3:32",125.6,1969,"TBD","4wQ3PyMz3WwJGI5uEqHUVR",623282,66,62
-"246",246,"Jackie Wilson","(Your Love Keeps Lifting Me) Higher And Higher","2:57",95.4,1967,"Rock 1960s","4VnomLtKTm9Ahe1tZfmZju",188749,63,73
-"247",247,"Sly & The Family Stone","Hot Fun in the Summertime","2:35",144.8,1969,"Dance 1960s","3DFoVPonoAAt4EZ1FEI8ue",159196,59,43
-"248",248,"Sugarhill Gang","Rapper's Delight","6:32",111.8,1980,"Dance 1980s","7zliF6Q946WznVk3ZMYhZX",128500,54,56
-"249",249,"Aretha Franklin","Chain of Fools","2:43",117,1968,"Dance 1960s","7nwUJBm0HE4ZxD3f5cy5ok",1763702,74,63
-"250",250,"Black Sabbath","Paranoid","2:45",82.1,1969,"Rock 1960s","5M52tdBnJaKSvOpJGz8mfZ",3355275,73,80
-"251",251,"Bobby Darin","Mack the Knife","3:04",84.7,1959,"Easy","0EodhzA6yW1bIdD5B4tcmJ",188655,61,58
-"252",252,"Clyde McPhatter","Money Honey","2:59",123.2,1990,"Easy","4WL6MC4jDW7w7K9hfc4MVS",12972,43,55
-"253",253,"Mott the Hoople","All the Young Dudes","3:32",154.8,1972,"Rock 1970s","6ysQi6NI88X627t2srsWz6",80311,52,65
-"254",254,"AC/DC","Highway to Hell","3:29",116,1979,"Rock 1970s","711MCceyCBcFnzjGY4Q7Un",10407753,82,84
-"255",255,"Blondie","Heart of Glass","4:34",114.5,1979,"Dance 1970s","4tpUmLEVLCGFr93o8hFFIB",532103,68,61
-"256",256,"Radiohead","Paranoid Android","6:23",163.6,1997,"Rock 1990s","4Z8W4fKeB5YxbusRsdQVPb",3955591,79,67
-"257",257,"The Troggs","Wild Thing","2:35",102.1,1966,"Rock 1960s","57xdnSVt4ahJCIXYLieQ25",110144,49,68
-"258",258,"The Who","I Can See for Miles","4:21",132.7,1967,"Rock 1960s","67ea9eGLXYMsO2eYQRui3w",2311348,72,54
-"259",259,"Jeff Buckley","Hallelujah","6:53",93.1,1994,"TBD","3nnQpaTvKb5jCQabZefACI",486057,64,75
-"260",260,"The Dells","Oh What a Nite","2:54",111.3,1988,"TBD","0wbrRIw2po5DV4LeaHw55S",110133,43,15
-"261",261,"Stevie Wonder","Higher Ground","3:11",125.3,1973,"Rock 1980s","7guDJrEfX3qb6FEbdPA5qi",3333405,77,67
-"262",262,"Smokey Robinson","Ooo Baby Baby","2:48",111.2,1965,"TBD","6TKOZZDd5uV5KnyC5G4MUt",499365,60,58
-"263",263,"The Crystals","He's a Rebel","2:24",115.9,1962,"Dance 1960s","7rewR1TVjhisjI6gauUamf",47577,53,46
-"264",264,"Randy Newman","Sail Away","2:50",89.2,1972,"TBD","3HQyFCFFfJO3KKBlUfZsyW",101117,62,64
-"265",265,"Archie Bell & The Drells","Tighten Up","3:14",124.5,1991,"TBD","1kupwLFpHALpmhp5qol8xH",19750,44,64
-"266",266,"The Ronettes","Walking in the Rain","3:16",108,1964,"TBD","7CyeXFnOrfC1N6z4naIpgo",100647,60,59
-"267",267,"New York Dolls","Personality Crisis","3:43",155.6,1973,"TBD","0WhGV9lzljq2QKJ8ipw6jx",111133,44,53
-"268",268,"U2","Sunday Bloody Sunday [Live]","5:17",109.4,1983,"Rock 1980s","51Blml2LZPmy7TTiAg47vQ",4530040,79,41
-"269",269,"The Modern Lovers","Roadrunner","4:06",152.1,1976,"TBD","2eRdPaLHWAL4d1WcNUO9Vz",65145,55,74
-"270",270,"George Jones","He Stopped Loving Her Today","3:16",112.3,2005,"Country","2OpqcUtj10HHvGG6h9VYC5",413992,62,58
-"271",271,"The Beach Boys","Sloop John B","2:54",124.9,1966,"Slow","3oDbviiivRWhXwIE8hxkVV",1794858,73,59
-"272",272,"Chuck Berry","Sweet Little Sixteen","3:00",88.6,1958,"Rock 1950s","293zczrfYafIItmnmM3coR",821815,66,53
-"273",273,"The Beatles","Something","3:02",132.4,1969,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11229769,87,83
-"274",274,"Jefferson Airplane","Somebody to Love","2:55",131.2,1967,"Rock 1960s","2qFr8w5sWUITRlzZ9kZotF",673016,62,77
-"275",275,"Bruce Springsteen","Born in the U.S.A.","4:37",123.6,1984,"Rock 1980s","3eqjTLE0HfPfh78zjh6TqT",2041122,76,75
-"276",276,"The Staple Singers","I'll Take You There","3:17",101.5,1989,"TBD","7xGGqA85UIWX1GoTVM4itC",122220,60,68
-"277",277,"David Bowie","Ziggy Stardust","3:13",160.7,1972,"Rock 1970s","0oSGxfWSnnOXhD2fKuz2Gy",3702889,81,74
-"278",278,"The Cure","Pictures of You","4:46",86.3,1989,"Rock 1990s","7bu3H8JO7d0UbMoVzbo70s",1823439,75,58
-"279",279,"The Dixie Cups","Chapel of Love","2:45",125.7,1964,"Rock 1960s","7ICvZfP4VHAPZ5Wdt03772",22278,46,56
-"280",280,"Bill Withers","Ain't No Sunshine","2:03",159.5,2002,"TBD","1ThoqLcyIYvZn7iWbj8fsj",589173,70,77
-"281",281,"Stevie Wonder","You Are the Sunshine of My Life","2:51",134,1973,"Slow","7guDJrEfX3qb6FEbdPA5qi",3333405,77,66
-"282",282,"Joni Mitchell","Help Me","3:24",163.4,1974,"TBD","5hW4L92KnC6dX9t7tYM4Ve",518385,66,65
-"283",283,"Blondie","Call Me","3:32",142,1980,"Dance 1980s","4tpUmLEVLCGFr93o8hFFIB",532103,68,91
-"284",284,"Elvis Costello","(What's So Funny 'Bout) Peace, Love & Understanding","3:32",141.8,1999,"TBD","2BGRfQgtzikz1pzAD0kaEn",239570,57,43
-"285",285,"Howlin' Wolf","Smokestack Lightnin","3:08",145.2,2003,"TBD","0Wxy5Qka8BN9crcFkiAxSR",288550,53,57
-"286",286,"Pavement","Summer Babe [Winter Version]","3:16",98.4,1992,"TBD","3inCNiUr4R6XQ3W43s9Aqi",208285,60,36
-"287",287,"Run-DMC","Walk This Way","5:11",105.6,1986,"R&B 1980s","3CQIn7N5CuRDP8wEI7FiDA",529238,63,71
-"288",288,"Barrett Strong","Money (That's What I Want)","2:27",141.1,1978,"Rock 1970s","3MKwHkhEjcvzva2rasZeWD",9402,46,49
-"289",289,"The Beatles","Can't Buy Me Love","2:13",85.3,1966,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11229769,87,65
-"290",290,"Eminem","Stan","5:31",160,2005,"TBD","7dGJo4pcD2V6oG8kP0tJRR",24952379,93,76
-"291",291,"The Zombies","She's Not There","2:25",131.4,1964,"TBD","2jgPkn6LuUazBoBk6vvjh5",333391,61,59
-"292",292,"The Clash","Train in Vain","3:10",122.9,1980,"Rock 1980s","3RGLhK1IP9jnYFH4BRFJBS",1493664,73,64
-"293",293,"Al Green","Tired of Being Alone","2:52",98.3,1971,"TBD","3dkbV4qihUeMsqN4vBGg93",1027528,69,71
-"294",294,"Led Zeppelin","Black Dog","4:54",82.6,1971,"Rock 1970s","36QJpDe2go2KgaRleHCDTp",6688432,80,73
-"295",295,"The Rolling Stones","Street Fighting Man","3:16",128.2,1968,"TBD","22bE4uQ6baNwSHPVcDxLCe",6325634,80,58
-"296",296,"Bob Marley & The Wailers","Get Up Stand Up","3:19",156.3,1975,"Reggae","2QsynagSdAqZj3U9HgDzjD",6379113,81,59
-"297",297,"Neil Young","Heart of Gold","3:07",85.5,1972,"Slow","6v8FB84lnmJs434UJf2Mrm",1302573,71,71
-"298",298,"Blondie","One Way or Another","3:35",162.1,1979,"Dance 1970s","4tpUmLEVLCGFr93o8hFFIB",532103,68,61
-"299",299,"Prince","Sign 'O' the Times","3:42",98.9,1993,"Rock 1980s","3MHaV05u0io8fQbZ2XPtlC",3810547,82,54
-"300",300,"Madonna","Like a Prayer","5:27",111.9,1989,"Dance 1980s","6tbjWDEIzxoDsBA1FuhfPW",2874543,77,72
-"301",301,"Rod Stewart","Do Ya Think I'm Sexy?","5:28",112,1979,"Rock 1970s","2y8Jo9CKhJvtfeKOsYzRdT",1240894,73,48
-"302",302,"Willie Nelson","Blue Eyes Crying in the Rain","2:20",116.8,1998,"Country","5W5bDNCqJ1jbCgTxDD0Cb3",784907,69,57
-"303",303,"The Rolling Stones","Ruby Tuesday","3:16",104.9,1967,"TBD","22bE4uQ6baNwSHPVcDxLCe",6325634,80,63
-"304",304,"The Beatles","With a Little Help From My Friends","2:43",112.5,1969,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11229770,87,67
-"305",305,"James Brown","Say It Loud - I'm Black and I'm Proud","2:47",114.8,1991,"TBD","7GaxyUddsPok8BuhxN6OUW",1244247,66,45
-"306",306,"The Jam","That's Entertainment","3:31",143.2,1991,"TBD","2P560DaOMNDUACoH8ZhOCR",320057,60,58
-"307",307,"The Teenagers","Why Do Fools Fall in Love","2:17",88.1,1956,"Rock 1950s","40Zt6u0Ig5vXtrq0htgqvt",33040,43,56
-"308",308,"Jackie Wilson","Lonely Teardrops","2:42",139.2,1959,"Rock 1950s","4VnomLtKTm9Ahe1tZfmZju",188749,63,52
-"309",309,"Tina Turner","What's Love Got to Do With It","3:49",97.9,1984,"Slow","1zuJe6b1roixEKMOtyrEak",1103636,69,68
-"310",310,"Black Sabbath","Iron Man","3:27",156.8,1970,"Rock 1970s","5M52tdBnJaKSvOpJGz8mfZ",3355275,73,69
-"311",311,"Everly Brothers","Wake Up Little Susie","2:02",91.2,1957,"Rock 1950s","4ACplpEqD6JIVgKrafauzs",262020,60,61
-"312",312,"Roy Orbison","In Dreams","2:48",107.9,1963,"Slow","0JDkhL4rjiPNEp92jAgJnS",609283,68,73
-"313",313,"Screamin' Jay Hawkins","I Put a Spell on You","2:28",86.8,1990,"TBD","3VBpsrUi2vV7Uj87ONHu7Z",43726,43,74
-"314",314,"Pink Floyd","Comfortably Numb","6:21",127,1980,"Slow","0k17h0D3J5VfsdmQ1iZtE9",8545609,81,75
-"315",315,"The Animals","Don't Let Me Be Misunderstood","2:27",113.5,2003,"TBD","3ICflSq6ZgYAIrm2CTkfVP",1004093,66,58
-"316",316,"Pink Floyd","Wish You Were Here","5:10",121.8,1975,"Slow","0k17h0D3J5VfsdmQ1iZtE9",8545609,81,77
-"317",317,"Jimmy Cliff","Many Rivers to Cross","3:00",128,1969,"TBD","3rJ3m1tM6vUgiWLjfV8sRf",381008,60,50
-"318",318,"Elvis Costello","Alison","3:21",88.6,1978,"TBD","2BGRfQgtzikz1pzAD0kaEn",239570,57,66
-"319",319,"Alice Cooper","School's Out","3:28",134.2,1972,"Rock 1970s","3EhbVgyfGd7HkpsagwL9GS",1304039,64,65
-"320",320,"Led Zeppelin","Heartbreaker","4:14",112.4,1990,"Rock 1970s","36QJpDe2go2KgaRleHCDTp",6688432,80,67
-"321",321,"Neil Young","Cortez the Killer","7:32",113.9,1977,"TBD","6v8FB84lnmJs434UJf2Mrm",1302573,71,54
-"322",322,"Public Enemy","Fight the Power","4:36",106,2005,"TBD","6Mo9PoU6svvhgEum7wh2Nd",445632,59,56
-"323",323,"Patty Smyth","Dancing Barefoot","4:16",116.9,1992,"TBD","2dgfCEMSVETFp29mRpiFpz",17899,44,55
-"324",324,"The Supremes","Baby Love","2:36",135.8,1964,"Dance 1960s","57bUPid8xztkieZfS7OlEV",785355,67,74
-"325",325,"The Young Rascals","Good Lovin'","2:29",98.4,1966,"Rock 1960s","5X3TuTi9OIsJXMGxPwTKM2",51631,46,61
-"326",326,"James Brown","Sex Machine","5:15",108.4,1970,"Rock 1970s","7GaxyUddsPok8BuhxN6OUW",1244247,66,60
-"327",327,"The Impressions","For Your Precious Love","2:46",108.1,2001,"Easy","1b1N51wmSK0ckxFAMPSSHO",110652,53,48
-"328",328,"The Doors","The End","11:42",108.2,1985,"Rock 1970s","22WZ7M8sxp5THdruNY3gXt",3704881,75,84
-"329",329,"Earth, Wind & Fire","That's the Way of the World","5:46",82.1,1978,"TBD","4QQgXkCYTt3BlENzhyNETg",1617671,74,59
-"330",330,"Queen","We Will Rock You","2:00",140.7,1977,"Rock 1970s","1dfeR4HaWDbWqFHLkxsg1d",13891402,94,76
-"331",331,"Bonnie Raitt","I Can't Make You Love Me","4:45",123,1991,"Easy","4KDyYWR7IpxZ7xrdYbKrqY",268345,59,66
-"332",332,"Bob Dylan","Subterranean Homesick Blues","2:16",86.8,1965,"Rock 1960s","74ASZWbe4lXaubB36ztrGX",3096180,75,55
-"333",333,"Norman Greenbaum","Spirit in the Sky","4:01",128.4,1969,"TBD","7f8LNBVXN0h35veHrpxQFL",24987,60,71
-"334",334,"The Rolling Stones","Wild Horses","5:45",144.2,1971,"TBD","22bE4uQ6baNwSHPVcDxLCe",6325634,80,71
-"335",335,"The Velvet Underground","Sweet Jane","3:15",105.6,1998,"TBD","1nJvji2KIlWSseXRSlNYsC",781095,65,62
-"336",336,"Aerosmith","Walk This Way","3:32",108,1975,"Rock 1980s","7Ey4PD4MYsKc5I2dolUwbH",6116720,77,71
-"337",337,"Michael Jackson","Beat It","4:19",138.6,1983,"Dance 1980s","3fMbdgg4jU18AjLCKBhRSm",9214499,84,79
-"338",338,"Wings","Maybe I'm Amazed","3:51",160.9,2001,"TBD","3sFhA6G1N0gG1pszb6kk1m",321874,64,64
-"339",339,"The Supremes","You Keep Me Hanging On","2:41",127.6,1968,"TBD","57bUPid8xztkieZfS7OlEV",785355,67,42
-"340",340,"The Who","Baba O'Riley","5:07",116.2,1971,"Rock 1970s","67ea9eGLXYMsO2eYQRui3w",2311348,72,76
-"341",341,"Jimmy Cliff","The Harder They Come","3:06",98.8,1972,"TBD","3rJ3m1tM6vUgiWLjfV8sRf",381008,60,51
-"342",342,"Dion","Runaround Sue","2:39",157.6,1961,"Rock 1960s","4S9EykWXhStSc15wEx8QFK",2112720,76,64
-"343",343,"LaVern Baker","Jim Dandy","2:13",168.8,1991,"TBD","0V6zo2mJw9FdwWLClKC9yw",16100,43,41
-"344",344,"Janis Joplin","Piece of My Heart","4:12",158.4,1968,"Rock 1960s","4NgfOZCL9Ml67xzM0xzIvC",1553138,66,69
-"345",345,"Ritchie Valens","La Bamba","2:04",151.5,1959,"Rock 1950s","5Y9xEAGW4GwGJgbiI6W85P",198462,57,64
-"346",346,"2Pac","California Love","4:47",91.5,1996,"R&B 1990s","1ZwdS5xdxEREPySFridCfh",5750171,81,69
-"347",347,"Elton John","Candle in the Wind","3:48",124.7,1974,"Rock 1970s","3PhoLpVuITZKcymswpck5b",2475146,81,74
-"348",348,"The Isley Brothers","That Lady (Part 1 & 2)","5:34",128.2,1973,"TBD","53QzNeFpzAaXYnrDBbDrIp",723245,66,24
-"349",349,"Ben E. King","Spanish Harlem","2:48",125.4,1961,"Slow","3plJVWt88EqjvtuB4ZDRV3",237869,66,55
-"350",350,"Little Eva","Loco-Motion","2:28",127.5,1962,"Rock 1960s","4S76LQXJD6N2uPcLhKejG8",17133,47,50
-"351",351,"The Platters","Great Pretender","2:39",120.9,1955,"Slow","6KWcxMWVNVIYbdOQyJtsSy",253696,61,62
-"352",352,"Elvis Presley","All Shook Up","2:00",147,1957,"Rock 1950s","43ZHCT0cAZBISjO8DG9PnE",2828470,78,62
-"353",353,"Eric Clapton","Tears in Heaven","4:32",153.7,1992,"Slow","6PAt558ZEZl0DmdXlnjMgD",2538779,74,75
-"354",354,"Elvis Costello","Watching the Detective","3:41",134.6,1978,"TBD","2BGRfQgtzikz1pzAD0kaEn",239570,57,0
-"355",355,"Creedence Clearwater Revival","Bad Moon Rising","2:19",89.7,1969,"Rock 1960s","3IYUhFvPQItj6xySrBmZkd",2434415,78,69
-"356",356,"Eurythmics","Sweet Dreams","4:53",126,1983,"Rock 1980s","0NKDgy9j66h3DLnN8qu1bB",648474,70,82
-"357",357,"Jimi Hendrix","Little Wing","2:23",141.6,1993,"TBD","776Uo845nYHJpNaStv1Ds4",3005922,73,70
-"358",358,"Martha Reeves & The Vandellas","Nowhere to Run","2:55",129.2,1965,"Dance 1960s","1Pe5hlKMCTULjosqZ6KanP",169865,61,56
-"359",359,"Muddy Waters","Got My Mojo Working","2:50",113.3,1999,"TBD","4y6J8jwRAwO4dssiSmN91R",692485,57,46
-"360",360,"Roberta Flack","Killing Me Softly With His Song","4:47",121.8,1973,"Slow","0W498bDDNlJIrYMKXdpLHA",372432,63,73
-"361",361,"The Clash","Complete Control","3:13",87.4,1977,"TBD","3RGLhK1IP9jnYFH4BRFJBS",1493664,73,49
-"362",362,"The Beatles","All You Need Is Love","3:48",104.7,1969,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11229770,87,66
-"363",363,"Box Tops","The Letter","2:00",138.2,1967,"Rock 1960s","3KGQvnOoqUHi3KxKQMZtXr",53050,49,65
-"364",364,"Bob Dylan","Highway 61 Revisited","3:30",136.8,1965,"TBD","74ASZWbe4lXaubB36ztrGX",3096180,75,72
-"365",365,"The Righteous Brothers","Unchained Melody","3:36",100.8,1966,"Slow","4b0WsB47XCa9F83BmwQ7WX",162993,61,66
-"366",366,"Bee Gees","How Deep Is Your Love","4:00",105.1,1977,"Slow","1LZEQNv7sE11VDY3SdxQeN",1753674,75,78
-"367",367,"Cream","White Room","4:56",110.2,1968,"Rock 1960s","74oJ4qxwOZvX6oSsu1DGnw",885746,66,72
-"368",368,"Depeche Mode","Personal Jesus","5:48",130,1990,"Rock 1990s","762310PdDnwsDxAQxzQkfX",2045824,74,63
-"369",369,"Bo Diddley","I'm a Man","3:02",102.4,1957,"TBD","2bmixwMZXlkl2sbIbOfviq",180937,50,66
-"370",370,"Jimi Hendrix","The Wind Cries Mary","3:22",153.8,1972,"Rock 1970s","776Uo845nYHJpNaStv1Ds4",3005922,73,63
-"371",371,"The Who","I Can't Explain","2:03",137.8,1965,"Rock 1960s","67ea9eGLXYMsO2eYQRui3w",2311348,72,56
-"372",372,"Television","Marquee Moon","10:40",119.1,1977,"TBD","0S7Zur2g8YhqlzqtlYStli",145334,52,56
-"373",373,"Sam Cooke","(What A) Wonderful World","2:05",128.8,1960,"Rock 1960s","6hnWRPzGGKiapVX1UCdEAC",782096,70,73
-"374",374,"Chuck Berry","Brown-Eyed Handsome Man","2:18",90.5,1957,"TBD","293zczrfYafIItmnmM3coR",821816,66,40
-"375",375,"Pink Floyd","Another Brick in the Wall (Part II)","3:50",104.1,1980,"Rock 1980s","0k17h0D3J5VfsdmQ1iZtE9",8545610,81,23
-"376",376,"Radiohead","Fake Plastic Trees","4:50",147.2,1995,"Rock 1990s","4Z8W4fKeB5YxbusRsdQVPb",3955591,79,72
-"377",377,"Ray Charles","Hit the Road Jack","1:59",86.4,1961,"Rock 1960s","1eYhYunlNJlDoQhtYBvPsi",1330741,67,61
-"378",378,"U2","Pride (In the Name of Love)","3:46",106.4,1984,"Rock 1980s","51Blml2LZPmy7TTiAg47vQ",4530040,79,59
-"379",379,"R.E.M.","Radio Free Europe [Original Hib-Tone Single]","3:49",83.1,1988,"Rock 1980s","4KWTAlx2RvbpseOGMEmROg",1698901,74,12
-"380",380,"Elton John","Goodbye Yellow Brick Road","3:12",120.3,1973,"Slow","3PhoLpVuITZKcymswpck5b",2475146,81,71
-"381",381,"Aaron Neville","Tell It Like It Is","2:38",95.4,1993,"TBD","57ALvbCBaCkNlgTOSiUPdT",55697,54,57
-"382",382,"The Verve","Bitter Sweet Symphony","5:57",85.5,1997,"TBD","2cGwlqi3k18jFpUyTrsR84",1011306,69,80
-"383",383,"The Allman Brothers Band","Whipping Post","5:22",97.3,1969,"TBD","4wQ3PyMz3WwJGI5uEqHUVR",623284,66,60
-"384",384,"The Beatles","Ticket to Ride","3:10",123.9,1966,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11229771,87,66
-"385",385,"Crosby, Stills, Nash & Young","Ohio","3:06",156.8,1970,"TBD","1CYsQCypByMVgnv17qsSbQ",492582,64,68
-"386",386,"Eric B. & Rakim","I Know You Got Soul","4:44",104.1,1987,"TBD","6jHG1YQkqgojdEzerwvrVv",262594,55,44
-"387",387,"Elton John","Tiny Dancer","6:16",145.4,1992,"Rock 1980s","3PhoLpVuITZKcymswpck5b",2475146,81,80
-"388",388,"The Police","Roxanne","3:11",134.9,1979,"Rock 1970s","5NGO30tJxFlKixkPSgXcFE",2507614,76,69
-"389",389,"The Temptations","Just My Imagination (Running Away With Me)","3:50",92.4,1965,"Rock 1960s","3RwQ26hR2tJtA8F9p2n7jG",1240044,70,64
-"390",390,"Four Tops","Baby I Need Your Lovin'","2:44",121.4,2005,"TBD","7fIvjotigTGWqjIz6EP1i4",443145,66,33
-"391",391,"Freda Payne","Band of Gold","2:53",106.9,1984,"Rock 1980s","0701Axu6yvUIoctaKMbDIZ",6844,39,47
-"392",392,"Five Stairsteps","O-O-H Child","3:16",89,2001,"TBD","3Inrg8cs8oc4q8oPES4a6S",20852,54,66
-"393",393,"The Lovin' Spoonful","Summer in the City","2:37",113,1966,"Rock 1960s","7CCn4PFRRRZF127jtCBAUe",167491,56,63
-"394",394,"Elvis Presley","Can't Help Falling in Love","3:00",114.2,1961,"Slow","43ZHCT0cAZBISjO8DG9PnE",2828470,78,78
-"395",395,"The Shangri-Las","Remember (Walking in the Sand)","2:17",110.7,1987,"TBD","1WvziZcLLYLoMMdmQx7qcN",49628,44,34
-"396",396,"Big Star","Thirteen","2:34",116.7,1978,"TBD","3UvcmAOZt64oKpP95f6MMM",66480,50,66
-"397",397,"Blue Oyster Cult","(Don't Fear) the Reaper","5:03",141.5,1976,"Rock 1970s","00tVTdpEhQQw1bqdu8RCx2",607541,65,75
-"398",398,"Lynyrd Skynyrd","Sweet Home Alabama","4:44",98.1,1974,"Rock 1970s","4MVyzYMgTwdP7Z49wAZHx0",1861478,73,82
-"399",399,"Metallica","Enter Sandman","5:31",124.2,1991,"Rock 1990s","2ye2Wgw4gimLv2eAKyk1NB",9807201,82,73
-"400",400,"Paul Revere & The Raiders","Kicks","2:47",128,2000,"TBD","30fXKjFrJ6I9tfwia1ZZMG",12812,43,83
-"401",401,"The Shirelles","Tonight's the Night","2:02",117.4,1961,"TBD","0x83OBqixqdCHnStP5VMcn",110040,55,64
-"402",402,"Sly & The Family Stone","Thank You (Falettinme Be Mice Elf Agin)","4:49",105.5,1970,"Dance 1970s","3DFoVPonoAAt4EZ1FEI8ue",159196,59,59
-"403",403,"Eddie Cochran","C'Mon Everybody","1:56",87.8,1959,"Rock 1950s","1p0t3JtUTayV2wb1RGN9mO",115835,52,55
-"404",404,"Bob Dylan","Visions of Johanna","7:32",102.8,1985,"TBD","74ASZWbe4lXaubB36ztrGX",3096181,75,52
-"405",405,"Carpenters","We've Only Just Begun","3:05",89.6,1970,"Easy","1eEfMU2AhEo7XnKgL7c304",769977,67,53
-"406",406,"R. Kelly","I Believe I Can Fly","4:41",120.5,1996,"TBD","2mxe0TnaNL039ysAj51xPQ",1822564,72,64
-"407",407,"Nirvana","In Bloom","4:15",156.7,2002,"TBD","6olE6TJLqED3rqDCT0FyPh",8269365,80,64
-"408",408,"Aerosmith","Sweet Emotion","4:35",99.7,1991,"Rock 1990s","7Ey4PD4MYsKc5I2dolUwbH",6116719,77,73
-"409",409,"Cream","Crossroads","4:13",131.6,1994,"Rock 1980s","74oJ4qxwOZvX6oSsu1DGnw",885746,66,68
-"410",410,"Pixies","Monkey Gone to Heaven","2:55",116.5,1989,"TBD","6zvul52xwTWzilBZl6BUbT",1157806,69,62
-"411",411,"Donna Summer","I Feel Love","5:52",126.7,1977,"Disco","2eogQKWWoohI3BSnoG7E2U",674331,64,64
-"412",412,"Bobbie Gentry","Ode to Billie Joe","4:13",120.1,1967,"Country","4E9w0bms6HcEppFlWjeW2d",18680,45,52
-"413",413,"Little Richard","The Girl Can't Help It","2:33",86.1,1956,"TBD","4xls23Ye9WR9yy3yYMpAMm",362250,59,46
-"414",414,"The Coasters","Young Blood","2:25",109.2,1957,"TBD","3QZKZBEmr54lAVI5XvmjnM",86304,53,67
-"415",415,"Four Tops","I Can't Help Myself","2:44",128,1965,"Rock 1960s","7fIvjotigTGWqjIz6EP1i4",443145,66,71
-"416",416,"Don Henley","Boys of Summer","4:46",88.5,1984,"Rock 1980s","5dbuFbrHa1SJlQhQX9OUJ2",481881,65,75
-"417",417,"N.W.A.","Fuck Tha Police","5:45",98.6,1989,"TBD","4EnEZVjo3w1cwcQYePccay",2169277,67,69
-"418",418,"Crosby, Stills & Nash","Suite: Judy Blue Eyes","7:29",143,1971,"TBD","1CYsQCypByMVgnv17qsSbQ",492582,64,66
-"419",419,"Dr. Dre","Nuthin' but a 'G' Thang","4:00",94.7,1993,"R&B 1990s","6DPYiyq5kWVQS4RGwxzPC7",4062416,80,42
-"420",420,"The Isley Brothers","It's Your Thing","2:47",92.7,1984,"TBD","53QzNeFpzAaXYnrDBbDrIp",723245,66,60
-"421",421,"Billy Joel","Piano Man","5:37",103.2,1974,"Slow","6zFYqv1mOsgBRQbae3JJ9e",1574207,76,74
-"422",422,"The Kinks","Lola","4:08",149.4,1970,"Rock 1970s","1SQRv42e4PjEYfPhS0Tk9E",1063622,69,78
-"423",423,"Elvis Presley","Blue Suede Shoes","1:59",95.6,1956,"Rock 1950s","43ZHCT0cAZBISjO8DG9PnE",2828470,78,63
-"424",424,"The Rolling Stones","Tumbling Dice","3:39",110.6,1972,"TBD","22bE4uQ6baNwSHPVcDxLCe",6325634,80,60
-"425",425,"The Smiths","William, It Was Really Nothing","2:09",131,1984,"Rock 1970s","3yY2gUcIsjMr8hjo51PoJ8",1708674,73,53
-"426",426,"Deep Purple","Smoke on the Water","5:39",114,1973,"Rock 1970s","568ZhdwyaiCyOGJRtNYhWf",2254834,69,65
-"427",427,"U2","New Year's Day","5:35",133.2,1983,"Rock 1980s","51Blml2LZPmy7TTiAg47vQ",4530040,79,66
-"428",428,"Mitch Ryder & The Detroit Wheels","Devil With a Blue Dress on - Good Golly Miss Molly","3:30",159,1966,"Rock 1960s","7tdO7d7r0vhwov7RIZWH6V",5241,32,6
-"429",429,"Solomon Burke","Everybody Needs Somebody to Love","2:44",149.8,1964,"TBD","4nts0oxMT67lVUoi5Kjxrb",113316,59,60
-"430",430,"The Clash","(White Man) in Hammersmith Palais","4:01",102.8,1978,"TBD","3RGLhK1IP9jnYFH4BRFJBS",1493664,73,51
-"431",431,"Fats Domino","Ain't That a Shame","2:26",123.2,1955,"Rock 1950s","09C0xjtosNAIXP36wTnWxd",204948,57,59
-"432",432,"Gladys Knight and The Pips","Midnight Train to Georgia","4:37",90.8,1973,"Dance 1970s","0TF2NxkJZPQoX1H53rEFM1",413983,62,64
-"433",433,"Led Zeppelin","Ramble On","4:29",99.1,1969,"Rock 1960s","36QJpDe2go2KgaRleHCDTp",6688434,80,71
-"434",434,"Wilson Pickett","Mustang Sally","3:02",110,1966,"Rock 1960s","0N5PyKJzS3M1XNlaCL7bbE",282900,60,59
-"435",435,"The Rolling Stones","Beast of Burden","4:27",100.9,1978,"TBD","22bE4uQ6baNwSHPVcDxLCe",6325634,80,73
-"436",436,"Love","Alone Again Or","3:16",114.1,1967,"TBD","3aGFCoR8xGN6DKwvdzeSja",270773,71,59
-"437",437,"Elvis Presley","Love Me Tender","2:46",108.3,1956,"Slow","43ZHCT0cAZBISjO8DG9PnE",2828470,78,57
-"438",438,"The Stooges","I Wanna Be Your Dog","3:10",120.9,1969,"TBD","4BFMTELQyWJU1SwqcXMBm3",256902,55,62
-"439",439,"John Mellencamp","Pink Houses","4:45",115.5,1983,"Rock 1980s","3lPQ2Fk5JOwGWAF3ORFCqH",506885,66,60
-"440",440,"Salt 'N' Pepa","Push It","4:35",128.1,1987,"R&B 1980s","7wqtxqI3eo7Gn1P7SpP6cQ",328704,62,70
-"441",441,"The Dell-Vikings","Come Go With Me","2:39",125.2,1957,"Rock 1950s","10xLCBOlt2NhclsRmrOvX5",24806,47,58
-"442",442,"Little Richard","Keep a Knockin'","2:22",119.9,1958,"TBD","4xls23Ye9WR9yy3yYMpAMm",362250,59,45
-"443",443,"Bob Marley & The Wailers","I Shot the Sheriff","4:41",96.7,1975,"Reggae","2QsynagSdAqZj3U9HgDzjD",6379114,81,63
-"444",444,"Sonny & Cher","I Got U Babe","3:09",110.4,1965,"Rock 1960s","1VEzN9lxvG6KPR3QQGsebR",164833,54,6
-"445",445,"Nirvana","Come as You Are","3:37",120.9,1991,"Rock 1990s","6olE6TJLqED3rqDCT0FyPh",8269365,80,73
-"446",446,"Toots & The Maytals","Pressure Drop","3:44",147.6,1972,"TBD","6ZFv3wQwwWPiVDWhv0mjQK",214629,59,49
-"447",447,"The Shangri-Las","Leader of the Pack","2:51",119.1,1964,"Rock 1960s","1WvziZcLLYLoMMdmQx7qcN",49628,44,53
-"448",448,"The Velvet Underground","Heroin","7:12",131.8,2005,"TBD","1nJvji2KIlWSseXRSlNYsC",781095,65,63
-"449",449,"The Beatles","Penny Lane","3:01",113.8,1969,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11229773,87,63
-"450",450,"Glen Campbell","By the Time I Get to Phoenix","2:46",87.6,2001,"TBD","59hLmB5DrdihCYtNeFeW1U",151136,61,50
-"451",451,"Chubby Checker","The Twist","2:37",155.5,1961,"Rock 1960s","7qQJQ3YtcGlqaLg5tcypN2",112842,54,76
-"452",452,"Sam Cooke","Cupid","2:31",120.1,1960,"TBD","6hnWRPzGGKiapVX1UCdEAC",782096,70,80
-"453",453,"Guns N' Roses","Paradise City","6:46",101.2,1989,"Rock 1980s","3qm84nBOXUEQ2vnTfUTTFC",11165486,81,72
-"454",454,"George Harrison","My Sweet Lord","4:38",121.5,1970,"Rock 1970s","7FIoB5PHdrMZVC3q2HE5MS",1013708,69,77
-"455",455,"Nirvana","All Apologies","3:46",116.4,1993,"Rock 1990s","6olE6TJLqED3rqDCT0FyPh",8269365,80,67
-"456",456,"Lloyd Price","Stagger Lee","2:21",135.6,1959,"Rock 1950s","3iOE5ItEv5xr9fmKi7GNh2",30484,44,49
-"457",457,"Ramones","Sheena Is a Punk Rocker","2:48",88.1,1977,"TBD","1co4F2pPNH8JjTutZkmgSm",1390044,67,59
-"458",458,"Sam & Dave","Soul Man","2:37",112.6,1967,"Dance 1960s","2wY79sveU1sp5g7SokKOiI",8066486,90,73
-"459",459,"Muddy Waters","Rollin' Stone","3:08",84.8,1988,"TBD","4y6J8jwRAwO4dssiSmN91R",692485,57,67
-"460",460,"The Chiffons","One Fine Day","2:09",89.4,1963,"Easy","05sIdEkXAYDbDDdv3T56Oj",40438,50,62
-"461",461,"Prince","Kiss","3:47",111.5,1986,"Dance 1980s","3MHaV05u0io8fQbZ2XPtlC",3810549,82,89
-"462",462,"The Staple Singers","Respect Yourself","3:34",109.9,1990,"TBD","7xGGqA85UIWX1GoTVM4itC",122220,60,57
-"463",463,"The Beatles","Rain","3:02",105.5,1988,"TBD","3WrFJ7ztbogyGnTHbHJFl2",11229773,87,81
-"464",464,"Four Tops","Standing in the Shadows of Love","2:39",114,1992,"TBD","7fIvjotigTGWqjIz6EP1i4",443145,66,42
-"465",465,"Cheap Trick","Surrender","4:12",134.7,1978,"Rock 1980s","1LB8qB5BPb3MHQrfkvifXU",538292,63,72
-"466",466,"Del Shannon","Runaway","2:18",152.1,1961,"Rock 1960s","3c8WoNjBfyLJhFObE6RHgs",93344,50,75
-"467",467,"Guns N' Roses","Welcome to the Jungle","4:32",124,1988,"Rock 1980s","3qm84nBOXUEQ2vnTfUTTFC",11165486,81,74
-"468",468,"The Stooges","Search And Destroy","3:29",107.4,1973,"TBD","4BFMTELQyWJU1SwqcXMBm3",256902,55,54
-"469",469,"Carole King","It's Too Late","3:54",103.5,1971,"Slow","319yZVtYM9MBGqmSQnMyY6",490941,65,72
-"470",470,"Joni Mitchell","Free Man in Paris","3:03",162.5,1974,"TBD","5hW4L92KnC6dX9t7tYM4Ve",518385,66,47
-"471",471,"Willie Nelson","On the Road Again","2:33",110.5,1980,"Country","5W5bDNCqJ1jbCgTxDD0Cb3",784907,69,59
-"472",472,"The Supremes","Where Did Our Love Go","2:32",135.8,1964,"Dance 1960s","57bUPid8xztkieZfS7OlEV",785355,67,69
-"473",473,"Aretha Franklin","Do Right Woman - Do Right Man","3:13",131.4,2002,"TBD","7nwUJBm0HE4ZxD3f5cy5ok",1763702,74,46
-"474",474,"Funkadelic","One Nation Under a Groove","7:28",122.4,1978,"TBD","5SMVzTJyKFJ7TUb46DglcH",287224,58,44
-"475",475,"Beastie Boys","Sabotage","2:59",84,1994,"Rock 1990s","03r4iKL2g2442PT9n2UKsx",1188021,70,76
-"476",476,"Foreigner","I Want to Know What Love Is","5:00",161.3,1984,"Slow","6IRouO5mvvfcyxtPDKMYFN",1070827,70,77
-"477",477,"Rick James","Super Freak","3:25",132.8,1981,"Dance 1980s","0FrpdcVlJQqibaz5HfBUrL",499174,61,70
-"478",478,"Jefferson Airplane","White Rabbit","2:32",105.5,1967,"Rock 1960s","2qFr8w5sWUITRlzZ9kZotF",673017,62,69
-"479",479,"LaBelle","Lady Marmalade","3:16",117.4,1975,"Disco","0ty0xha1dbprYIUAQufkFn",382214,55,65
-"480",480,"Van Morrison","Into the Mystic","3:27",85.2,1970,"Slow","44NX2ffIYHr6D4n7RaZF7A",1036637,74,72
-"481",481,"David Bowie","Young Americans","5:11",85,1975,"Rock 1970s","0oSGxfWSnnOXhD2fKuz2Gy",3702889,81,60
-"482",482,"Alice Cooper","I'm Eighteen","2:57",97.9,1971,"TBD","3EhbVgyfGd7HkpsagwL9GS",1304039,64,56
-"483",483,"The Cure","Just Like Heaven","3:31",151.7,1987,"Rock 1980s","7bu3H8JO7d0UbMoVzbo70s",1823439,75,65
-"484",484,"Joan Jett & The Blackhearts","I Love Rock 'N Roll","2:55",94.7,1982,"Rock 1980s","1Fmb52lZ6Jv7FMWXXTPO3K",304345,62,71
-"485",485,"Paul Simon","Graceland","4:51",117.9,1986,"TBD","2CvCyf1gEVhI0mX6aFXmVI",937320,71,76
-"486",486,"The Smiths","How Soon Is Now?","6:46",95.4,1984,"Rock 1980s","3yY2gUcIsjMr8hjo51PoJ8",1708674,73,68
-"487",487,"The Drifters","Under the Boardwalk","2:40",124.5,1964,"Slow","1FqqOl9itIUpXr4jZPIVoT",197094,60,67
-"488",488,"Fleetwood Mac","Rhiannon","4:11",129.1,1975,"Rock 1980s","08GQAI4eElDnROBrJRGE0X",2974381,80,69
-"489",489,"Gloria Gaynor","I Will Survive","3:17",117.1,1979,"Disco","6V6WCgi7waF55bJmylC4H5",300954,65,67
-"490",490,"The Rolling Stones","Brown Sugar","3:46",128.3,1971,"Rock 1970s","22bE4uQ6baNwSHPVcDxLCe",6325634,80,70
-"491",491,"Dusty Springfield","You Don't Have to Say You Love Me","2:47",111.9,1966,"TBD","5zaXYwewAXedKNCff45U5l",189132,64,52
-"492",492,"Jackson Browne","Running on Empty","4:47",136.5,1996,"Rock 1990s","5lkiCO9UQ8B23dZ1o0UV4m",450103,64,69
-"493",493,"The Crystals","Then He Kissed Me","2:28",134.6,1963,"Rock 1960s","7rewR1TVjhisjI6gauUamf",47577,53,61
-"494",494,"The Eagles","Desperado","3:32",121.9,1972,"Slow","0ECwFtbIWEVNwjlrfc6xoL",2796211,77,67
-"495",495,"Smokey Robinson","Shop Around","2:44",135.5,1983,"Rock 1970s","6TKOZZDd5uV5KnyC5G4MUt",499365,60,52
-"496",496,"The Rolling Stones","Miss You","4:48",110.3,1978,"TBD","22bE4uQ6baNwSHPVcDxLCe",6325634,80,83
-"497",497,"Weezer","Buddy Holly","2:40",121.2,1994,"Rock 1990s","3jOstUTkEu2JkjvRdBA5Gu",1521541,77,72
-"498",498,"Brook Benton","Rainy Night in Georgia","3:59",137.3,1970,"Slow","2ttm3uT0N1RN7vwKv1pQgh",23294,46,45
-"499",499,"Thin Lizzy","The Boys Are Back in Town","4:28",120.6,1976,"Rock 1970s","6biWAmrHyiMkX49LkycGqQ",493701,64,74
-"500",500,"Boston","More Than a Feeling","4:45",109,1976,"Rock 1970s","29kkCKKGXheHuoO829FxWK",946976,68,78
+"","Place","Artist","Song","Length","BPM","Year","Genre","Artist_Id","Followers","Popularity","song_popularity","track_id","danceability"
+"1",1,"Bob Dylan","Like a Rolling Stone","6:04",95.6,1965,"Rock 1960s","74ASZWbe4lXaubB36ztrGX",3096594,75,72,"3AhXZa8sUQht0UEdBJgpGc",0.483
+"2",2,"The Rolling Stones","Satisfaction","3:43",134.7,1985,"Rock 1980s","22bE4uQ6baNwSHPVcDxLCe",6326573,80,77,"2PzU4IB8Dr6mxV3lHuaG34",0.725
+"3",3,"John Lennon","Imagine","3:02",152.6,1971,"Slow","4x1nvY2FN8jxqAFA0DA02H",2315465,71,90,"39LmTF9RgyakzSYX8txrow",0.729
+"4",4,"Marvin Gaye","What's Going On","3:47",101.5,1971,"Dance 1970s","3koiLjNrgRTNbOwViDipeA",2679168,75,69,"34b3a3Pz9Jlz0092LMyNAB",0.256
+"5",5,"Aretha Franklin","Respect","2:23",114.5,1967,"Rock 1960s","7nwUJBm0HE4ZxD3f5cy5ok",1763981,74,74,"5THQbSmeQ8iykxgK1om8Gk",0.827
+"6",6,"The Beach Boys","Good Vibrations","3:36",148.8,1966,"Rock 1960s","3oDbviiivRWhXwIE8hxkVV",1795226,73,71,"5t9KYe0Fhd5cW6UYT4qP8f",0.396
+"7",7,"Chuck Berry","Johnny B. Goode","2:38",84.1,1958,"Rock 1950s","293zczrfYafIItmnmM3coR",821920,66,73,"4Hbe0lRKsXtDZ2wQIovz7I",0.522
+"8",8,"The Beatles","Hey Jude","7:08",146.9,1969,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11232096,87,78,"0aym2LBJBk9DAYuHHutrIl",0.386
+"9",9,"Nirvana","Smells Like Teen Spirit","5:01",117.5,1991,"Rock 1990s","6olE6TJLqED3rqDCT0FyPh",8270589,80,75,"5ghIJDpPoe3CfHMGu71E6T",0.516
+"10",10,"Ray Charles","What'd I Say (Parts 1 And 2)","5:06",89.6,1959,"Rock 1950s","1eYhYunlNJlDoQhtYBvPsi",1330824,67,7,"44aj3XquWywnk1tnseEnuV",0.391
+"11",11,"The Who","My Generation","3:17",97.2,1966,"Rock 1960s","67ea9eGLXYMsO2eYQRui3w",2311830,72,71,"4u9f8hqstB7iITDJNzKhQx",0.397
+"12",12,"Sam Cooke","A Change Is Gonna Come","3:13",138.3,1960,"TBD","6hnWRPzGGKiapVX1UCdEAC",782204,70,67,"0KOE1hat4SIer491XKk4Pa",0.212
+"13",13,"The Beatles","Yesterday","2:05",97.6,1966,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11232096,87,75,"3BQHpFgAp4l80e1XslIjNI",0.332
+"14",14,"Bob Dylan","Blowin' in the Wind","2:46",93.8,1967,"TBD","74ASZWbe4lXaubB36ztrGX",3096594,75,69,"18GiV1BaXzPVYpp9rmOg0E",0.38
+"15",15,"The Clash","London Calling","3:18",134.3,1979,"Rock 1970s","3RGLhK1IP9jnYFH4BRFJBS",1493801,73,73,"5jzma6gCzYtKB1DbEwFZKH",0.651
+"16",16,"The Beatles","I Want to Hold Your Hand","2:26",131.1,1966,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11232096,87,76,"4pbG9SUmWIvsROVLF0zF9s",0.49
+"17",17,"Jimi Hendrix","Purple Haze","2:50",110.2,1968,"Rock 1960s","776Uo845nYHJpNaStv1Ds4",3006491,73,71,"0wJoRiX5K5BxlqZTolB2LD",0.533
+"18",18,"Chuck Berry","Maybellene","2:19",118.4,1955,"Rock 1950s","293zczrfYafIItmnmM3coR",821920,66,59,"1WbsiwkBbjP9w7T8fBUoiz",0.247
+"19",19,"Elvis Presley","Hound Dog","2:15",88.8,1956,"Rock 1950s","43ZHCT0cAZBISjO8DG9PnE",2828934,78,70,"64Ny7djQ6rNJspquof2KoX",0.357
+"20",20,"The Beatles","Let It Be","3:52",137.5,1969,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11232096,87,79,"7iN1s7xHE4ifF5povM6A48",0.443
+"21",21,"Bruce Springsteen","Born to Run","4:30",146.3,1975,"Rock 1970s","3eqjTLE0HfPfh78zjh6TqT",2041335,76,72,"6hTcuIQa0sxrrByu9wTD7s",0.27
+"22",22,"The Ronettes","Be My Baby","2:37",128,1963,"Dance 1960s","7CyeXFnOrfC1N6z4naIpgo",100671,60,72,"2aBxt229cbLDOvtL7Xbb9x",0.649
+"23",23,"The Beatles","In My Life","2:27",103.7,1966,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11232096,87,73,"4kP69y3GKHi9tXckfgp4bK",0.524
+"24",24,"The Impressions","People Get Ready","2:38",120.4,2003,"TBD","1b1N51wmSK0ckxFAMPSSHO",110669,53,75,"2iSXgduBpKrwJuQcuybkxP",0.719
+"25",25,"The Beach Boys","God Only Knows","2:52",116.6,1966,"TBD","3oDbviiivRWhXwIE8hxkVV",1795226,73,71,"4ElNxglBjcrASiGn58t9Jm",0.597
+"26",26,"The Beatles","A Day in the Life","5:06",130.3,1969,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11232096,87,66,"0hKRSZhUGEhKU6aNSPBACZ",0.364
+"27",27,"Derek & The Dominos","Layla","7:04",115.2,1972,"Rock 1970s","2rc78XDH9zuJP6bm78lU8Z",233181,62,75,"2kkvB3RNRzwjFdGhaUA0tz",0.394
+"28",28,"Otis Redding","(Sittin' On) the Dock of the Bay","2:41",103.3,1968,"Slow","60df5JBRRPcnSpsIMxxwQm",1256097,70,72,"3zBhihYUHBmGd2bcQIobrF",0.769
+"29",29,"The Beatles","Help!","2:20",95.2,1966,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11232096,87,78,"44AyOl4qVkzS48vBsbNXaC",0.428
+"30",30,"Johnny Cash","I Walk the Line","2:41",106.4,1956,"Country","6kACVPfCOnqzgfEF5ryl0x",3067835,77,71,"7hxZF4jETnE5Q75rKQnMjE",0.713
+"31",31,"Led Zeppelin","Stairway to Heaven","7:59",99.7,1971,"Slow","36QJpDe2go2KgaRleHCDTp",6689580,80,79,"5CQ30WqJwcep0pYcV4AMNc",0.338
+"32",32,"The Rolling Stones","Sympathy for the Devil","6:18",116.2,1968,"TBD","22bE4uQ6baNwSHPVcDxLCe",6326573,80,74,"1Ud6moTC0KyXMq1Oxfien0",0.702
+"33",33,"Tina Turner","River Deep - Mountain High","3:40",102.9,1991,"Rock 1980s","1zuJe6b1roixEKMOtyrEak",1103877,69,60,"19jo0UT2vqD4pNVfIqTy4R",0.621
+"34",34,"The Righteous Brothers","You've Lost That Lovin' Feelin'","3:41",96.1,1964,"Slow","4b0WsB47XCa9F83BmwQ7WX",163032,61,61,"6AeyHqzNHJthYJbn0tvJ4b",0.369
+"35",35,"The Doors","Light My Fire","7:06",125.1,1967,"Rock 1960s","22WZ7M8sxp5THdruNY3gXt",3705509,75,72,"5uvosCdMlFdTXhoazkTI5R",0.413
+"36",36,"U2","One","4:35",90.6,1992,"Slow","51Blml2LZPmy7TTiAg47vQ",4530846,79,89,"7ef4DlsgrMEH11cDZd32M6",0.791
+"37",37,"Bob Marley & The Wailers","No Woman No Cry","7:07",157.7,1974,"Reggae","2QsynagSdAqZj3U9HgDzjD",6379945,81,71,"423hwXFgoN8RYmqLoLuVvY",0.655
+"38",38,"The Rolling Stones","Gimme Shelter","4:32",118.9,1969,"TBD","22bE4uQ6baNwSHPVcDxLCe",6326573,80,75,"6H3kDe7CGoWYBabAeVWGiD",0.634
+"39",39,"Buddy Holly","That'll Be the Day","2:16",116.3,1957,"Rock 1950s","3wYyutjgII8LJVVOLrGI0D",467286,60,61,"2DUFhbsJv17c1Y3ZFVTJgS",0.519
+"40",40,"Martha Reeves & The Vandellas","Dancing in the Street","2:37",127.5,1964,"Dance 1960s","1Pe5hlKMCTULjosqZ6KanP",169891,61,75,"7FwBtcecmlpc1sLySPXeGE",0.527
+"41",41,"The Band","The Weight","4:31",144.2,1968,"Rock 1960s","4wQ3PyMz3WwJGI5uEqHUVR",623411,66,71,"0P7DoyGrr4Wp9w5TotEtUC",0.63
+"42",42,"The Kinks","Waterloo Sunset","3:17",107.3,1967,"TBD","1SQRv42e4PjEYfPhS0Tk9E",1063776,69,64,"5nrmGFJ87crVoJF5xdRqwn",0.512
+"43",43,"Little Richard","Tutti-Frutti","2:22",184.6,1956,"Rock 1950s","4xls23Ye9WR9yy3yYMpAMm",362303,59,64,"2vXk7PcNLLXsdnVaoMxzTj",0.58
+"44",44,"Ray Charles","Georgia on My Mind","3:38",128.8,1960,"Slow","1eYhYunlNJlDoQhtYBvPsi",1330824,67,57,"48DLgVj7tHhpl9Wl2iaRIu",0.541
+"45",45,"Elvis Presley","Heartbreak Hotel","2:09",107.8,1956,"Rock 1950s","43ZHCT0cAZBISjO8DG9PnE",2828934,78,64,"6xNwKNYZcvgV3XTIwsgNio",0.696
+"46",46,"David Bowie","Heroes","3:33",113.1,1998,"TBD","0oSGxfWSnnOXhD2fKuz2Gy",3703574,81,87,"1fewSx2d5KIZ04wsooEBOz",0.901
+"47",47,"Simon & Garfunkel","Bridge Over Troubled Water","4:51",87.2,1970,"Slow","70cRZdQywnSFp9pnc2WTCE",1743729,74,71,"76TZCvJ8GitQ2FA1q5dKu0",0.439
+"48",48,"Jimi Hendrix","All Along the Watchtower","4:01",114.3,1968,"Rock 1960s","776Uo845nYHJpNaStv1Ds4",3006491,73,77,"2aoo2jlRnM3A0NyLQqMN2f",0.438
+"49",49,"The Eagles","Hotel California","6:29",147.9,1977,"Slow","0ECwFtbIWEVNwjlrfc6xoL",2797174,77,83,"40riOy7x9W7GXjyGp4pjAv",0.579
+"50",50,"Smokey Robinson","Tracks of My Tears","2:55",97.7,1965,"Slow","6TKOZZDd5uV5KnyC5G4MUt",499449,60,63,"3AR9uXc8JbOVfe92kzmJTH",0.488
+"51",51,"Grandmaster Flash & The Furious Five","The Message","7:07",101,1981,"R&B 1980s","5hQCwevTf03u1rECrRMeop",57319,49,66,"5xD021bM8VbqrhCVhxRozx",0.582
+"52",52,"Prince","When Doves Cry","3:48",126.5,1984,"Dance 1980s","3MHaV05u0io8fQbZ2XPtlC",3811734,82,70,"51H2y6YrNNXcy3dfc3qSbA",0.729
+"53",53,"Sex Pistols","Anarchy in the U.K.","3:32",134.3,1977,"Rock 1970s","1u7kkVrr14iBvrpYnZILJR",847502,58,54,"3LoDeIbiR12sAznmpNEmKA",0.323
+"54",54,"Percy Sledge","When a Man Loves a Woman","2:52",97.8,1966,"Slow","3rRmDmzPcAFwcUDvG5gBqO",227913,58,68,"3ascnOSOR5MX901ylGuhcl",0.476
+"55",55,"The Kingsmen","Louie Louie","2:42",124,1963,"Rock 1960s","2iIn8H3l2NNBNHFpYKWbfo",15156,52,67,"0iA3xXSkSCiJywKyo1UKjQ",0.623
+"56",56,"Little Richard","Long Tall Sally","2:06",189.8,1956,"Rock 1950s","4xls23Ye9WR9yy3yYMpAMm",362303,59,63,"6n3HCYuumzxe00S1fBNbUk",0.428
+"57",57,"Procol Harum","A Whiter Shade of Pale","4:04",148.6,1967,"Slow","0GbqW5TJr7n4is453VOY4C",159730,54,68,"1cmjxqobVTrgAiJ0btAleN",0.249
+"58",58,"Michael Jackson","Billie Jean","4:54",117,1983,"Dance 1980s","3fMbdgg4jU18AjLCKBhRSm",9217533,84,83,"5ChkMS8OtdzJeqyybCc9R5",0.92
+"59",59,"Bob Dylan","The Times They Are A-Changin'","3:11",86.1,1967,"Rock 1960s","74ASZWbe4lXaubB36ztrGX",3096594,75,70,"52vA3CYKZqZVdQnzRrdZt6",0.389
+"60",60,"Al Green","Let's Stay Together","3:17",102.2,1971,"Slow","3dkbV4qihUeMsqN4vBGg93",1027638,69,76,"63xdwScd1Ai1GigAwQxE8y",0.756
+"61",61,"Jerry Lee Lewis","Whole Lotta Shakin' Going On","2:51",121,1957,"Rock 1950s","2zyz0VJqrDXeFDIyrfVXSo",318288,58,43,"19J1kwHa3sgxLwaWDleGhd",0.379
+"62",62,"Bo Diddley","Bo Diddley","2:20",106,1957,"TBD","2bmixwMZXlkl2sbIbOfviq",180948,50,54,"51tJjIf9azRnA6om4BcfNm",0.609
+"63",63,"Buffalo Springfield","For What It's Worth (Stop, Hey What's That Sound)","2:38",99.4,1967,"Rock 1960s","3eskO5m0H4yiF64vRySBjr",289944,61,28,"4uVFUMQ8WZyhpePcAD533r",0.653
+"64",64,"The Beatles","She Loves You","2:22",149.8,1966,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11232096,87,67,"6nEkxYIEnrbYH7h1hJ8Xn6",0.377
+"65",65,"Cream","Sunshine of Your Love","4:11",115,1968,"Rock 1960s","74oJ4qxwOZvX6oSsu1DGnw",885947,66,72,"6FRwDxXsvSasw0y2eDArsz",0.684
+"66",66,"Bob Marley & The Wailers","Redemption Song","3:48",116,1980,"Reggae","2QsynagSdAqZj3U9HgDzjD",6379945,81,71,"26PwuMotZqcczKLHi4Htz3",0.684
+"67",67,"Elvis Presley","Jailhouse Rock","2:27",84.2,1957,"Rock 1950s","43ZHCT0cAZBISjO8DG9PnE",2828934,78,73,"4gphxUgq0JSFv2BCLhNDiE",0.647
+"68",68,"Bob Dylan","Tangled Up in Blue","5:43",99.2,1994,"TBD","74ASZWbe4lXaubB36ztrGX",3096594,75,63,"6Vcwr9tb3ZLO63F8DL8cqu",0.421
+"69",69,"Roy Orbison","Crying","2:47",97.1,2006,"TBD","0JDkhL4rjiPNEp92jAgJnS",609392,68,76,"1SJtlNRJDeYHioymcvsqev",0.334
+"70",70,"Dionne Warwick","Walk on By","2:44",99.3,1964,"Slow","2JSjCHK79gdaiPWdKiNUNp",342364,62,60,"3xsOtNxtBW0oTI1OWKAzTm",0.7
+"71",71,"The Beach Boys","California Girls","2:37",116.3,1965,"Rock 1960s","3oDbviiivRWhXwIE8hxkVV",1795225,73,58,"6bJuuCtXYiwOcKT9s8uRh8",0.503
+"72",72,"James Brown","Papa's Got a Brand New Bag Part 1","2:03",130.2,1965,"Rock 1960s","7GaxyUddsPok8BuhxN6OUW",1244357,66,0,"12yHjRjvbRUaVPeKWPQWpQ",0.926
+"73",73,"Eddie Cochran","Summertime Blues","1:59",157.2,1970,"Rock 1970s","1p0t3JtUTayV2wb1RGN9mO",115851,53,61,"3oAWTk92mZBxKBOKf8mR5v",0.715
+"74",74,"Stevie Wonder","Superstition","4:25",101.3,1972,"Disco","7guDJrEfX3qb6FEbdPA5qi",3333807,77,71,"1h2xVEoJORqrg71HocgqXd",0.633
+"75",75,"Led Zeppelin","Whole Lotta Love","5:33",92.1,1969,"Rock 1960s","36QJpDe2go2KgaRleHCDTp",6689582,80,77,"0hCB0YR03f6AmQaHbwWDe8",0.412
+"76",76,"The Beatles","Strawberry Fields Forever","4:08",99.2,1969,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11232096,87,68,"3Am0IbOxmvlSXro7N5iSfZ",0.39
+"77",77,"Elvis Presley","Mystery Train","2:27",121,2000,"TBD","43ZHCT0cAZBISjO8DG9PnE",2828934,78,51,"0GvhHQbWSnGltjl0je61dI",0.699
+"78",78,"James Brown","I Got You","2:46",147.5,1965,"Rock 1960s","7GaxyUddsPok8BuhxN6OUW",1244357,66,80,"3XVBdLihbNbxUwZosxcGuJ",0.609
+"79",79,"The Byrds","Mr. Tambourine Man","2:18",122.3,1965,"Rock 1960s","1PCZpxHJz7WAMF8EEq8bfc",405695,62,64,"3RkQ3UwOyPqpIiIvGVewuU",0.39
+"80",80,"Marvin Gaye","I Heard It Through the Grapevine","5:03",118.1,1968,"Rock 1960s","3koiLjNrgRTNbOwViDipeA",2679168,75,59,"37j56IWzpplKE5zrlQRmxc",0.724
+"81",81,"Fats Domino","Blueberry Hill","2:19",125.5,1956,"Slow","09C0xjtosNAIXP36wTnWxd",204977,57,59,"2NkAoxQOr6MGdMB5JDTU81",0.479
+"82",82,"The Kinks","You Really Got Me","2:13",138,1964,"Rock 1960s","1SQRv42e4PjEYfPhS0Tk9E",1063776,69,72,"29SyMC0plk6qw8NMF7lfRL",0.573
+"83",83,"The Beatles","Norwegian Wood (This Bird Has Flown)","2:05",88.7,1966,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11232096,87,68,"1H7gMYGykdtwZOV6s1N0by",0.425
+"84",84,"The Police","Every Breath You Take","4:13",117.4,1983,"Slow","5NGO30tJxFlKixkPSgXcFE",2508318,76,75,"2sXp9Qmvc7mRaDBjBgcGGi",0.813
+"85",85,"Patsy Cline","Crazy","2:41",110.8,1961,"Country","7dNsHhGeGU5MV01r06O8gK",327154,59,82,"2rxQMGVafnNaRaXlRMWPde",0.552
+"86",86,"Bruce Springsteen","Thunder Road","4:51",144,1975,"TBD","3eqjTLE0HfPfh78zjh6TqT",2041335,76,67,"56lhDZNQ5J47aog6mGKeGk",0.369
+"87",87,"Johnny Cash","Ring of Fire","2:38",103.4,1963,"Country","6kACVPfCOnqzgfEF5ryl0x",3067835,77,70,"6YffUZJ2R06kyxyK6onezL",0.659
+"88",88,"The Temptations","My Girl","2:42",105.1,1965,"Slow","3RwQ26hR2tJtA8F9p2n7jG",1240255,70,81,"42bbDWZ8WmXTH7PkYAlGLu",0.614
+"89",89,"The Mamas & the Papas","California Dreamin'","2:39",113,1966,"Rock 1960s","1bs7HoMkSyQwcobCpE9KpN",538000,65,75,"4s6LhHAV5SEsOV0lC2tjvJ",0.552
+"90",90,"The Five Satins","In the Still of the Night","3:02",105.4,1956,"Slow","2YP02JRa1JLejrg3XTssJS",21530,46,54,"0GVvRmCoiLkhxJvlZy9bLk",0.43
+"91",91,"Elvis Presley","Suspicious Minds","3:20",114.8,1969,"Rock 1960s","43ZHCT0cAZBISjO8DG9PnE",2828934,78,72,"1H5IfYyIIAlgDX8zguUzns",0.487
+"92",92,"Ramones","Blitzkrieg Bop","2:12",88.4,1976,"Rock 1970s","1co4F2pPNH8JjTutZkmgSm",1390193,67,70,"4KcH1ZRV2W1q7Flq0QqC76",0.385
+"93",93,"U2","I Still Haven't Found What I'm Looking For","4:37",100.6,1987,"Rock 1980s","51Blml2LZPmy7TTiAg47vQ",4530846,79,76,"6wpGqhRvJGNNXwWlPmkMyO",0.566
+"94",94,"Little Richard","Good Golly Miss Molly","2:07",84.4,1958,"Rock 1950s","4xls23Ye9WR9yy3yYMpAMm",362303,59,61,"1s1kY9duH0g4jKHrxxjTkX",0.654
+"95",95,"Carl Perkins","Blue Suede Shoes","2:14",85.9,1956,"Rock 1950s","5hIClg6noTaCzMu2s5wp4f",66883,47,63,"47gmoUrZV3w20JAnQOZMcO",0.557
+"96",96,"Jerry Lee Lewis","Great Balls of Fire","1:51",161.2,1957,"Rock 1950s","2zyz0VJqrDXeFDIyrfVXSo",318288,58,64,"5UvE5QlINnvEc7aFO14DVL",0.4
+"97",97,"Chuck Berry","Roll Over Beethoven","2:25",92.8,1959,"TBD","293zczrfYafIItmnmM3coR",821920,66,60,"1CQWIpYzU0fk0DT4oXsrkd",0.707
+"98",98,"Al Green","Love And Happiness","5:07",98.9,1972,"TBD","3dkbV4qihUeMsqN4vBGg93",1027638,69,64,"6SMHgPgNkhe9lneNTbgtel",0.822
+"99",99,"Creedence Clearwater Revival","Fortunate Son","2:20",132.7,1969,"Rock 1970s","3IYUhFvPQItj6xySrBmZkd",2434871,78,80,"4BP3uh0hFLFRb5cjsgLqDh",0.64
+"100",100,"The Rolling Stones","You Can't Always Get What You Want","7:30",91.7,1969,"TBD","22bE4uQ6baNwSHPVcDxLCe",6326573,80,67,"6lFZbCc7pn6Lme1NP7qQqQ",0.32
+"101",101,"Jimi Hendrix","Voodoo Child","5:13",118.6,1993,"TBD","776Uo845nYHJpNaStv1Ds4",3006491,73,66,"2AxCeJ6PSsBYiTckM0HLY7",0.214
+"102",102,"Gene Vincent","Be-Bop-A-Lula","2:35",127.8,1956,"Rock 1950s","7lKaTIgVek1R2lqpCulQmq",19409,40,46,"0HUp7ipIDJvITTqizN6cxJ",0.593
+"103",103,"Donna Summer","Hot Stuff","3:50",120.1,1979,"Disco","2eogQKWWoohI3BSnoG7E2U",674456,64,65,"0I9KnKdIVz8envRSA6yGZL",0.808
+"104",104,"Stevie Wonder","Living for the City","7:25",99.1,1973,"Rock 1980s","7guDJrEfX3qb6FEbdPA5qi",3333807,77,50,"1O1mCVN5hue4lOOqd5EysZ",0.708
+"105",105,"Simon & Garfunkel","The Boxer","5:09",96.2,1969,"Rock 1970s","70cRZdQywnSFp9pnc2WTCE",1743729,74,71,"76TZCvJ8GitQ2FA1q5dKu0",0.439
+"106",106,"Bob Dylan","Mr. Tambourine Man","5:28",88.1,1967,"TBD","74ASZWbe4lXaubB36ztrGX",3096594,75,64,"3RkQ3UwOyPqpIiIvGVewuU",0.39
+"107",107,"Buddy Holly","Not Fade Away","2:16",97.5,1999,"TBD","3wYyutjgII8LJVVOLrGI0D",467286,60,50,"7s7Zu78CztOUFUyQ4BijBQ",0.543
+"108",108,"Prince","Little Red Corvette","4:56",123.2,1983,"Dance 1980s","3MHaV05u0io8fQbZ2XPtlC",3811734,82,59,"6X4JeTWCuKEzKOEHXDtyBo",0.777
+"109",109,"Van Morrison","Brown Eyed Girl","3:03",151.1,1967,"Rock 1960s","44NX2ffIYHr6D4n7RaZF7A",1036823,74,80,"3yrSvpt2l1xhsV9Em88Pul",0.491
+"110",110,"Otis Redding","I've Been Loving You Too Long (To Stop Now)","3:13",117.4,1965,"TBD","60df5JBRRPcnSpsIMxxwQm",1256097,70,36,"36Ec6qkBtFF2XYj51zs8L6",0.499
+"111",111,"Hank Williams","I'm So Lonesome I Could Cry","2:49",111.9,1970,"TBD","2dyeCWctcFRt3Pha76ONgb",500879,65,48,"4tj7IsJrn4MvesuhoY0JBy",0.504
+"112",112,"Elvis Presley","That's All Right","1:57",105.5,2000,"TBD","43ZHCT0cAZBISjO8DG9PnE",2828934,78,52,"1mKhiITXCIpves7QbT4xo7",0.69
+"113",113,"The Drifters","Up on the Roof","2:37",121.3,1962,"Rock 1960s","1FqqOl9itIUpXr4jZPIVoT",197124,60,56,"2806jBTs12WAfzFImSxJzL",0.584
+"114",114,"The Crystals","Da Doo Ron Ron","2:18",147.6,1992,"TBD","7rewR1TVjhisjI6gauUamf",47590,53,57,"7jeOETwLUP84mPQzxlD5nh",0.431
+"115",115,"Sam Cooke","You Send Me","2:45",95.7,1957,"Slow","6hnWRPzGGKiapVX1UCdEAC",782204,70,65,"0BFEyqJ9DJXS7gKg0Kj46R",0.553
+"116",116,"The Rolling Stones","Honky Tonk Woman","3:00",121.2,1969,"TBD","22bE4uQ6baNwSHPVcDxLCe",6326573,80,36,"32cBx2T2ByhiYlslV8ChNK",0.478
+"117",117,"Al Green","Take Me to the River","3:45",118,1974,"TBD","3dkbV4qihUeMsqN4vBGg93",1027638,69,64,"62r1CS9zL1FL5Ilb7hLX7n",0.786
+"118",118,"The Isley Brothers","Shout","4:36",138.9,1960,"Rock 1960s","53QzNeFpzAaXYnrDBbDrIp",723369,66,80,"1pwo8l3Ko7idwaz4LVUEC4",0.773
+"119",119,"Fleetwood Mac","Go Your Own Way","3:39",135.6,1977,"Rock 1970s","08GQAI4eElDnROBrJRGE0X",2974987,80,73,"4xh7W7tlNMIczFhupCPniY",0.586
+"120",120,"The Jackson 5","I Want You Back","3:00",98.1,1969,"Dance 1960s","2iE18Oxc8YSumAU232n4rW",704417,71,69,"3tSi6iFO9yLGIYIqMEgjC9",0.659
+"121",121,"Ben E. King","Stand by Me","2:54",108.9,1961,"Slow","3plJVWt88EqjvtuB4ZDRV3",237920,66,79,"3SdTKo2uVsxFblQjpScoHy",0.65
+"122",122,"The Animals","House of the Rising Sun","4:28",116.7,1964,"Slow","3ICflSq6ZgYAIrm2CTkfVP",1004269,66,70,"7BY005dacJkbO6EPiOh2wb",0.295
+"123",123,"James Brown","It's a Man's Man's Man's World","2:47",105.3,1991,"TBD","7GaxyUddsPok8BuhxN6OUW",1244357,66,62,"3SQ9Hb9rfpJ02AWfaOPhpy",0.537
+"124",124,"The Rolling Stones","Jumpin' Jack Flash","3:40",137.5,1968,"Rock 1960s","22bE4uQ6baNwSHPVcDxLCe",6326573,80,63,"55LRDFmsuazr533WrtHHW9",0.596
+"125",125,"The Shirelles","Will You Love Me Tomorrow","2:43",125.2,1961,"Rock 1960s","0x83OBqixqdCHnStP5VMcn",110071,55,64,"2kNYcE79Yu778nqdOgBHEb",0.49
+"126",126,"Big Joe Turner","Shake, Rattle And Roll","3:00",153,1954,"TBD","1DTgcOxytJHD8p17mhSgd7",16186,42,53,"2JoXjemDQe0fSmk26CpfrP",0.671
+"127",127,"David Bowie","Changes","3:34",114,1972,"Rock 1970s","0oSGxfWSnnOXhD2fKuz2Gy",3703574,81,88,"7AFASza1mXqntmGtbxXprO",0.669
+"128",128,"Chuck Berry","Rock & Roll Music","2:31",165.8,1957,"Rock 1950s","293zczrfYafIItmnmM3coR",821920,66,79,"51rXHuKN8Loc4sUlKPODgH",0.563
+"129",129,"Steppenwolf","Born to Be Wild","3:28",146.9,1968,"Rock 1960s","1WRM9i067hd2ujxxi8FI3m",567261,64,67,"3lN8PP6R2IxbLP05QpYXng",0.439
+"130",130,"Rod Stewart","Maggie May","4:58",128.8,1971,"Rock 1970s","2y8Jo9CKhJvtfeKOsYzRdT",1241146,73,73,"6c20LH3R4foocWLmYyojWq",0.611
+"131",131,"U2","With or Without You","4:56",110,1987,"Slow","51Blml2LZPmy7TTiAg47vQ",4530846,79,79,"6ADSaE87h8Y3lccZlBJdXH",0.543
+"132",132,"Bo Diddley","Who Do You Love","2:30",114.3,1957,"TBD","2bmixwMZXlkl2sbIbOfviq",180948,50,92,"11cDEev79fPKi6uJCjUhu8",0.51
+"133",133,"The Who","Won't Get Fooled Again","3:38",134.9,1971,"Rock 1970s","67ea9eGLXYMsO2eYQRui3w",2311830,72,63,"0cJPLFrlV7TTCyPLupHzcH",0.685
+"134",134,"Wilson Pickett","In the Midnight Hour","2:36",112,1965,"Dance 1960s","0N5PyKJzS3M1XNlaCL7bbE",282934,60,60,"4NRQwaks9r58tTDvr4iEyv",0.79
+"135",135,"The Beatles","While My Guitar Gently Weeps","4:46",115.7,1969,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11232096,87,68,"389QX9Q1eUOEZ19vtzzI9O",0.453
+"136",136,"Elton John","Your Song","4:00",117.9,1970,"Slow","3PhoLpVuITZKcymswpck5b",2475958,81,79,"4c2W3VKsOFoIg2SFaO6DY5",0.855
+"137",137,"The Beatles","Eleanor Rigby","2:08",138.3,1966,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11232096,87,68,"5GjPQ0eI7AgmOnADn1EO6Q",0.581
+"138",138,"Sly & The Family Stone","Family Affair","3:02",108.6,1971,"Slow","3DFoVPonoAAt4EZ1FEI8ue",159218,59,71,"3aw9iWUQ3VrPQltgwvN9Xu",0.925
+"139",139,"The Beatles","I Saw Her Standing There","2:51",160.7,1963,"TBD","3WrFJ7ztbogyGnTHbHJFl2",11232096,87,70,"3KiexfmhxHvG5IgAElmTkd",0.491
+"140",140,"Led Zeppelin","Kashmir","8:32",120.7,1990,"Rock 1970s","36QJpDe2go2KgaRleHCDTp",6689582,80,70,"2nVHqZbOGkKWzlcy1aMbE7",0.48
+"141",141,"Everly Brothers","All I Have to Do Is Dream","2:22",96.9,1958,"Slow","4ACplpEqD6JIVgKrafauzs",262074,60,65,"7dblNGnRXEBrVJunazs2U5",0.534
+"142",142,"James Brown","Please, Please, Please","2:44",109.6,1991,"TBD","7GaxyUddsPok8BuhxN6OUW",1244357,66,91,"0PG9fbaaHFHfre2gUVo7AN",0.747
+"143",143,"Prince","Purple Rain","6:32",113.7,1984,"Slow","3MHaV05u0io8fQbZ2XPtlC",3811734,82,76,"54X78diSLoUDI3joC2bjMz",0.367
+"144",144,"Ramones","I Wanna Be Sedated","2:28",162.5,1980,"Rock 1980s","1co4F2pPNH8JjTutZkmgSm",1390193,67,67,"6vvmYYUvGXtZLU8msxKvzF",0.597
+"145",145,"Sly & The Family Stone","Everyday People","2:19",114.5,1969,"Dance 1960s","3DFoVPonoAAt4EZ1FEI8ue",159218,59,67,"7lL2lMWNtzOcf5HnEudNgn",0.813
+"146",146,"The B-52's","Rock Lobster","6:50",91.1,1979,"Rock 1970s","3gdbcIdNypBsYNu3iiCjtN",352019,61,57,"2Q5wSOwq6BDSu7sSVMNrtT",0.592
+"147",147,"Iggy Pop","Lust for Life","5:13",102,1977,"Rock 2000s","33EUXrFKGjpUSGacqEHhU4",684548,65,74,"2Kerz9H9IejzeIpjhDJoYG",0.527
+"148",148,"Janis Joplin","Me And Bobby McGee","4:34",93.3,1973,"Rock 1970s","4NgfOZCL9Ml67xzM0xzIvC",1553419,66,70,"1IqFh00G2kvvMm8pRMpehA",0.453
+"149",149,"Everly Brothers","Cathy's Clown","2:22",121.3,1960,"Rock 1960s","4ACplpEqD6JIVgKrafauzs",262074,60,51,"1MA9StLzlFftLbuqOmoWij",0.498
+"150",150,"The Byrds","Eight Miles High","3:36",122,1966,"TBD","1PCZpxHJz7WAMF8EEq8bfc",405695,62,56,"2BGNomqCxEDcXyxf8bg27k",0.364
+"151",151,"The Penguins","Earth Angel (Will You Be Mine)","2:55",103.8,1955,"Slow","6lOk7hCr8x3O9vHwylXyHR",24749,46,48,"11XR0tRT4g5ov4u8M92wbF",0.326
+"152",152,"Jimi Hendrix","Foxey Lady","3:16",99.3,1968,"Rock 1960s","776Uo845nYHJpNaStv1Ds4",3006491,73,62,"23MrkN7g6Q5U7GLIxNHN1B",0.507
+"153",153,"The Beatles","A Hard Day's Night","2:34",138.8,1966,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11232096,87,69,"5J2CHimS7dWYMImCHkEFaJ",0.59
+"154",154,"Buddy Holly","Rave On","1:49",159.5,1958,"Rock 1950s","3wYyutjgII8LJVVOLrGI0D",467286,60,48,"5IYh3qkG5gYxWwHamqheDm",0.541
+"155",155,"Creedence Clearwater Revival","Proud Mary","3:07",120.4,1968,"Rock 1960s","3IYUhFvPQItj6xySrBmZkd",2434871,78,64,"6gJdDnF2TzfA1WPMXuCa3x",0.397
+"156",156,"Simon & Garfunkel","The Sounds of Silence","3:04",106.6,1965,"Slow","70cRZdQywnSFp9pnc2WTCE",1743729,74,68,"5y788ya4NvwhBznoDIcXwK",0.525
+"157",157,"The Flamingos","I Only Have Eyes for You","3:22",88.6,1959,"Slow","6iygtKnPG7TRvDaTYcLOd6",23141,46,62,"3Rth37LIX8nTYyT1XskmFR",0.693
+"158",158,"Bill Haley and His Comets","Rock Around the Clock","2:10",89.9,1955,"Rock 1950s","3MFp4cYuYtTZe3d3xkLLbr",104586,54,58,"1uRKT2LRANv4baowBWHfDS",0.811
+"159",159,"The Velvet Underground","I'm Waiting for the Man","4:40",125.4,2005,"TBD","1nJvji2KIlWSseXRSlNYsC",781203,65,58,"5Q4OndPgegGCR88wPsXswf",0.675
+"160",160,"Public Enemy","Bring the Noise","3:47",110.2,2005,"TBD","6Mo9PoU6svvhgEum7wh2Nd",445713,59,52,"1p50Ir1Hm6Sa1urjaLGi7L",0.61
+"161",161,"Ray Charles","I Can't Stop Loving You","4:21",107.3,1962,"TBD","1eYhYunlNJlDoQhtYBvPsi",1330824,67,66,"2fytePz8UsbUr8n33QBEcm",0.657
+"162",162,"Sinead O'Connor","Nothing Compares 2 U","5:08",120,1990,"Slow","4sD9znwiVFx9cgRPZ42aQ1",351833,61,71,"3nvuPQTw2zuFAVuLsC9IYQ",0.511
+"163",163,"Queen","Bohemian Rhapsody","5:53",108,1976,"Slow","1dfeR4HaWDbWqFHLkxsg1d",13897601,94,82,"7tFiyTwD0nx5a1eklYtX2J",0.397
+"164",164,"Johnny Cash","Folsom Prison Blues","2:46",102.6,1956,"Country","6kACVPfCOnqzgfEF5ryl0x",3067835,77,69,"2fDHuS1PTkHBbCWWZF1ph9",0.621
+"165",165,"Tracy Chapman","Fast Car","4:53",103.7,1988,"Rock 1980s","7oPgCQqMMXEXrNau5vxYZP",748670,70,78,"2M9ro2krNb7nr7HSprkEgo",0.711
+"166",166,"Eminem","Lose Yourself","4:25",171.5,2005,"TBD","7dGJo4pcD2V6oG8kP0tJRR",24958090,93,81,"5Z01UMMf7V1o0MzF86s6WJ",0.698
+"167",167,"Marvin Gaye","Let's Get It On","3:59",83.5,1973,"Dance 1970s","3koiLjNrgRTNbOwViDipeA",2679168,75,68,"39l1UORIhuHvUWfxG53tRZ",0.55
+"168",168,"The Temptations","Papa Was a Rollin' Stone","6:54",121.2,1972,"Rock 1970s","3RwQ26hR2tJtA8F9p2n7jG",1240255,70,67,"7MiLmLbwNoyf47xQ4TCVYp",0.817
+"169",169,"R.E.M.","Losing My Religion","4:27",125.4,1991,"Rock 1990s","4KWTAlx2RvbpseOGMEmROg",1699146,74,82,"31AOj9sFz2gM0O3hMARRBx",0.671
+"170",170,"Joni Mitchell","Both Sides Now","5:46",111.3,1969,"TBD","5hW4L92KnC6dX9t7tYM4Ve",518467,66,61,"1pjATX7sbd6Y4jMVqIvzHk",0.258
+"171",171,"ABBA","Dancing Queen","3:52",100.4,1977,"Disco","0LcJLqbBmaGUft1e9Mm8HV",2195136,78,73,"4NtUY5IGzHCaqfZemmAu56",0.539
+"172",172,"Aerosmith","Dream On","4:25",154.8,1976,"Slow","7Ey4PD4MYsKc5I2dolUwbH",6118079,77,79,"5MxNLUsfh7uzROypsoO5qe",0.307
+"173",173,"Sex Pistols","God Save the Queen","3:18",148.5,1977,"Rock 1970s","1u7kkVrr14iBvrpYnZILJR",847502,58,52,"6ui6l3ZNvlrGQZArwo8195",0.274
+"174",174,"The Rolling Stones","Paint It Black","3:45",159.1,1966,"TBD","22bE4uQ6baNwSHPVcDxLCe",6326573,80,77,"63T7DJ1AFDD6Bn8VzG6JE8",0.469
+"175",175,"The Bobby Fuller Four","I Fought the Law","2:18",148.3,1966,"Rock 1960s","5XoM6cP8fQykllfuK5V5TR",7327,44,65,"7lSDCrF11sdTVfjbAQVZE8",0.525
+"176",176,"The Beach Boys","Don't Worry Baby","2:45",121.8,1964,"Slow","3oDbviiivRWhXwIE8hxkVV",1795225,73,63,"1GLmaPfulP0BrfijohQpN5",0.487
+"177",177,"Tom Petty and The Heartbreakers","Free Fallin'","4:15",84.3,1989,"Slow","4tX2TplrkIP4v05BNC903e",896997,70,77,"4LloVtxNZpeh7q7xdi1DQc",0.315
+"178",178,"Big Star","September Gurls","2:49",113.9,1978,"TBD","3UvcmAOZt64oKpP95f6MMM",66495,50,38,"731zWsKI2KvdBPO5MWdjSy",0.373
+"179",179,"Joy Division","Love Will Tear Us Apart","3:10",157.3,1980,"TBD","432R46LaYsJZV2Gmc4jUV5",963258,66,64,"1r8oPEXqnhUVgkUkJNqEuF",0.525
+"180",180,"OutKast","Hey Ya! [Radio Mix]","3:59",159,2003,"TBD","1G9G7WwrXka3Z1r7aIDjI7",1049411,75,78,"2PpruBYCo4H7WOBJ7Q2EwM",0.728
+"181",181,"Booker T & The MG's","Green Onions","2:52",135.1,1962,"Rock 1960s","2vDV0T8sxx2ENnKXds75e5",107342,56,64,"4fQMGlCawbTkH9yPPZ49kP",0.816
+"182",182,"The Drifters","Save the Last Dance for Me","2:27",144.2,1960,"Slow","1FqqOl9itIUpXr4jZPIVoT",197124,60,59,"391TUcoPonqYykPkSZ5Z9U",0.54
+"183",183,"B.B. King","The Thrill Is Gone","5:25",90.7,1998,"TBD","5xLSa7l4IV1gsQfhAMvl0U",1471541,64,63,"6gRGLfswEsfpy1UxHEyP6X",0.693
+"184",184,"The Beatles","Please Please Me","2:03",139.4,1966,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11232097,87,91,"0PG9fbaaHFHfre2gUVo7AN",0.747
+"185",185,"Bob Dylan","Desolation Row","11:20",110.4,1965,"TBD","74ASZWbe4lXaubB36ztrGX",3096594,75,51,"4n1ZGm3TxYmoYe1YR8cMus",0.432
+"186",186,"Aretha Franklin","I Never Loved a Man (The Way I Love You)","2:49",127.6,2002,"TBD","7nwUJBm0HE4ZxD3f5cy5ok",1763981,74,73,"7s25THrKz86DM225dOYwnr",0.805
+"187",187,"AC/DC","Back in Black","4:16",93.6,1981,"Rock 1980s","711MCceyCBcFnzjGY4Q7Un",10409854,82,83,"08mG3Y1vljYA6bvDt4Wqkj",0.31
+"188",188,"Creedence Clearwater Revival","Who'll Stop the Rain","2:26",123.8,1970,"Slow","3IYUhFvPQItj6xySrBmZkd",2434871,78,67,"3Bh6uInhcVBVvLraGZdkKD",0.598
+"189",189,"Bee Gees","Stayin' Alive","4:43",103.6,1977,"Disco","1LZEQNv7sE11VDY3SdxQeN",1754311,75,77,"79hJaqmVdohltPBNN6BULM",0.708
+"190",190,"Bob Dylan","Knockin' on Heaven's Door","2:30",139.3,1973,"Slow","74ASZWbe4lXaubB36ztrGX",3096594,75,77,"4JiEyzf0Md7KEFFGWDDdCr",0.496
+"191",191,"Lynyrd Skynyrd","Free Bird","9:01",149,1975,"Slow","4MVyzYMgTwdP7Z49wAZHx0",1861952,73,71,"5EWPGh7jbTNO2wakv8LjUI",0.252
+"192",192,"Glen Campbell","Wichita Lineman","3:04",87,1968,"Country","59hLmB5DrdihCYtNeFeW1U",151162,61,61,"6V9VCm1zOY2lGR80RehJ9i",0.192
+"193",193,"The Drifters","There Goes My Baby","2:07",119.8,1959,"Slow","1FqqOl9itIUpXr4jZPIVoT",197124,60,58,"6IUiqtI8tE49sqGbmtrNd8",0.626
+"194",194,"Buddy Holly","Peggy Sue","2:29",148.8,1957,"Rock 1950s","3wYyutjgII8LJVVOLrGI0D",467286,60,55,"0Tx41KSCPwm2sFER0XF1DF",0.677
+"195",195,"The Chantels","Maybe","2:52",103.9,1958,"TBD","08kLJJHCIH3KZGk4FZmWSK",22907,42,78,"1yDiru08Q6omDOGkZMPnei",0.572
+"196",196,"Guns N' Roses","Sweet Child O' Mine","5:55",125,1988,"Rock 1980s","3qm84nBOXUEQ2vnTfUTTFC",11168535,81,75,"4MhTFsyqIJnjsOweVcU8ug",0.449
+"197",197,"Elvis Presley","Don't Be Cruel","2:04",84.6,1956,"Rock 1950s","43ZHCT0cAZBISjO8DG9PnE",2828934,78,62,"01u6AEzGbGbQyYVdxajxqk",0.697
+"198",198,"Jimi Hendrix","Hey Joe","3:27",84.3,1968,"Rock 1960s","776Uo845nYHJpNaStv1Ds4",3006491,73,70,"0NWPxcsf5vdjdiFUI8NgkP",0.346
+"199",199,"Parliament","Flashlight","4:28",105.5,1978,"Dance 1970s","5SMVzTJyKFJ7TUb46DglcH",287302,58,73,"6W5RmgWh46p9RQ4LDezHKE",0.52
+"200",200,"Beck","Loser","3:55",85.4,1994,"Rock 1990s","3vbKDsSS70ZX9D2OcvbZmS",874009,69,70,"0rsDhujEJ73Q7I9bvEljAZ",0.694
+"201",201,"New Order","Bizarre Love Triangle","6:42",118.4,1987,"Rock 1980s","0yNLKJebCb8Aueb54LYya3",821179,68,66,"6wVViUl2xSRoDK2T7dMZbR",0.613
+"202",202,"The Beatles","Come Together","4:18",82.8,1969,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11232097,87,79,"2EqlS6tkEnglzr7tkKAAYD",0.533
+"203",203,"Bob Dylan","Positively 4th Street","3:55",110,2000,"TBD","74ASZWbe4lXaubB36ztrGX",3096594,75,56,"4heMx0OAwfILu13Lf0VbBM",0.556
+"204",204,"Otis Redding","Try a Little Tenderness","3:16",104.1,1967,"Slow","60df5JBRRPcnSpsIMxxwQm",1256097,70,64,"36AlMHDBFwSsD3FQOy1R81",0.587
+"205",205,"Bill Withers","Lean on Me","3:45",150.6,1972,"Slow","1ThoqLcyIYvZn7iWbj8fsj",589270,70,68,"3M8FzayQWtkvOhqMn2V4T2",0.619
+"206",206,"Four Tops","Reach Out (I'll Be There)","3:00",119.7,1966,"Rock 1960s","7fIvjotigTGWqjIz6EP1i4",443221,66,54,"11npGmmHAsN9i11Vcnwtko",0.618
+"207",207,"Everly Brothers","Bye Bye Love","2:15",86.3,1957,"Rock 1950s","4ACplpEqD6JIVgKrafauzs",262074,60,61,"6oRHRkQigTzJ3KwpO3XOV6",0.547
+"208",208,"Van Morrison","Gloria","2:36",131.1,1965,"Rock 1960s","44NX2ffIYHr6D4n7RaZF7A",1036823,74,68,"15ob9SMGLWrexuPuyuMjKl",0.775
+"209",209,"The Beach Boys","In My Room","2:15",103.7,1963,"TBD","3oDbviiivRWhXwIE8hxkVV",1795225,73,63,"4lqEFIB9YZl8BwR99L5H3b",0.745
+"210",210,"%3F%20%26%20The%20Mysterians","96 Tears","3:01",123.6,1997,"TBD","3ZZHB1Xh2PM88QTMiqHB62",15142,40,53,"4PEeZ2U4UfP2Jo8EtIOjus",0.65
+"211",211,"The Beach Boys","Caroline, No","2:19",152.3,1966,"TBD","3oDbviiivRWhXwIE8hxkVV",1795225,73,48,"5RSQKtG1KNwrzFMEePpjt6",0.402
+"212",212,"Prince","1999","3:37",119.2,1983,"Dance 1980s","3MHaV05u0io8fQbZ2XPtlC",3811734,82,83,"05mAIVLkIWc2d1UBYZBCp8",0.739
+"213",213,"Hank Williams","Your Cheatin' Heart","2:42",128.5,1953,"Country","2dyeCWctcFRt3Pha76ONgb",500879,65,51,"3PIZKsovCCVX3XaxKSzkdY",0.666
+"214",214,"Neil Young","Rockin' in the Free World","4:44",131.9,2004,"TBD","6v8FB84lnmJs434UJf2Mrm",1302758,71,63,"4Y7fEQ4PAzhlLnLviRw2P4",0.491
+"215",215,"The Chords","Sh-Boom","2:27",137.5,1985,"TBD","3xXSg1WJPGJuNjQV0REAzk",5228,45,53,"6ZKB999ZdaFVgrYWvxkl49",0.676
+"216",216,"The Lovin' Spoonful","Do You Believe in Magic","2:07",138.7,1965,"TBD","7CCn4PFRRRZF127jtCBAUe",167519,56,65,"1udKn1oNKYQSQ9OmiIWCMu",0.552
+"217",217,"Dolly Parton","Jolene","2:41",110,1974,"TBD","32vWCbZh0xZ4o9gkz4PsEU",726988,73,77,"2SpEHTbUuebeLkgs9QB7Ue",0.674
+"218",218,"John Lee Hooker","Boom Boom","2:10",91.5,1962,"TBD","1yNOfXGQNGjAynk77wv85x",389278,56,74,"65OXGbKBQ8gUyJvUd0jNpf",0.8
+"219",219,"Howlin' Wolf","Spoonful","2:45",119.9,2003,"TBD","0Wxy5Qka8BN9crcFkiAxSR",288565,53,65,"6Y2DPBV2uBBfqQOPZnW3LD",0.589
+"220",220,"The Left Banke","Walk Away Renee","2:43",118.3,1967,"TBD","382aCtCMEd2Rg2DmcU9xw9",8384,29,44,"7xSdwXmwpIzBxBvjf52oZI",0.385
+"221",221,"Lou Reed","Walk on the Wild Side","4:12",106.1,1973,"Rock 1970s","42TFhl7WlMRXiNqzSrnzPL",827303,66,75,"5p3JunprHCxClJjOmcLV8G",0.575
+"222",222,"Roy Orbison","Oh, Pretty Woman","2:57",127.2,1964,"Rock 1960s","0JDkhL4rjiPNEp92jAgJnS",609392,68,72,"48i055G1OT5KxGGftwFxWy",0.619
+"223",223,"Sly & The Family Stone","Dance to the Music","2:58",128.1,1968,"Dance 1960s","3DFoVPonoAAt4EZ1FEI8ue",159218,59,61,"1MQWtVcs0PKsY4PA6ZvLiy",0.703
+"224",224,"Chic","Good Times","3:44",110.2,1979,"Disco","0Xf8oDAJYd2D0k3NLI19OV",296294,64,71,"0QwZfbw26QeUoIy82Z2jYp",0.476
+"225",225,"Muddy Waters","I'm Your Hoochie Coochie Man","2:52",108.9,1960,"TBD","4y6J8jwRAwO4dssiSmN91R",692564,57,54,"3KSchPNSklO5McIqRH3qYX",0.542
+"226",226,"Van Morrison","Moondance","4:32",131.6,1970,"Rock 1970s","44NX2ffIYHr6D4n7RaZF7A",1036823,74,72,"3lh3iiiJeiBXHSZw6u0kh6",0.608
+"227",227,"James Taylor","Fire And Rain","3:22",151.7,1970,"Slow","0vn7UBvSQECKJm2817Yf1P",831731,69,73,"3LcYYV9ozePfgYYmXv0P3r",0.611
+"228",228,"The Clash","Should I Stay or Should I Go?","3:07",113.3,1982,"Rock 1980s","3RGLhK1IP9jnYFH4BRFJBS",1493801,73,79,"39shmbIHICJ2Wxnk1fPSdz",0.742
+"229",229,"Muddy Waters","Mannish Boy","2:58",105.4,1960,"TBD","4y6J8jwRAwO4dssiSmN91R",692564,57,61,"58PSYdY0GFg0LFb2PxYk4T",0.598
+"230",230,"Bob Dylan","Just Like a Woman","4:52",116.3,1967,"TBD","74ASZWbe4lXaubB36ztrGX",3096594,75,53,"37Dl7jQMmt0gUnzTKqnjkN",0.564
+"231",231,"Marvin Gaye","Sexual Healing","3:59",93.9,1982,"Slow","3koiLjNrgRTNbOwViDipeA",2679168,75,71,"3VZmChrnVW8JK6ano4gSED",0.805
+"232",232,"Roy Orbison","Only the Lonely (Know How I Feel)","2:26",119.9,1960,"Slow","0JDkhL4rjiPNEp92jAgJnS",609392,68,1,"0bxlfBGwTWpU25tEaVFrcv",0.78
+"233",233,"The Animals","We Gotta Get Out of This Place","3:10",124.7,1965,"Rock 1960s","3ICflSq6ZgYAIrm2CTkfVP",1004269,66,51,"5geF5xzPGHxpmk9BDBHphZ",0.534
+"234",234,"The Byrds","I'll Feel a Whole Lot Better","2:33",134.4,1965,"TBD","1PCZpxHJz7WAMF8EEq8bfc",405695,62,42,"2hIGz0CXlqA2ukeuUl8DYP",0.402
+"235",235,"Ray Charles","I've Got a Woman","2:55",99.4,1994,"TBD","1eYhYunlNJlDoQhtYBvPsi",1330824,67,67,"2xar08Fq5xra2KKZs5Bw9j",0.556
+"236",236,"Buddy Holly","Everyday","2:07",136.5,1957,"Rock 1950s","3wYyutjgII8LJVVOLrGI0D",467286,60,84,"4EAV2cKiqKP5UPZmY6dejk",0.67
+"237",237,"Afrika Bambaataa","Planet Rock","5:03",122.7,1985,"Rock 1980s","7cg61q8kK8jlFi8TKKw70p",58018,42,51,"3uy0jtkM8QYVTsBazkli1x",0.915
+"238",238,"Patsy Cline","I Fall to Pieces","2:49",111.2,1961,"Country","7dNsHhGeGU5MV01r06O8gK",327154,59,56,"6zFsz86nAj5gcvzyVqNL3k",0.481
+"239",239,"Dion","The Wanderer","2:42",114.1,1961,"Rock 1960s","4S9EykWXhStSc15wEx8QFK",2113234,76,62,"4EoUALVwY4i7U6uKRhk8hr",0.605
+"240",240,"Dusty Springfield","Son of a Preacher Man","2:27",90.9,1969,"Rock 1960s","5zaXYwewAXedKNCff45U5l",189150,64,71,"6ek9SiEj5a65WIs2EV7qiM",0.404
+"241",241,"Sly & The Family Stone","Stand","3:08",108.3,2002,"TBD","3DFoVPonoAAt4EZ1FEI8ue",159218,59,79,"3SdTKo2uVsxFblQjpScoHy",0.65
+"242",242,"Elton John","Rocket Man","4:42",137,1974,"Rock 1970s","3PhoLpVuITZKcymswpck5b",2475958,81,81,"3gdewACMIVMEWVbyb8O9sY",0.602
+"243",243,"The B-52's","Love Shack","5:22",133.6,1989,"Rock 1980s","3gdbcIdNypBsYNu3iiCjtN",352019,61,69,"4W4wYHtsrgDiivRASVOINL",0.715
+"244",244,"The Spencer Davis Group","Gimme Some Lovin'","2:53",147.5,1967,"Rock 1960s","3i9hP422d2KMjaupTzBNVS",105647,54,56,"3qCHUm73I3o5F1mDEfibzo",0.593
+"245",245,"The Band","The Night They Drove Old Dixie Down","3:32",125.6,1969,"TBD","4wQ3PyMz3WwJGI5uEqHUVR",623411,66,62,"2x0supcZhd6NEH1nem9DnR",0.508
+"246",246,"Jackie Wilson","(Your Love Keeps Lifting Me) Higher And Higher","2:57",95.4,1967,"Rock 1960s","4VnomLtKTm9Ahe1tZfmZju",188777,63,73,"4TBBPZks71c60whhq0PgdP",0.631
+"247",247,"Sly & The Family Stone","Hot Fun in the Summertime","2:35",144.8,1969,"Dance 1960s","3DFoVPonoAAt4EZ1FEI8ue",159218,59,43,"4t6NQkpUmvpvLDCkl3XuwA",0.656
+"248",248,"Sugarhill Gang","Rapper's Delight","6:32",111.8,1980,"Dance 1980s","7zliF6Q946WznVk3ZMYhZX",128526,54,56,"0FWhGmPVxLI6jOVF0wjALa",0.9
+"249",249,"Aretha Franklin","Chain of Fools","2:43",117,1968,"Dance 1960s","7nwUJBm0HE4ZxD3f5cy5ok",1763981,74,63,"2oZmMp5M6L0Rh7G84Um2tF",0.761
+"250",250,"Black Sabbath","Paranoid","2:45",82.1,1969,"Rock 1960s","5M52tdBnJaKSvOpJGz8mfZ",3355829,73,80,"3fpVWegR6YOS1Yk5HSMYIq",0.61
+"251",251,"Bobby Darin","Mack the Knife","3:04",84.7,1959,"Easy","0EodhzA6yW1bIdD5B4tcmJ",188693,61,58,"0YTgZJfVLmJ0b8XAMZKRKg",0.549
+"252",252,"Clyde McPhatter","Money Honey","2:59",123.2,1990,"Easy","4WL6MC4jDW7w7K9hfc4MVS",12976,43,55,"6Th6ND8RQPywiyelecP5Lf",0.532
+"253",253,"Mott the Hoople","All the Young Dudes","3:32",154.8,1972,"Rock 1970s","6ysQi6NI88X627t2srsWz6",80318,52,65,"0WNGPpmWqzPnk0psUhJ3SX",0.429
+"254",254,"AC/DC","Highway to Hell","3:29",116,1979,"Rock 1970s","711MCceyCBcFnzjGY4Q7Un",10409854,82,84,"2zYzyRzz6pRmhPzyfMEC8s",0.573
+"255",255,"Blondie","Heart of Glass","4:34",114.5,1979,"Dance 1970s","4tpUmLEVLCGFr93o8hFFIB",532155,68,61,"0P2fgmJp3a3PEu808hiQ1Y",0.659
+"256",256,"Radiohead","Paranoid Android","6:23",163.6,1997,"Rock 1990s","4Z8W4fKeB5YxbusRsdQVPb",3956101,79,67,"2nTsKOXIVGDf2iPeVQO2Gm",0.252
+"257",257,"The Troggs","Wild Thing","2:35",102.1,1966,"Rock 1960s","57xdnSVt4ahJCIXYLieQ25",110162,49,68,"5F5lmpwXkxAJtvZqEguTRo",0.623
+"258",258,"The Who","I Can See for Miles","4:21",132.7,1967,"Rock 1960s","67ea9eGLXYMsO2eYQRui3w",2311830,72,54,"2nlSeJ6CgvWeVOkrLmadf6",0.346
+"259",259,"Jeff Buckley","Hallelujah","6:53",93.1,1994,"TBD","3nnQpaTvKb5jCQabZefACI",486106,64,75,"2yQZwi1P8AkkxxFhQ8rMEK",0.671
+"260",260,"The Dells","Oh What a Nite","2:54",111.3,1988,"TBD","0wbrRIw2po5DV4LeaHw55S",110152,43,15,"1pmEfF7CPrCYUSjlbkojg0",0.513
+"261",261,"Stevie Wonder","Higher Ground","3:11",125.3,1973,"Rock 1980s","7guDJrEfX3qb6FEbdPA5qi",3333807,77,67,"5arVt2Wg0zbiWwAOZef2Nl",0.476
+"262",262,"Smokey Robinson","Ooo Baby Baby","2:48",111.2,1965,"TBD","6TKOZZDd5uV5KnyC5G4MUt",499449,60,58,"5RoOpSqvVg2jPdSfwm22wh",0.186
+"263",263,"The Crystals","He's a Rebel","2:24",115.9,1962,"Dance 1960s","7rewR1TVjhisjI6gauUamf",47590,53,46,"0mG8Hety4RELeo6p808fcy",0.712
+"264",264,"Randy Newman","Sail Away","2:50",89.2,1972,"TBD","3HQyFCFFfJO3KKBlUfZsyW",101127,62,64,"0PsbWiVtix5FoTZ1s00mEl",0.332
+"265",265,"Archie Bell & The Drells","Tighten Up","3:14",124.5,1991,"TBD","1kupwLFpHALpmhp5qol8xH",19755,44,64,"2MVwrvjmcdt4MsYYLCYMt8",0.504
+"266",266,"The Ronettes","Walking in the Rain","3:16",108,1964,"TBD","7CyeXFnOrfC1N6z4naIpgo",100671,60,59,"6xHlnkbGTtQaPvFJVIweaD",0.659
+"267",267,"New York Dolls","Personality Crisis","3:43",155.6,1973,"TBD","0WhGV9lzljq2QKJ8ipw6jx",111151,44,53,"4AwKXevZmsTNa3KZVj3rzl",0.441
+"268",268,"U2","Sunday Bloody Sunday [Live]","5:17",109.4,1983,"Rock 1980s","51Blml2LZPmy7TTiAg47vQ",4530846,79,41,"6n1sjnYCaURlVj4phCl7jQ",0.413
+"269",269,"The Modern Lovers","Roadrunner","4:06",152.1,1976,"TBD","2eRdPaLHWAL4d1WcNUO9Vz",65161,55,74,"5ryCDI7vwLZp2PyHRdXGLC",0.832
+"270",270,"George Jones","He Stopped Loving Her Today","3:16",112.3,2005,"Country","2OpqcUtj10HHvGG6h9VYC5",414101,62,58,"4BcrWCZPXuoGU0SnAsJW1s",0.333
+"271",271,"The Beach Boys","Sloop John B","2:54",124.9,1966,"Slow","3oDbviiivRWhXwIE8hxkVV",1795226,73,59,"2ULL3VZf4WwBKO4vjwT7Bg",0.567
+"272",272,"Chuck Berry","Sweet Little Sixteen","3:00",88.6,1958,"Rock 1950s","293zczrfYafIItmnmM3coR",821920,66,53,"4fAHHeLMX0haeSnUfU1tVl",0.509
+"273",273,"The Beatles","Something","3:02",132.4,1969,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11232099,87,83,"6RUKPb4LETWmmr3iAEQktW",0.617
+"274",274,"Jefferson Airplane","Somebody to Love","2:55",131.2,1967,"Rock 1960s","2qFr8w5sWUITRlzZ9kZotF",673119,62,77,"6cFZ4PLC19taNlpl9pbGMf",0.492
+"275",275,"Bruce Springsteen","Born in the U.S.A.","4:37",123.6,1984,"Rock 1980s","3eqjTLE0HfPfh78zjh6TqT",2041335,76,75,"7FwBtcecmlpc1sLySPXeGE",0.527
+"276",276,"The Staple Singers","I'll Take You There","3:17",101.5,1989,"TBD","7xGGqA85UIWX1GoTVM4itC",122250,60,68,"5YLnfy7R2kueN0BRPkjiEG",0.844
+"277",277,"David Bowie","Ziggy Stardust","3:13",160.7,1972,"Rock 1970s","0oSGxfWSnnOXhD2fKuz2Gy",3703574,81,74,"0pQskrTITgmCMyr85tb9qq",0.486
+"278",278,"The Cure","Pictures of You","4:46",86.3,1989,"Rock 1990s","7bu3H8JO7d0UbMoVzbo70s",1823717,75,58,"6V4y4uuMAxe2EYDIWNToaH",0.325
+"279",279,"The Dixie Cups","Chapel of Love","2:45",125.7,1964,"Rock 1960s","7ICvZfP4VHAPZ5Wdt03772",22286,46,56,"0SMRck5oZi9hc16L6FuRF6",0.539
+"280",280,"Bill Withers","Ain't No Sunshine","2:03",159.5,2002,"TBD","1ThoqLcyIYvZn7iWbj8fsj",589270,70,77,"1k1Bqnv2R0uJXQN4u6LKYt",0.479
+"281",281,"Stevie Wonder","You Are the Sunshine of My Life","2:51",134,1973,"Slow","7guDJrEfX3qb6FEbdPA5qi",3333807,77,66,"0n2pjCIMKwHSXoYfEbYMfX",0.519
+"282",282,"Joni Mitchell","Help Me","3:24",163.4,1974,"TBD","5hW4L92KnC6dX9t7tYM4Ve",518467,66,65,"175cWIYsv1G8WSHjSV0vue",0.777
+"283",283,"Blondie","Call Me","3:32",142,1980,"Dance 1980s","4tpUmLEVLCGFr93o8hFFIB",532155,68,91,"5WHTFyqSii0lmT9R21abT8",0.674
+"284",284,"Elvis Costello","(What's So Funny 'Bout) Peace, Love & Understanding","3:32",141.8,1999,"TBD","2BGRfQgtzikz1pzAD0kaEn",239596,57,43,"0dhzPXfQUdjNVsjVV7n4iD",0.375
+"285",285,"Howlin' Wolf","Smokestack Lightnin","3:08",145.2,2003,"TBD","0Wxy5Qka8BN9crcFkiAxSR",288565,53,57,"35ydSuNJn9z4eTjhWp2xUJ",0.669
+"286",286,"Pavement","Summer Babe [Winter Version]","3:16",98.4,1992,"TBD","3inCNiUr4R6XQ3W43s9Aqi",208311,60,36,"3Cw5corFYZsKc6dIbOBXgl",0.37
+"287",287,"Run-DMC","Walk This Way","5:11",105.6,1986,"R&B 1980s","3CQIn7N5CuRDP8wEI7FiDA",529361,63,71,"5SZ6zX4rOrEQferfFC2MfP",0.653
+"288",288,"Barrett Strong","Money (That's What I Want)","2:27",141.1,1978,"Rock 1970s","3MKwHkhEjcvzva2rasZeWD",9405,46,49,"3zw4FTrVNfy2teEkV9FOvh",0.545
+"289",289,"The Beatles","Can't Buy Me Love","2:13",85.3,1966,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11232099,87,65,"3SdingSsFcZDZAyvcJbgAw",0.483
+"290",290,"Eminem","Stan","5:31",160,2005,"TBD","7dGJo4pcD2V6oG8kP0tJRR",24958092,93,76,"3UmaczJpikHgJFyBTAJVoz",0.778
+"291",291,"The Zombies","She's Not There","2:25",131.4,1964,"TBD","2jgPkn6LuUazBoBk6vvjh5",333456,61,59,"3dzW0SoVNyJTWWJimX8stj",0.523
+"292",292,"The Clash","Train in Vain","3:10",122.9,1980,"Rock 1980s","3RGLhK1IP9jnYFH4BRFJBS",1493801,73,64,"6ITuEsxEy2qPhqMowdDAeI",0.761
+"293",293,"Al Green","Tired of Being Alone","2:52",98.3,1971,"TBD","3dkbV4qihUeMsqN4vBGg93",1027639,69,71,"10vkYRKw6Jjr7try1ir50G",0.772
+"294",294,"Led Zeppelin","Black Dog","4:54",82.6,1971,"Rock 1970s","36QJpDe2go2KgaRleHCDTp",6689582,80,73,"3qT4bUD1MaWpGrTwcvguhb",0.437
+"295",295,"The Rolling Stones","Street Fighting Man","3:16",128.2,1968,"TBD","22bE4uQ6baNwSHPVcDxLCe",6326573,80,58,"7EXgO1bRnEArE58rtrgMWB",0.583
+"296",296,"Bob Marley & The Wailers","Get Up Stand Up","3:19",156.3,1975,"Reggae","2QsynagSdAqZj3U9HgDzjD",6379945,81,59,"2Mw8xQJpIDAgrktDXEqxCs",0.816
+"297",297,"Neil Young","Heart of Gold","3:07",85.5,1972,"Slow","6v8FB84lnmJs434UJf2Mrm",1302758,71,71,"1Q1b8eVkUPGlpSArl8JAVw",0.541
+"298",298,"Blondie","One Way or Another","3:35",162.1,1979,"Dance 1970s","4tpUmLEVLCGFr93o8hFFIB",532155,68,61,"3DiRdaZtPrVdb4U2RIuRWm",0.447
+"299",299,"Prince","Sign 'O' the Times","3:42",98.9,1993,"Rock 1980s","3MHaV05u0io8fQbZ2XPtlC",3811734,82,54,"4Yenz5JZZOUiZSeyKY8bDz",0.701
+"300",300,"Madonna","Like a Prayer","5:27",111.9,1989,"Dance 1980s","6tbjWDEIzxoDsBA1FuhfPW",2874924,77,72,"1z3ugFmUKoCzGsI6jdY4Ci",0.624
+"301",301,"Rod Stewart","Do Ya Think I'm Sexy?","5:28",112,1979,"Rock 1970s","2y8Jo9CKhJvtfeKOsYzRdT",1241146,73,48,"3wsPg2KrRYZFi0inIFa41x",0.716
+"302",302,"Willie Nelson","Blue Eyes Crying in the Rain","2:20",116.8,1998,"Country","5W5bDNCqJ1jbCgTxDD0Cb3",785048,69,57,"2uRVPeQbsEpRQD0DKr1WTo",0.626
+"303",303,"The Rolling Stones","Ruby Tuesday","3:16",104.9,1967,"TBD","22bE4uQ6baNwSHPVcDxLCe",6326573,80,63,"4hupcimlg3UBbW1kAQ6vrT",0.518
+"304",304,"The Beatles","With a Little Help From My Friends","2:43",112.5,1969,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11232099,87,67,"2RnPATK99oGOZygnD2GTO6",0.705
+"305",305,"James Brown","Say It Loud - I'm Black and I'm Proud","2:47",114.8,1991,"TBD","7GaxyUddsPok8BuhxN6OUW",1244357,66,45,"6FyYGu8GOy2pbp9GVMZF17",0.833
+"306",306,"The Jam","That's Entertainment","3:31",143.2,1991,"TBD","2P560DaOMNDUACoH8ZhOCR",320081,60,58,"7MH7TkjQ4RA1vG454dciw0",0.566
+"307",307,"The Teenagers","Why Do Fools Fall in Love","2:17",88.1,1956,"Rock 1950s","40Zt6u0Ig5vXtrq0htgqvt",33048,43,56,"2xKfXRhw5xaUXfevJJspZf",0.388
+"308",308,"Jackie Wilson","Lonely Teardrops","2:42",139.2,1959,"Rock 1950s","4VnomLtKTm9Ahe1tZfmZju",188777,63,52,"4xPNaHofsEWeDnD63eIUXp",0.591
+"309",309,"Tina Turner","What's Love Got to Do With It","3:49",97.9,1984,"Slow","1zuJe6b1roixEKMOtyrEak",1103878,69,68,"6FcQD1qOpqV8NdhY45sKyI",0.851
+"310",310,"Black Sabbath","Iron Man","3:27",156.8,1970,"Rock 1970s","5M52tdBnJaKSvOpJGz8mfZ",3355829,73,69,"52UWtKlYjZO3dHoRlWuz9S",0.493
+"311",311,"Everly Brothers","Wake Up Little Susie","2:02",91.2,1957,"Rock 1950s","4ACplpEqD6JIVgKrafauzs",262074,60,61,"11fNLqDB47gMKj7BHhR2Qr",0.709
+"312",312,"Roy Orbison","In Dreams","2:48",107.9,1963,"Slow","0JDkhL4rjiPNEp92jAgJnS",609392,68,73,"4VywXu6umkIQ2OS0m1I79y",0.866
+"313",313,"Screamin' Jay Hawkins","I Put a Spell on You","2:28",86.8,1990,"TBD","3VBpsrUi2vV7Uj87ONHu7Z",43728,43,74,"1VKsbTJ78G5bnfyoPz46LA",0.318
+"314",314,"Pink Floyd","Comfortably Numb","6:21",127,1980,"Slow","0k17h0D3J5VfsdmQ1iZtE9",8547435,81,75,"5HNCy40Ni5BZJFw1TKzRsC",0.472
+"315",315,"The Animals","Don't Let Me Be Misunderstood","2:27",113.5,2003,"TBD","3ICflSq6ZgYAIrm2CTkfVP",1004269,66,58,"6rhVKeUhQTGLIRmQOfc9Wo",0.669
+"316",316,"Pink Floyd","Wish You Were Here","5:10",121.8,1975,"Slow","0k17h0D3J5VfsdmQ1iZtE9",8547435,81,77,"6mFkJmJqdDVQ1REhVfGgd1",0.481
+"317",317,"Jimmy Cliff","Many Rivers to Cross","3:00",128,1969,"TBD","3rJ3m1tM6vUgiWLjfV8sRf",381039,60,50,"4hHGirIgXzCaPaTPrsR9RQ",0.433
+"318",318,"Elvis Costello","Alison","3:21",88.6,1978,"TBD","2BGRfQgtzikz1pzAD0kaEn",239596,57,66,"4BXkf6yww23Vdju7E1fUrn",0.587
+"319",319,"Alice Cooper","School's Out","3:28",134.2,1972,"Rock 1970s","3EhbVgyfGd7HkpsagwL9GS",1304340,64,65,"5Z8EDau8uNcP1E8JvmfkZe",0.294
+"320",320,"Led Zeppelin","Heartbreaker","4:14",112.4,1990,"Rock 1970s","36QJpDe2go2KgaRleHCDTp",6689582,80,67,"2Ow4Pmi0VOOLvbmJ8V70qo",0.69
+"321",321,"Neil Young","Cortez the Killer","7:32",113.9,1977,"TBD","6v8FB84lnmJs434UJf2Mrm",1302758,71,54,"3ZPLFD6mbw6hhu3g6S4EGl",0.527
+"322",322,"Public Enemy","Fight the Power","4:36",106,2005,"TBD","6Mo9PoU6svvhgEum7wh2Nd",445713,59,56,"1yo16b3u0lptm6Cs7lx4AD",0.797
+"323",323,"Patty Smyth","Dancing Barefoot","4:16",116.9,1992,"TBD","2dgfCEMSVETFp29mRpiFpz",17902,44,55,"4kPSjEg8u1U4pg2dHHMmtf",0.492
+"324",324,"The Supremes","Baby Love","2:36",135.8,1964,"Dance 1960s","57bUPid8xztkieZfS7OlEV",785480,67,74,"5FpLsvdRNgWSEBWHx2VIkH",0.689
+"325",325,"The Young Rascals","Good Lovin'","2:29",98.4,1966,"Rock 1960s","5X3TuTi9OIsJXMGxPwTKM2",51642,46,61,"708tNyhEmoEsAqD6lux7gz",0.621
+"326",326,"James Brown","Sex Machine","5:15",108.4,1970,"Rock 1970s","7GaxyUddsPok8BuhxN6OUW",1244357,66,60,"6hpmTwgNCz81H2bFEREx29",0.833
+"327",327,"The Impressions","For Your Precious Love","2:46",108.1,2001,"Easy","1b1N51wmSK0ckxFAMPSSHO",110669,53,48,"4PVpQTR2tcgeBlO31jMsLm",0.598
+"328",328,"The Doors","The End","11:42",108.2,1985,"Rock 1970s","22WZ7M8sxp5THdruNY3gXt",3705510,75,84,"60a0Rd6pjrkxjPbaKzXjfq",0.542
+"329",329,"Earth, Wind & Fire","That's the Way of the World","5:46",82.1,1978,"TBD","4QQgXkCYTt3BlENzhyNETg",1617981,74,59,"0RgcOUQg4qYAEt9RIdf3oB",0.676
+"330",330,"Queen","We Will Rock You","2:00",140.7,1977,"Rock 1970s","1dfeR4HaWDbWqFHLkxsg1d",13897606,94,76,"54flyrjcdnQdco7300avMJ",0.692
+"331",331,"Bonnie Raitt","I Can't Make You Love Me","4:45",123,1991,"Easy","4KDyYWR7IpxZ7xrdYbKrqY",268376,59,66,"69uJi5QsBtqlYkGURTBli8",0.588
+"332",332,"Bob Dylan","Subterranean Homesick Blues","2:16",86.8,1965,"Rock 1960s","74ASZWbe4lXaubB36ztrGX",3096594,75,55,"6k9DUKMJpWvu6eFG3O64Lg",0.576
+"333",333,"Norman Greenbaum","Spirit in the Sky","4:01",128.4,1969,"TBD","7f8LNBVXN0h35veHrpxQFL",24988,60,71,"0Y2SrByf4G3kbq2nBEHQRn",0.601
+"334",334,"The Rolling Stones","Wild Horses","5:45",144.2,1971,"TBD","22bE4uQ6baNwSHPVcDxLCe",6326573,80,71,"52dm9op3rbfAkc1LGXgipW",0.371
+"335",335,"The Velvet Underground","Sweet Jane","3:15",105.6,1998,"TBD","1nJvji2KIlWSseXRSlNYsC",781203,65,62,"3cw3Z7mS55gd3NUjh4k0bL",0.619
+"336",336,"Aerosmith","Walk This Way","3:32",108,1975,"Rock 1980s","7Ey4PD4MYsKc5I2dolUwbH",6118079,77,71,"5SZ6zX4rOrEQferfFC2MfP",0.653
+"337",337,"Michael Jackson","Beat It","4:19",138.6,1983,"Dance 1980s","3fMbdgg4jU18AjLCKBhRSm",9217538,84,79,"1OOtq8tRnDM8kG2gqUPjAj",0.779
+"338",338,"Wings","Maybe I'm Amazed","3:51",160.9,2001,"TBD","3sFhA6G1N0gG1pszb6kk1m",321943,64,64,"34jOBavlBgAG0ILZOlXmWm",0.471
+"339",339,"The Supremes","You Keep Me Hanging On","2:41",127.6,1968,"TBD","57bUPid8xztkieZfS7OlEV",785480,67,42,"059LGQd42y87hQMHQyJGSU",0.206
+"340",340,"The Who","Baba O'Riley","5:07",116.2,1971,"Rock 1970s","67ea9eGLXYMsO2eYQRui3w",2311830,72,76,"3qiyyUfYe7CRYLucrPmulD",0.494
+"341",341,"Jimmy Cliff","The Harder They Come","3:06",98.8,1972,"TBD","3rJ3m1tM6vUgiWLjfV8sRf",381039,60,51,"13XMn3vVhwm12NOCpkB380",0.668
+"342",342,"Dion","Runaround Sue","2:39",157.6,1961,"Rock 1960s","4S9EykWXhStSc15wEx8QFK",2113239,76,64,"1DndHckdH9m5rp6gYP086b",0.364
+"343",343,"LaVern Baker","Jim Dandy","2:13",168.8,1991,"TBD","0V6zo2mJw9FdwWLClKC9yw",16102,43,41,"0JFEn4sPozptBShOuqMQVs",0.312
+"344",344,"Janis Joplin","Piece of My Heart","4:12",158.4,1968,"Rock 1960s","4NgfOZCL9Ml67xzM0xzIvC",1553419,66,69,"1xKQbqQtQWrtQS47fUJBtl",0.443
+"345",345,"Ritchie Valens","La Bamba","2:04",151.5,1959,"Rock 1950s","5Y9xEAGW4GwGJgbiI6W85P",198496,57,64,"2aEeghgUcnu75tzcolFMfs",0.516
+"346",346,"2Pac","California Love","4:47",91.5,1996,"R&B 1990s","1ZwdS5xdxEREPySFridCfh",5751853,81,69,"3ia3dJETSOllPsv3LJkE35",0.77
+"347",347,"Elton John","Candle in the Wind","3:48",124.7,1974,"Rock 1970s","3PhoLpVuITZKcymswpck5b",2475958,81,74,"73TXMz1i41sGfOuDg8gH4L",0.549
+"348",348,"The Isley Brothers","That Lady (Part 1 & 2)","5:34",128.2,1973,"TBD","53QzNeFpzAaXYnrDBbDrIp",723369,66,24,"4MexO1G9TadTu0yWDB3T7Q",0.735
+"349",349,"Ben E. King","Spanish Harlem","2:48",125.4,1961,"Slow","3plJVWt88EqjvtuB4ZDRV3",237920,66,55,"0sQ594D1EuU66VDdtHBE6j",0.66
+"350",350,"Little Eva","Loco-Motion","2:28",127.5,1962,"Rock 1960s","4S76LQXJD6N2uPcLhKejG8",17138,47,50,"2pX5qSgxQFwlrkjxph8fxb",0.748
+"351",351,"The Platters","Great Pretender","2:39",120.9,1955,"Slow","6KWcxMWVNVIYbdOQyJtsSy",253744,61,62,"2FkCjtQ1lYsf71s2FAS8hE",0.425
+"352",352,"Elvis Presley","All Shook Up","2:00",147,1957,"Rock 1950s","43ZHCT0cAZBISjO8DG9PnE",2828935,78,62,"5ueyLj6e6oVaTY0KQ6yLaA",0.624
+"353",353,"Eric Clapton","Tears in Heaven","4:32",153.7,1992,"Slow","6PAt558ZEZl0DmdXlnjMgD",2539126,75,75,"612VcBshQcy4mpB2utGc3H",0.695
+"354",354,"Elvis Costello","Watching the Detective","3:41",134.6,1978,"TBD","2BGRfQgtzikz1pzAD0kaEn",239596,57,0,"76B9NIfY4XPTn1Q0vimwNa",0.619
+"355",355,"Creedence Clearwater Revival","Bad Moon Rising","2:19",89.7,1969,"Rock 1960s","3IYUhFvPQItj6xySrBmZkd",2434871,78,69,"20OFwXhEXf12DzwXmaV7fj",0.508
+"356",356,"Eurythmics","Sweet Dreams","4:53",126,1983,"Rock 1980s","0NKDgy9j66h3DLnN8qu1bB",648598,70,82,"1TfqLAPs4K3s2rJMoCokcS",0.692
+"357",357,"Jimi Hendrix","Little Wing","2:23",141.6,1993,"TBD","776Uo845nYHJpNaStv1Ds4",3006491,73,70,"1Eolhana7nKHYpcYpdVcT5",0.515
+"358",358,"Martha Reeves & The Vandellas","Nowhere to Run","2:55",129.2,1965,"Dance 1960s","1Pe5hlKMCTULjosqZ6KanP",169891,61,56,"1xMhXZTBy7ijeYHEcroUzA",0.61
+"359",359,"Muddy Waters","Got My Mojo Working","2:50",113.3,1999,"TBD","4y6J8jwRAwO4dssiSmN91R",692564,57,46,"7jOrfA53YA2y52lVwUey0k",0.524
+"360",360,"Roberta Flack","Killing Me Softly With His Song","4:47",121.8,1973,"Slow","0W498bDDNlJIrYMKXdpLHA",372498,63,73,"3gsCAGsWr6pUm1Vy7CPPob",0.477
+"361",361,"The Clash","Complete Control","3:13",87.4,1977,"TBD","3RGLhK1IP9jnYFH4BRFJBS",1493801,73,49,"00jn1N9TSZpznHzUjRv20F",0.451
+"362",362,"The Beatles","All You Need Is Love","3:48",104.7,1969,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11232099,87,66,"68BTFws92cRztMS1oQ7Ewj",0.4
+"363",363,"Box Tops","The Letter","2:00",138.2,1967,"Rock 1960s","3KGQvnOoqUHi3KxKQMZtXr",53060,49,65,"00kvKlIvfzQLSi6T2zwXuS",0.731
+"364",364,"Bob Dylan","Highway 61 Revisited","3:30",136.8,1965,"TBD","74ASZWbe4lXaubB36ztrGX",3096594,75,72,"3AhXZa8sUQht0UEdBJgpGc",0.483
+"365",365,"The Righteous Brothers","Unchained Melody","3:36",100.8,1966,"Slow","4b0WsB47XCa9F83BmwQ7WX",163032,61,66,"1jFhnVoJkcB4lf9tT0rSZS",0.367
+"366",366,"Bee Gees","How Deep Is Your Love","4:00",105.1,1977,"Slow","1LZEQNv7sE11VDY3SdxQeN",1754311,75,78,"22mek4IiqubGD9ctzxc69s",0.738
+"367",367,"Cream","White Room","4:56",110.2,1968,"Rock 1960s","74oJ4qxwOZvX6oSsu1DGnw",885947,66,72,"3Xls4cNOwy01dtrNXb1inG",0.547
+"368",368,"Depeche Mode","Personal Jesus","5:48",130,1990,"Rock 1990s","762310PdDnwsDxAQxzQkfX",2046137,74,63,"1xShPgQbOUa98avWJQFDBY",0.637
+"369",369,"Bo Diddley","I'm a Man","3:02",102.4,1957,"TBD","2bmixwMZXlkl2sbIbOfviq",180948,50,66,"2O99aywAVBhaPrsiJ6zbSS",0.547
+"370",370,"Jimi Hendrix","The Wind Cries Mary","3:22",153.8,1972,"Rock 1970s","776Uo845nYHJpNaStv1Ds4",3006491,73,63,"5H6Jp0syB5yEPk7SWYdlmk",0.499
+"371",371,"The Who","I Can't Explain","2:03",137.8,1965,"Rock 1960s","67ea9eGLXYMsO2eYQRui3w",2311830,72,56,"4B3gkbr7aGC2sujjgivK0s",0.572
+"372",372,"Television","Marquee Moon","10:40",119.1,1977,"TBD","0S7Zur2g8YhqlzqtlYStli",145355,52,56,"7Me0vOSlJfaPY7Pc4GeItd",0.49
+"373",373,"Sam Cooke","(What A) Wonderful World","2:05",128.8,1960,"Rock 1960s","6hnWRPzGGKiapVX1UCdEAC",782204,70,73,"2g2GkH3vZHk4lWzBjgQ6nY",0.691
+"374",374,"Chuck Berry","Brown-Eyed Handsome Man","2:18",90.5,1957,"TBD","293zczrfYafIItmnmM3coR",821920,66,40,"6WXyVWQxsNZ62VInSfnkYG",0.521
+"375",375,"Pink Floyd","Another Brick in the Wall (Part II)","3:50",104.1,1980,"Rock 1980s","0k17h0D3J5VfsdmQ1iZtE9",8547436,81,23,"4MqBzMi1efFsnG6t4ZpHIk",0.796
+"376",376,"Radiohead","Fake Plastic Trees","4:50",147.2,1995,"Rock 1990s","4Z8W4fKeB5YxbusRsdQVPb",3956101,79,72,"045sp2JToyTaaKyXkGejPy",0.454
+"377",377,"Ray Charles","Hit the Road Jack","1:59",86.4,1961,"Rock 1960s","1eYhYunlNJlDoQhtYBvPsi",1330824,67,61,"02cflDeFB9gGB8ukUlhN98",0.768
+"378",378,"U2","Pride (In the Name of Love)","3:46",106.4,1984,"Rock 1980s","51Blml2LZPmy7TTiAg47vQ",4530846,79,59,"3dh2LlmeMqKJbzn2WUgt3d",0.464
+"379",379,"R.E.M.","Radio Free Europe [Original Hib-Tone Single]","3:49",83.1,1988,"Rock 1980s","4KWTAlx2RvbpseOGMEmROg",1699146,74,12,"3tNHRHgrVyAhU9LVlfzwcj",0.335
+"380",380,"Elton John","Goodbye Yellow Brick Road","3:12",120.3,1973,"Slow","3PhoLpVuITZKcymswpck5b",2475958,81,71,"0dBatXn1vVUl0jLgXRClwD",0.665
+"381",381,"Aaron Neville","Tell It Like It Is","2:38",95.4,1993,"TBD","57ALvbCBaCkNlgTOSiUPdT",55700,55,57,"0INkcALLD8NAM6tbn4qbMj",0.657
+"382",382,"The Verve","Bitter Sweet Symphony","5:57",85.5,1997,"TBD","2cGwlqi3k18jFpUyTrsR84",1011432,69,80,"57iDDD9N9tTWe75x6qhStw",0.356
+"383",383,"The Allman Brothers Band","Whipping Post","5:22",97.3,1969,"TBD","4wQ3PyMz3WwJGI5uEqHUVR",623411,66,60,"5JBUpI6OGZahUqchMKe6UY",0.315
+"384",384,"The Beatles","Ticket to Ride","3:10",123.9,1966,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11232099,87,66,"7CZiDzGVjUssMSOXrDNYHL",0.519
+"385",385,"Crosby, Stills, Nash & Young","Ohio","3:06",156.8,1970,"TBD","1CYsQCypByMVgnv17qsSbQ",492716,64,68,"0ToHhkK4qtwEyKOxhQpMbJ",0.445
+"386",386,"Eric B. & Rakim","I Know You Got Soul","4:44",104.1,1987,"TBD","6jHG1YQkqgojdEzerwvrVv",262659,55,44,"5D2lp16FQ0VIfLGRDn5jcG",0.897
+"387",387,"Elton John","Tiny Dancer","6:16",145.4,1992,"Rock 1980s","3PhoLpVuITZKcymswpck5b",2475958,81,80,"2TVxnKdb3tqe1nhQWwwZCO",0.414
+"388",388,"The Police","Roxanne","3:11",134.9,1979,"Rock 1970s","5NGO30tJxFlKixkPSgXcFE",2508319,76,69,"0SYRVn2YF7HBscQEmlkpTI",0.608
+"389",389,"The Temptations","Just My Imagination (Running Away With Me)","3:50",92.4,1965,"Rock 1960s","3RwQ26hR2tJtA8F9p2n7jG",1240255,70,64,"39Bd345OWEhRNyfayhp9gv",0.431
+"390",390,"Four Tops","Baby I Need Your Lovin'","2:44",121.4,2005,"TBD","7fIvjotigTGWqjIz6EP1i4",443221,66,33,"3JUSHG1WHesa1p7rN7Ad3g",0.679
+"391",391,"Freda Payne","Band of Gold","2:53",106.9,1984,"Rock 1980s","0701Axu6yvUIoctaKMbDIZ",6846,39,47,"58eupOojX9cNFftyEpyTWr",0.601
+"392",392,"Five Stairsteps","O-O-H Child","3:16",89,2001,"TBD","3Inrg8cs8oc4q8oPES4a6S",20860,54,66,"74JdR9aXE6I74oS1BVRsvb",0.488
+"393",393,"The Lovin' Spoonful","Summer in the City","2:37",113,1966,"Rock 1960s","7CCn4PFRRRZF127jtCBAUe",167519,56,63,"7AzFID6u1b3zIWbd9pb8Dk",0.423
+"394",394,"Elvis Presley","Can't Help Falling in Love","3:00",114.2,1961,"Slow","43ZHCT0cAZBISjO8DG9PnE",2828935,78,78,"44AyOl4qVkzS48vBsbNXaC",0.428
+"395",395,"The Shangri-Las","Remember (Walking in the Sand)","2:17",110.7,1987,"TBD","1WvziZcLLYLoMMdmQx7qcN",49637,44,34,"2YHQHdIQ20zlB1huPyhtHQ",0.238
+"396",396,"Big Star","Thirteen","2:34",116.7,1978,"TBD","3UvcmAOZt64oKpP95f6MMM",66495,50,66,"0yEhNqCwEfy8LHUmnZoHpP",0.584
+"397",397,"Blue Oyster Cult","(Don't Fear) the Reaper","5:03",141.5,1976,"Rock 1970s","00tVTdpEhQQw1bqdu8RCx2",607654,65,75,"5QTxFnGygVM4jFQiBovmRo",0.333
+"398",398,"Lynyrd Skynyrd","Sweet Home Alabama","4:44",98.1,1974,"Rock 1970s","4MVyzYMgTwdP7Z49wAZHx0",1861952,73,82,"7e89621JPkKaeDSTQ3avtg",0.596
+"399",399,"Metallica","Enter Sandman","5:31",124.2,1991,"Rock 1990s","2ye2Wgw4gimLv2eAKyk1NB",9809264,82,73,"5BIMPccDwShpXq784RJlJp",0.579
+"400",400,"Paul Revere & The Raiders","Kicks","2:47",128,2000,"TBD","30fXKjFrJ6I9tfwia1ZZMG",12814,43,83,"7w87IxuO7BDcJ3YUqCyMTT",0.733
+"401",401,"The Shirelles","Tonight's the Night","2:02",117.4,1961,"TBD","0x83OBqixqdCHnStP5VMcn",110071,55,64,"67mtN6BlsJR0LVyzvNZnGt",0.683
+"402",402,"Sly & The Family Stone","Thank You (Falettinme Be Mice Elf Agin)","4:49",105.5,1970,"Dance 1970s","3DFoVPonoAAt4EZ1FEI8ue",159218,59,59,"4lAnpiPDvKqpJGK38ax35t",0.899
+"403",403,"Eddie Cochran","C'Mon Everybody","1:56",87.8,1959,"Rock 1950s","1p0t3JtUTayV2wb1RGN9mO",115851,53,55,"7ItZM6DMZE2m1X7yIaRxjq",0.627
+"404",404,"Bob Dylan","Visions of Johanna","7:32",102.8,1985,"TBD","74ASZWbe4lXaubB36ztrGX",3096594,75,52,"2rslQV48gNv3r9pPrQFPW1",0.59
+"405",405,"Carpenters","We've Only Just Begun","3:05",89.6,1970,"Easy","1eEfMU2AhEo7XnKgL7c304",770258,67,53,"3m167vBQI5YLK0a1m6L6Y1",0.376
+"406",406,"R. Kelly","I Believe I Can Fly","4:41",120.5,1996,"TBD","2mxe0TnaNL039ysAj51xPQ",1822770,72,64,"2RzJwBCXsS1VnjDm2jKKAa",0.55
+"407",407,"Nirvana","In Bloom","4:15",156.7,2002,"TBD","6olE6TJLqED3rqDCT0FyPh",8270591,80,64,"30HCB1FoE77IfGRyNv4eFq",0.496
+"408",408,"Aerosmith","Sweet Emotion","4:35",99.7,1991,"Rock 1990s","7Ey4PD4MYsKc5I2dolUwbH",6118079,77,73,"24NwBd5vZ2CK8VOQVnqdxr",0.38
+"409",409,"Cream","Crossroads","4:13",131.6,1994,"Rock 1980s","74oJ4qxwOZvX6oSsu1DGnw",885947,66,68,"5KSJ9k1FYjFLnIRlJT2wF8",0.679
+"410",410,"Pixies","Monkey Gone to Heaven","2:55",116.5,1989,"TBD","6zvul52xwTWzilBZl6BUbT",1157984,69,62,"1lFC3sMgOcDrVzNh8zXRnl",0.657
+"411",411,"Donna Summer","I Feel Love","5:52",126.7,1977,"Disco","2eogQKWWoohI3BSnoG7E2U",674456,64,64,"7hs8hDGgNVaLKypyLK9X4R",0.681
+"412",412,"Bobbie Gentry","Ode to Billie Joe","4:13",120.1,1967,"Country","4E9w0bms6HcEppFlWjeW2d",18681,45,52,"4FdDorlbJTVHcH3djLbIfn",0.637
+"413",413,"Little Richard","The Girl Can't Help It","2:33",86.1,1956,"TBD","4xls23Ye9WR9yy3yYMpAMm",362303,59,46,"3SjU8wBPRbYHO5UzvMztwi",0.596
+"414",414,"The Coasters","Young Blood","2:25",109.2,1957,"TBD","3QZKZBEmr54lAVI5XvmjnM",86319,53,67,"25nzKGDiua1lE9Qo5V19GL",0.579
+"415",415,"Four Tops","I Can't Help Myself","2:44",128,1965,"Rock 1960s","7fIvjotigTGWqjIz6EP1i4",443221,66,71,"6b6IMqP565TbtFFZg9iFf3",0.674
+"416",416,"Don Henley","Boys of Summer","4:46",88.5,1984,"Rock 1980s","5dbuFbrHa1SJlQhQX9OUJ2",482014,65,75,"4gvea7UlDkAvsJBPZAd4oB",0.522
+"417",417,"N.W.A.","Fuck Tha Police","5:45",98.6,1989,"TBD","4EnEZVjo3w1cwcQYePccay",2169666,67,69,"5n8Aro6j1bEGIy7Tpo7FV7",0.865
+"418",418,"Crosby, Stills & Nash","Suite: Judy Blue Eyes","7:29",143,1971,"TBD","1CYsQCypByMVgnv17qsSbQ",492716,64,66,"2PuUFT13yCzUOZun94WOXv",0.451
+"419",419,"Dr. Dre","Nuthin' but a 'G' Thang","4:00",94.7,1993,"R&B 1990s","6DPYiyq5kWVQS4RGwxzPC7",4062851,80,42,"0K7LJtK98O3QZxy4gwk7tE",0.775
+"420",420,"The Isley Brothers","It's Your Thing","2:47",92.7,1984,"TBD","53QzNeFpzAaXYnrDBbDrIp",723369,66,60,"2oezpnnea1VXHpJEbqnBhw",0.378
+"421",421,"Billy Joel","Piano Man","5:37",103.2,1974,"Slow","6zFYqv1mOsgBRQbae3JJ9e",1574673,76,74,"3FCto7hnn1shUyZL42YgfO",0.334
+"422",422,"The Kinks","Lola","4:08",149.4,1970,"Rock 1970s","1SQRv42e4PjEYfPhS0Tk9E",1063776,69,78,"4R8TsvDoKSSDVERlaphNBA",0.773
+"423",423,"Elvis Presley","Blue Suede Shoes","1:59",95.6,1956,"Rock 1950s","43ZHCT0cAZBISjO8DG9PnE",2828935,78,63,"47gmoUrZV3w20JAnQOZMcO",0.557
+"424",424,"The Rolling Stones","Tumbling Dice","3:39",110.6,1972,"TBD","22bE4uQ6baNwSHPVcDxLCe",6326575,80,60,"4hq0S6wznq7SHDyMOFXL9i",0.606
+"425",425,"The Smiths","William, It Was Really Nothing","2:09",131,1984,"Rock 1970s","3yY2gUcIsjMr8hjo51PoJ8",1708867,73,53,"6SwqPZs0XuSnyqkbnkkAjQ",0.517
+"426",426,"Deep Purple","Smoke on the Water","5:39",114,1973,"Rock 1970s","568ZhdwyaiCyOGJRtNYhWf",2255201,69,65,"5SAUIWdZ04OxYfJFDchC7S",0.632
+"427",427,"U2","New Year's Day","5:35",133.2,1983,"Rock 1980s","51Blml2LZPmy7TTiAg47vQ",4530846,79,66,"7F5oktn5YOsR9eR5YsFtqb",0.661
+"428",428,"Mitch Ryder & The Detroit Wheels","Devil With a Blue Dress on - Good Golly Miss Molly","3:30",159,1966,"Rock 1960s","7tdO7d7r0vhwov7RIZWH6V",5241,32,6,"3m5pP2GQpt1uCBPoiFuUgc",0.406
+"429",429,"Solomon Burke","Everybody Needs Somebody to Love","2:44",149.8,1964,"TBD","4nts0oxMT67lVUoi5Kjxrb",113325,59,60,"1CtKHwDqsH3ctcCCI18N0g",0.492
+"430",430,"The Clash","(White Man) in Hammersmith Palais","4:01",102.8,1978,"TBD","3RGLhK1IP9jnYFH4BRFJBS",1493801,73,51,"45xBWOa6oEAk1WlVyr5QAB",0.692
+"431",431,"Fats Domino","Ain't That a Shame","2:26",123.2,1955,"Rock 1950s","09C0xjtosNAIXP36wTnWxd",204977,57,59,"4U2b99X9hSSDjPbHCpIeJj",0.539
+"432",432,"Gladys Knight and The Pips","Midnight Train to Georgia","4:37",90.8,1973,"Dance 1970s","0TF2NxkJZPQoX1H53rEFM1",414089,62,64,"5k7VcffaUZqYLxI4DkIsST",0.576
+"433",433,"Led Zeppelin","Ramble On","4:29",99.1,1969,"Rock 1960s","36QJpDe2go2KgaRleHCDTp",6689583,80,71,"3MODES4TNtygekLl146Dxd",0.468
+"434",434,"Wilson Pickett","Mustang Sally","3:02",110,1966,"Rock 1960s","0N5PyKJzS3M1XNlaCL7bbE",282934,60,59,"7mRak6wBx9OGKXr3zStoHW",0.76
+"435",435,"The Rolling Stones","Beast of Burden","4:27",100.9,1978,"TBD","22bE4uQ6baNwSHPVcDxLCe",6326575,80,73,"77oU2rjC5XbjQfNe3bD6so",0.787
+"436",436,"Love","Alone Again Or","3:16",114.1,1967,"TBD","3aGFCoR8xGN6DKwvdzeSja",270795,71,59,"1XuccRABkfUVB4FjSVhjL1",0.318
+"437",437,"Elvis Presley","Love Me Tender","2:46",108.3,1956,"Slow","43ZHCT0cAZBISjO8DG9PnE",2828935,78,57,"4GAhAw0RCzNVP976NRMOqO",0.396
+"438",438,"The Stooges","I Wanna Be Your Dog","3:10",120.9,1969,"TBD","4BFMTELQyWJU1SwqcXMBm3",256942,55,62,"672N8DGGTOLCOgWe0koX5g",0.527
+"439",439,"John Mellencamp","Pink Houses","4:45",115.5,1983,"Rock 1980s","3lPQ2Fk5JOwGWAF3ORFCqH",507016,66,60,"5JKQMoGmXwDHCodn5pFVHB",0.635
+"440",440,"Salt 'N' Pepa","Push It","4:35",128.1,1987,"R&B 1980s","7wqtxqI3eo7Gn1P7SpP6cQ",328797,62,70,"6p5zh0HCAeE5WkWAxSxjeg",0.617
+"441",441,"The Dell-Vikings","Come Go With Me","2:39",125.2,1957,"Rock 1950s","10xLCBOlt2NhclsRmrOvX5",24815,47,58,"4IYyGIbMS5ZkxDXGfPIrXr",0.62
+"442",442,"Little Richard","Keep a Knockin'","2:22",119.9,1958,"TBD","4xls23Ye9WR9yy3yYMpAMm",362303,59,45,"1QRsFCbeZi4dOtBCadncZ6",0.39
+"443",443,"Bob Marley & The Wailers","I Shot the Sheriff","4:41",96.7,1975,"Reggae","2QsynagSdAqZj3U9HgDzjD",6379947,81,63,"0UOxp1BpnD8uPQMKU4wKjz",0.74
+"444",444,"Sonny & Cher","I Got U Babe","3:09",110.4,1965,"Rock 1960s","1VEzN9lxvG6KPR3QQGsebR",164852,54,6,"4eI325iYHOs6IIe3roAsXo",0.711
+"445",445,"Nirvana","Come as You Are","3:37",120.9,1991,"Rock 1990s","6olE6TJLqED3rqDCT0FyPh",8270591,80,73,"4P5KoWXOxwuobLmHXLMobV",0.505
+"446",446,"Toots & The Maytals","Pressure Drop","3:44",147.6,1972,"TBD","6ZFv3wQwwWPiVDWhv0mjQK",214649,59,49,"7cfILJJHW9ZSkbM2ywLhiN",0.658
+"447",447,"The Shangri-Las","Leader of the Pack","2:51",119.1,1964,"Rock 1960s","1WvziZcLLYLoMMdmQx7qcN",49637,44,53,"6O5PIO5pAWxdoxvaUFQ02G",0.418
+"448",448,"The Velvet Underground","Heroin","7:12",131.8,2005,"TBD","1nJvji2KIlWSseXRSlNYsC",781203,65,63,"7lSdUlVf8k6kxklKkskb1m",0.352
+"449",449,"The Beatles","Penny Lane","3:01",113.8,1969,"Rock 1960s","3WrFJ7ztbogyGnTHbHJFl2",11232101,87,63,"7k1gXoiBTddulMBVlKuJIs",0.617
+"450",450,"Glen Campbell","By the Time I Get to Phoenix","2:46",87.6,2001,"TBD","59hLmB5DrdihCYtNeFeW1U",151162,61,50,"1tZKsxgKebVQX9s6oiojG9",0.218
+"451",451,"Chubby Checker","The Twist","2:37",155.5,1961,"Rock 1960s","7qQJQ3YtcGlqaLg5tcypN2",112871,54,76,"5ZBeML7Lf3FMEVviTyvi8l",0.482
+"452",452,"Sam Cooke","Cupid","2:31",120.1,1960,"TBD","6hnWRPzGGKiapVX1UCdEAC",782204,70,80,"4AMY0oGSt7vZwgxDnHCJBr",0.636
+"453",453,"Guns N' Roses","Paradise City","6:46",101.2,1989,"Rock 1980s","3qm84nBOXUEQ2vnTfUTTFC",11168538,81,72,"5Q41NLTmGbVPozwHKK7bk2",0.274
+"454",454,"George Harrison","My Sweet Lord","4:38",121.5,1970,"Rock 1970s","7FIoB5PHdrMZVC3q2HE5MS",1013922,69,77,"0qdQUeKVyevrbKhAo0ibxS",0.538
+"455",455,"Nirvana","All Apologies","3:46",116.4,1993,"Rock 1990s","6olE6TJLqED3rqDCT0FyPh",8270591,80,67,"1Ic9pKxGSJGM0LKeqf6lGe",0.447
+"456",456,"Lloyd Price","Stagger Lee","2:21",135.6,1959,"Rock 1950s","3iOE5ItEv5xr9fmKi7GNh2",30492,44,49,"6Xh130kOlqf8gehJ5w7T8T",0.653
+"457",457,"Ramones","Sheena Is a Punk Rocker","2:48",88.1,1977,"TBD","1co4F2pPNH8JjTutZkmgSm",1390193,67,59,"61MZN0yyMWSEwrLPUUGfgJ",0.42
+"458",458,"Sam & Dave","Soul Man","2:37",112.6,1967,"Dance 1960s","2wY79sveU1sp5g7SokKOiI",8067852,90,73,"2g2GkH3vZHk4lWzBjgQ6nY",0.691
+"459",459,"Muddy Waters","Rollin' Stone","3:08",84.8,1988,"TBD","4y6J8jwRAwO4dssiSmN91R",692564,57,67,"7MiLmLbwNoyf47xQ4TCVYp",0.817
+"460",460,"The Chiffons","One Fine Day","2:09",89.4,1963,"Easy","05sIdEkXAYDbDDdv3T56Oj",40451,50,62,"6vcG9EgeqJUSmmF65lxUm6",0.251
+"461",461,"Prince","Kiss","3:47",111.5,1986,"Dance 1980s","3MHaV05u0io8fQbZ2XPtlC",3811735,82,89,"7ef4DlsgrMEH11cDZd32M6",0.791
+"462",462,"The Staple Singers","Respect Yourself","3:34",109.9,1990,"TBD","7xGGqA85UIWX1GoTVM4itC",122250,60,57,"4lzTyLYXb3ED01TSLCJ1Hz",0.826
+"463",463,"The Beatles","Rain","3:02",105.5,1988,"TBD","3WrFJ7ztbogyGnTHbHJFl2",11232101,87,81,"3YRCqOhFifThpSRFJ1VWFM",0.294
+"464",464,"Four Tops","Standing in the Shadows of Love","2:39",114,1992,"TBD","7fIvjotigTGWqjIz6EP1i4",443221,66,42,"2sD2XkPogLt7keXttj7F9o",0.741
+"465",465,"Cheap Trick","Surrender","4:12",134.7,1978,"Rock 1980s","1LB8qB5BPb3MHQrfkvifXU",538412,63,72,"5nHofSNYy1zxXRwjLhZG0U",0.755
+"466",466,"Del Shannon","Runaway","2:18",152.1,1961,"Rock 1960s","3c8WoNjBfyLJhFObE6RHgs",93363,50,75,"46lFttIf5hnUZMGvjK0Wxo",0.506
+"467",467,"Guns N' Roses","Welcome to the Jungle","4:32",124,1988,"Rock 1980s","3qm84nBOXUEQ2vnTfUTTFC",11168538,81,74,"5NIPsWpDjJTFBoPxCUUeXp",0.445
+"468",468,"The Stooges","Search And Destroy","3:29",107.4,1973,"TBD","4BFMTELQyWJU1SwqcXMBm3",256943,55,54,"00sydAz6PeOxYzwG1dRIPi",0.235
+"469",469,"Carole King","It's Too Late","3:54",103.5,1971,"Slow","319yZVtYM9MBGqmSQnMyY6",491023,66,72,"7JXZq0JgG2zTrSOAgY8VMC",0.508
+"470",470,"Joni Mitchell","Free Man in Paris","3:03",162.5,1974,"TBD","5hW4L92KnC6dX9t7tYM4Ve",518467,66,47,"2by5mqpQ1ZP2G5FOIccMnu",0.59
+"471",471,"Willie Nelson","On the Road Again","2:33",110.5,1980,"Country","5W5bDNCqJ1jbCgTxDD0Cb3",785048,69,59,"1OmKo4t4Bh95xQI6WGiUR3",0.714
+"472",472,"The Supremes","Where Did Our Love Go","2:32",135.8,1964,"Dance 1960s","57bUPid8xztkieZfS7OlEV",785480,67,69,"5uES1C2NgkdrNHiCwf9jRr",0.582
+"473",473,"Aretha Franklin","Do Right Woman - Do Right Man","3:13",131.4,2002,"TBD","7nwUJBm0HE4ZxD3f5cy5ok",1763981,74,46,"6cLEpgDcEldV1n9gusHQUX",0.668
+"474",474,"Funkadelic","One Nation Under a Groove","7:28",122.4,1978,"TBD","5SMVzTJyKFJ7TUb46DglcH",287302,58,44,"3vnEU0MPBhUD5ihhQiV42f",0.789
+"475",475,"Beastie Boys","Sabotage","2:59",84,1994,"Rock 1990s","03r4iKL2g2442PT9n2UKsx",1188225,70,76,"7MiZjKawmXTsTNePyTfPyL",0.391
+"476",476,"Foreigner","I Want to Know What Love Is","5:00",161.3,1984,"Slow","6IRouO5mvvfcyxtPDKMYFN",1071087,70,77,"1JLn8RhQzHz3qDqsChcmBl",0.477
+"477",477,"Rick James","Super Freak","3:25",132.8,1981,"Dance 1980s","0FrpdcVlJQqibaz5HfBUrL",499265,61,70,"2dCmGcEOQrMQhMMS8Vj7Ca",0.832
+"478",478,"Jefferson Airplane","White Rabbit","2:32",105.5,1967,"Rock 1960s","2qFr8w5sWUITRlzZ9kZotF",673119,62,69,"4vpeKl0vMGdAXpZiQB2Dtd",0.551
+"479",479,"LaBelle","Lady Marmalade","3:16",117.4,1975,"Disco","0ty0xha1dbprYIUAQufkFn",382287,55,65,"7GQqj9jRtDkMp8zByehXQI",0.751
+"480",480,"Van Morrison","Into the Mystic","3:27",85.2,1970,"Slow","44NX2ffIYHr6D4n7RaZF7A",1036823,74,72,"3lh3iiiJeiBXHSZw6u0kh6",0.608
+"481",481,"David Bowie","Young Americans","5:11",85,1975,"Rock 1970s","0oSGxfWSnnOXhD2fKuz2Gy",3703574,81,60,"1PehfITh0TTRx3LkDdV4h3",0.786
+"482",482,"Alice Cooper","I'm Eighteen","2:57",97.9,1971,"TBD","3EhbVgyfGd7HkpsagwL9GS",1304342,64,56,"3YU9X8ryOR20beT7wOlDIJ",0.618
+"483",483,"The Cure","Just Like Heaven","3:31",151.7,1987,"Rock 1980s","7bu3H8JO7d0UbMoVzbo70s",1823717,75,65,"76GlO5H5RT6g7y0gev86Nk",0.43
+"484",484,"Joan Jett & The Blackhearts","I Love Rock 'N Roll","2:55",94.7,1982,"Rock 1980s","1Fmb52lZ6Jv7FMWXXTPO3K",304376,62,71,"2Cdvbe2G4hZsnhNMKyGrie",0.535
+"485",485,"Paul Simon","Graceland","4:51",117.9,1986,"TBD","2CvCyf1gEVhI0mX6aFXmVI",937451,71,76,"0qxYx4F3vm1AOnfux6dDxP",0.776
+"486",486,"The Smiths","How Soon Is Now?","6:46",95.4,1984,"Rock 1980s","3yY2gUcIsjMr8hjo51PoJ8",1708867,73,68,"1YrnDTqvcnUKxAIeXyaEmU",0.398
+"487",487,"The Drifters","Under the Boardwalk","2:40",124.5,1964,"Slow","1FqqOl9itIUpXr4jZPIVoT",197124,60,67,"65jrjEhWfAvysKfnojk1i0",0.747
+"488",488,"Fleetwood Mac","Rhiannon","4:11",129.1,1975,"Rock 1980s","08GQAI4eElDnROBrJRGE0X",2974987,80,69,"1gLbbnyTOnx6LrCQ87c0gp",0.197
+"489",489,"Gloria Gaynor","I Will Survive","3:17",117.1,1979,"Disco","6V6WCgi7waF55bJmylC4H5",301023,65,67,"7cv28LXcjAC3GsXbUvXKbX",0.775
+"490",490,"The Rolling Stones","Brown Sugar","3:46",128.3,1971,"Rock 1970s","22bE4uQ6baNwSHPVcDxLCe",6326575,80,70,"61UuPxxYUvacEH6SHIK3sU",0.641
+"491",491,"Dusty Springfield","You Don't Have to Say You Love Me","2:47",111.9,1966,"TBD","5zaXYwewAXedKNCff45U5l",189150,64,52,"1uLwVWTOpMqNkBsjpR1WB8",0.243
+"492",492,"Jackson Browne","Running on Empty","4:47",136.5,1996,"Rock 1990s","5lkiCO9UQ8B23dZ1o0UV4m",450179,64,69,"4MZEZz8MqVgvIMXU6AVP22",0.531
+"493",493,"The Crystals","Then He Kissed Me","2:28",134.6,1963,"Rock 1960s","7rewR1TVjhisjI6gauUamf",47590,53,61,"5usNPz6U1acDrkUYekGYDY",0.44
+"494",494,"The Eagles","Desperado","3:32",121.9,1972,"Slow","0ECwFtbIWEVNwjlrfc6xoL",2797178,77,67,"4mCf3vQf7z0Yseo0RxAi3V",0.527
+"495",495,"Smokey Robinson","Shop Around","2:44",135.5,1983,"Rock 1970s","6TKOZZDd5uV5KnyC5G4MUt",499449,60,52,"47IRIQxGDe2Sc6F4pe2FMf",0.558
+"496",496,"The Rolling Stones","Miss You","4:48",110.3,1978,"TBD","22bE4uQ6baNwSHPVcDxLCe",6326575,80,83,"0Ult84lvFuqNvbyXwyRQ58",0.693
+"497",497,"Weezer","Buddy Holly","2:40",121.2,1994,"Rock 1990s","3jOstUTkEu2JkjvRdBA5Gu",1521833,77,72,"7GptbanebPZYkLPvjNfd6m",0.535
+"498",498,"Brook Benton","Rainy Night in Georgia","3:59",137.3,1970,"Slow","2ttm3uT0N1RN7vwKv1pQgh",23304,46,45,"2zbV4xRYLuElz4PWOXI5P7",0.301
+"499",499,"Thin Lizzy","The Boys Are Back in Town","4:28",120.6,1976,"Rock 1970s","6biWAmrHyiMkX49LkycGqQ",493763,64,74,"43DeSV93pJPT4lCZaWZ6b1",0.445
+"500",500,"Boston","More Than a Feeling","4:45",109,1976,"Rock 1970s","29kkCKKGXheHuoO829FxWK",947189,68,78,"1QEEqeFIZktqIpPI4jSVSF",0.377

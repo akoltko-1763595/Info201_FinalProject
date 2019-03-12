@@ -2,16 +2,23 @@ library(Rspotify)
 library(dplyr)
 library(scales)
 library(openxlsx)
-#source("spotify_token.R")
+source("../spotify_token.R")
 
 #Run this once to update Spotify data
 #source("spotify_data_file_creation.R")
 if (sys.nframe() == 0){
   albums <- read.csv("data/RSAlbumsWithSpotifyData.csv", stringsAsFactors = FALSE)
   songs <- read.csv("data/RSSongsWithSpotifyData.csv", stringsAsFactors = FALSE)
+  album_sales <- read.csv("data/CombinedRecordSales.csv", stringsAsFactors = FALSE)
+  best_albums <- read.csv("data/RollingStonesTop500Albums.csv", stringsAsFactors = FALSE) 
+  record_sales <- read.xlsx("data/CombinedRecordSales.xlsx")
 } else {
   albums <- read.csv("../data/RSAlbumsWithSpotifyData.csv", stringsAsFactors = FALSE)
   songs <- read.csv("../data/RSSongsWithSpotifyData.csv", stringsAsFactors = FALSE)
+  album_sales <- read.csv("../data/CombinedRecordSales.csv", stringsAsFactors = FALSE)
+  best_albums <- read.csv("../data/RollingStonesTop500Albums.csv", stringsAsFactors = FALSE) 
+  record_sales <- read.xlsx("../data/CombinedRecordSales.xlsx")
+  
 }
 
 
@@ -117,7 +124,6 @@ RS_SP_pop <-
   )
 
 
-album_sales <- read.csv("data/CombinedRecordSales.csv", stringsAsFactors = FALSE)
 
 AS_pop <- 
   album_sales %>% 
@@ -144,11 +150,11 @@ RS_SP_AS_pop <-
 
 
 ## Question 4: How well do sales dictate greatness? (Spencer)
-best_albums <- read.csv("data/RollingStonesTop500Albums.csv", stringsAsFactors = FALSE) %>%
+best_albums %>%
   select(Artist, Album, Year, Genre, Subgenre, Place)
 
 # Going to use the Probable sales data instead of Minimal or Range
-record_sales <- read.xlsx("data/CombinedRecordSales.xlsx") %>%
+record_sales %>%
   select(Artist, Album.Title, Probable) # Numbers are in millions
 colnames(record_sales)[2] <- "Album"
 
