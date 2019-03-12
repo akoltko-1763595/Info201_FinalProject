@@ -96,7 +96,13 @@ server <- function(input, output) {
   
   
   ## Question 3: What do fans and critics agree on? (Alex)
-  updateSelectInput() # Change dropdown box
+  outputplotQ3 <- renderPlot({
+    chosen_genre <- genre_ranking %>% 
+      filter(Genre = genre_choice)
+    plot <- ggplot(data = chosen_genre) +
+      geom_col(mapping = aes(x = genre_choice, y = critic_ranking))
+    plot
+  })
   
   
   

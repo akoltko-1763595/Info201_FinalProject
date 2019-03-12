@@ -47,16 +47,12 @@ ui <- navbarPage(title = "Questions", inverse = TRUE, id = "nav",
     sidebarLayout(
       sidebarPanel(
         #titlePanel("Fans and critics can agree sometimes."),
-        #p(""),
-        radioButtons(inputId = "songs_or_albums", label = h3("Songs or Albums"),
-                     choices = list("Songs" = 1, "Albums" = 2), 
-                     selected = 1),
-        #if() {
-          selectInput(inputId = "song_choice", label = "Song", choices = spotify_songs$Song)
-        #} else {
-        #  selectInput(inputId = "album_choice", label = "Album", choices = spotify_songs$Album)
-        #}
+        selectInput(inputId = "genre_choice", label = "Genre", choices = genre_ranking$Genre)
+      ),
+      mainPanel(
+        plotOutput("plotQ3")
       )
+    )
   ),
   
   
