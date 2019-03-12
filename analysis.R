@@ -216,7 +216,7 @@ colnames(record_sales)[2] <- "Album"
 # Of 316 possible overlapping albums, only 41 actually do
 # Of these 41, almost all of them are Rock and from the 80s and 90s
 combined_best_and_sales <- left_join(best_albums, record_sales, by = "Album") %>% # by = NULL might be better once this works again
-  filter(!is.na(Probable)) %>%
-  select(Artist.y, Album, Year, Genre, Subgenre, Place, Probable)
+  #filter(!is.na(Probable)) %>%
+  select(Artist.x, Album, Year, Genre, Subgenre, Place, Probable)
 colnames(combined_best_and_sales)[1] <- "Artist"
 

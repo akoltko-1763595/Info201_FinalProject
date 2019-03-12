@@ -142,8 +142,8 @@ server <- function(input, output) {
     
     plot <- ggplot(data = df, mapping = aes(Genre, Probable)) +
       geom_col() +
-      labs(title = "How Album Sales Dictates Greatness",
-           x = "Sales (millions)", y = "Greatness Ranking") +
+      labs(title = paste("Which Genres Sold The Most In", input$year_choice),
+           x = "Genre", y = "Sales (millions)") +
       theme_minimal() +
       theme(plot.title = element_text(size = 20, hjust = .5),
             axis.text.x = element_text(size = 15, angle = 50, vjust = .5),
@@ -161,8 +161,8 @@ server <- function(input, output) {
     
     plot <- ggplot(data = df, mapping = aes(Genre, Place)) +
       geom_point() +
-      labs(title = "How Album Sales Dictates Greatness",
-           x = "Sales (millions)", y = "Greatness Ranking") +
+      labs(title = paste("Which Genres Were The Best In", input$year_choice),
+           x = "Genre", y = "Greatness Ranking") +
       theme_minimal() +
       theme(plot.title = element_text(size = 20, hjust = .5),
             axis.text.x = element_text(size = 15, angle = 50, vjust = .5),
