@@ -85,16 +85,15 @@ ui <- navbarPage(title = "Music Analysis", inverse = TRUE, id = "nav",
              sidebarPanel(
                titlePanel("How well do sales dictate greatness? The answer may surprise you!"),
                p("Between Rolling Stone's 500 best albums and a dataset of the top 316 bestselling albums,
-                 only 39 albums overlapped. The smallness of this number is surprising and it is even more surprising
-                 to find that the higher selling albums (of the 39) tended to be more poorly received by Rolling Stone.
-                 To supplement the conclusions of the Q1 tab, it appears that Rolling Stone likes less popular and older
-                 albums."),
+                 only 39 albums overlapped. This is a surprisingly small number and when we plot sales against Rolling Stone's
+                 ranking, we find that as sales increases the ranking improves. To supplement the conclusion from Q1,
+                 Rolling Stone may like older albums, but they are not deterred by commercial success."),
                p("In the second plot, it appears that while average sales for the best albums stay relatively
                  the same over time, the average greatness of music lessens according to Rolling Stone."),
                h5("Fame and Fortune"),
                p("If you wanted to be rich and famous, which genre is the best way to go? Pick a genre
                  and see its average sales and greatness as a percentage of the average of all genres (intersection of
-                 lines denote average)."),
+                 lines denotes average)."),
                selectInput(inputId = "genre_choice2", label = "Genre", choices = combined_best_and_sales$Genre)
                ),
              mainPanel(
