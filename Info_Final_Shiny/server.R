@@ -155,11 +155,10 @@ server <- function(input, output) {
   ## Question 4: How well do sales dictate greatness? (Spencer)
 
   # Sales versus Rank
-
   output$plotQ4 <- renderPlot({
     plot <- ggplot(data = combined_best_and_sales, mapping = aes(Probable, Place)) +
-      geom_point(colour  = "#739E88", alpha = .65) +
-      geom_smooth(se = F, size = 2, colour = "#DE646C") +
+      geom_point(colour  = "#739E88") +
+      geom_smooth(se = F, size = 2, colour = "#DE646C",  alpha = .65) +
       scale_y_continuous(limits = c(0, 500)) +
       labs(title = "How Album Sales Dictates Greatness",
            x = "Sales (millions)", y = "Greatness Ranking") +
@@ -181,9 +180,9 @@ server <- function(input, output) {
     
     plot <- ggplot(data = df) +
       geom_point(colour  = "#739E88", mapping = aes(Year, MPlace)) +
-      geom_smooth(se = F, size = 2, colour = "#739E88", mapping = aes(Year, MPlace)) +
+      geom_smooth(se = F, size = 2, colour = "#739E88",  alpha = .65, mapping = aes(Year, MPlace)) +
       geom_point(colour  = "#DE646C", mapping = aes(Year, MSales)) +
-      geom_smooth(se = F, size = 2, colour = "#DE646C", mapping = aes(Year, MSales)) +
+      geom_smooth(se = F, size = 2, colour = "#DE646C",  alpha = .65, mapping = aes(Year, MSales)) +
       theme_minimal() +
       theme(plot.title = element_text(size = 20, hjust = .5),
             axis.text.x = element_text(size = 15, angle = 50, vjust = .5),
@@ -205,6 +204,8 @@ server <- function(input, output) {
     
     plot <- ggplot(data = filter(df, Genre == input$genre_choice2)) +
       geom_point(colour  = "#DE646C", mapping = aes(MSales / AvgSales * 100, MPlace / AvgPlace * 100)) +
+      geom_vline(xintercept = 100, colour = "#739E88") +
+      geom_hline(yintercept = 100, colour = "#739E88") +
       scale_y_continuous(limits = c(0, 200)) +
       scale_x_continuous(limits = c(0, 200)) +
       theme_minimal() +
