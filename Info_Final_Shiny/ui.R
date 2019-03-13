@@ -84,28 +84,27 @@ ui <- navbarPage(title = "Music Analysis", inverse = TRUE, id = "nav",
            sidebarLayout(
              sidebarPanel(
                titlePanel("How well do sales dictate greatness? The answer may surprise you!"),
+               hr(),
                p("Between Rolling Stone's 500 best albums and a dataset of the top 316 bestselling albums,
                  only 39 albums overlapped. This is a surprisingly small number and when we plot sales against Rolling Stone's
                  ranking, we find that as sales increases the ranking improves. To supplement the conclusion from Q1,
                  Rolling Stone may like older albums, but they are not deterred by commercial success."),
+               hr(),
                p("In the second plot, it appears that while average sales for the best albums stay relatively
                  the same over time, the average greatness of music lessens according to Rolling Stone."),
-               h5("Fame and Fortune"),
+               hr(),
+               h4("Fame and Fortune"),
                p("If you wanted to be rich and famous, which genre is the best way to go? Pick a genre
                  and see its average sales and greatness as a percentage of the average of all genres (intersection of
                  lines denotes average)."),
-               selectInput(inputId = "genre_choice2", label = "Genre", choices = combined_best_and_sales$Genre)
+               selectInput(inputId = "genre_choice2", label = "Genre", choices = combined_best_and_sales$Genre, selected = 1:4)
                ),
              mainPanel(
-               plotOutput("plotQ4"),
-               br(),
-               br(),
-               br(),
-               plotOutput("plotQ4num2"),
-               br(),
-               br(),
-               br(),
-               plotOutput("plotQ4num3")
+               tabsetPanel(type = "tabs",
+                           tabPanel("Sales vs. Greatness", plotOutput("plotQ4"),
+                                    p(paste("Correlation coefficient:", round(cor(combined_best_and_sales$Probable, combined_best_and_sales$Place), digits = 3)))),
+                           tabPanel("Time and Genre Performance", plotOutput("plotQ4num2"), br(), plotOutput("plotQ4num3"))
+               )
              )
            )
   )

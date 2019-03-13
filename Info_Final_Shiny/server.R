@@ -157,8 +157,8 @@ server <- function(input, output) {
   # Sales versus Rank
   output$plotQ4 <- renderPlot({
     plot <- ggplot(data = combined_best_and_sales, mapping = aes(Probable, Place)) +
-      geom_point(colour  = "#739E88") +
-      geom_smooth(se = F, size = 2, colour = "#DE646C",  alpha = .65) +
+      geom_point(colour  = "#739E88", alpha = .7) +
+      geom_smooth(se = F, size = 2, colour = "#DE646C") +
       scale_y_continuous(limits = c(0, 500)) +
       labs(title = "How Album Sales Dictates Greatness",
            x = "Sales (millions)", y = "Greatness Ranking") +
@@ -169,27 +169,28 @@ server <- function(input, output) {
             axis.title.x = element_text(size = 15, vjust = 0),
             axis.title.y = element_text(size = 15, vjust = 2),
             text = element_text(size = 15))
-    
     plot
   })
   
-  # Genre vs. Sales with Year selector
+  # Ranking and Sales over Time
   output$plotQ4num2 <- renderPlot({
     df <- group_by(combined_best_and_sales, Year) %>%
       summarise(MSales = mean(Probable), MPlace = mean(Place))
     
     plot <- ggplot(data = df) +
-      geom_point(colour  = "#739E88", mapping = aes(Year, MPlace)) +
-      geom_smooth(se = F, size = 2, colour = "#739E88",  alpha = .65, mapping = aes(Year, MPlace)) +
-      geom_point(colour  = "#DE646C", mapping = aes(Year, MSales)) +
-      geom_smooth(se = F, size = 2, colour = "#DE646C",  alpha = .65, mapping = aes(Year, MSales)) +
+      geom_point(colour  = "#739E88", alpha = .7, mapping = aes(Year, MPlace)) +
+      geom_smooth(se = F, size = 2, mapping = aes(Year, MPlace, color = "Avg. Greatness")) +
+      geom_point(colour  = "#DE646C", alpha = .7, mapping = aes(Year, MSales)) +
+      geom_smooth(se = F, size = 2, mapping = aes(Year, MSales, color = "Avg. Sales (millions)")) +
+      labs(title = "Album Sales and Greatness Over Time", x = "Year", y = NULL) +
       theme_minimal() +
       theme(plot.title = element_text(size = 20, hjust = .5),
             axis.text.x = element_text(size = 15, angle = 50, vjust = .5),
             axis.text.y = element_text(size = 15),
             axis.title.x = element_text(size = 15, vjust = 0),
             axis.title.y = element_text(size = 15, vjust = 2),
-            text = element_text(size = 15))
+            text = element_text(size = 15)) +
+      scale_colour_manual(name = "Key", values = c("Avg. Greatness" = "#739E88", "Avg. Sales (millions)" = "#DE646C"))
     
     plot
   })
