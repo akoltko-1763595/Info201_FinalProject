@@ -2,7 +2,7 @@ library(shiny)
 library(ggplot2)
 library(tidyr)
 library(dplyr)
-source("../analysis.R")
+source("analysis.R")
 
 server <- function(input, output) {
   ## Not Functional
@@ -160,7 +160,10 @@ server <- function(input, output) {
             axis.title.x = element_text(size = 15, vjust = 0),
             axis.title.y = element_text(size = 15, vjust = 2),
             legend.title = element_blank(),
-            text = element_text(size = 15))
+            text = element_text(size = 15)) +
+      scale_fill_manual(name="Legend",
+                          values=c(fan_ranking="#739E88", critic_ranking="#DE646C"))
+    
     plot_1
   })
   
@@ -180,7 +183,10 @@ server <- function(input, output) {
             axis.title.x = element_text(size = 15, vjust = 0),
             axis.title.y = element_text(size = 15, vjust = 2),
             legend.title = element_blank(),
-            text = element_text(size = 15))
+            text = element_text(size = 15)) + 
+      scale_fill_manual(name="Legend",
+                        values=c(fan_ranking="#739E88", critic_ranking="#DE646C"))
+    
     plot_2
   })
   
@@ -190,7 +196,7 @@ server <- function(input, output) {
   # Sales versus Rank
   output$plotQ4 <- renderPlot({
     plot <- ggplot(data = combined_best_and_sales, mapping = aes(Probable, Place)) +
-      geom_point(colour  = "#739E88", alpha = .7) +
+      geom_point(colour  = "#e6e600", alpha = .7) +
       geom_smooth(se = F, size = 2, colour = "#DE646C") +
       scale_y_continuous(limits = c(0, 500)) +
       labs(title = "How Album Sales Dictates Greatness",
@@ -212,9 +218,9 @@ server <- function(input, output) {
       summarise(MSales = round(mean(Probable), digits = 2), MPlace = round(mean(Place), digits = 2))
     
     plot <- ggplot(data = df) +
-      geom_point(colour  = "#739E88", alpha = .7, mapping = aes(Year, MPlace)) +
+      geom_point(colour  = "#DE646C", alpha = .7, mapping = aes(Year, MPlace)) +
       geom_smooth(se = F, size = 2, mapping = aes(Year, MPlace, color = "Avg. Greatness Rank")) +
-      geom_point(colour  = "#DE646C", alpha = .7, mapping = aes(Year, MSales)) +
+      geom_point(colour  = "#e6e600", alpha = .7, mapping = aes(Year, MSales)) +
       geom_smooth(se = F, size = 2, mapping = aes(Year, MSales, color = "Avg. Sales (millions)")) +
       labs(title = "Album Sales & Greatness Over Time", x = "Year", y = NULL) +
       theme_minimal() +
@@ -224,7 +230,7 @@ server <- function(input, output) {
             axis.title.x = element_text(size = 15, vjust = 0),
             axis.title.y = element_text(size = 15, vjust = 2),
             text = element_text(size = 15)) +
-      scale_colour_manual(name = "Key", values = c("Avg. Greatness Rank" = "#739E88", "Avg. Sales (millions)" = "#DE646C"))
+      scale_colour_manual(name = "Key", values = c("Avg. Greatness Rank" = "#DE646C", "Avg. Sales (millions)" = "#e6e600"))
     
     plot
   })
@@ -248,9 +254,9 @@ server <- function(input, output) {
     AvgPlace <- round(mean(df$MPlace), digits = 2)
     
     plot <- ggplot(data = filter(df, Genre == input$genre_choice2)) +
-      geom_vline(xintercept = 100, colour = "#739E88", size = 2) +
-      geom_hline(yintercept = 100, colour = "#739E88", size = 2) +
-      geom_point(colour = "#DE646C", size = 4, mapping = aes(MSales / AvgSales * 100, MPlace / AvgPlace * 100)) +
+      geom_vline(xintercept = 100, colour = "#e6e600", size = 2) +
+      geom_hline(yintercept = 100, colour = "#DE646C", size = 2) +
+      geom_point(colour = "gray", size = 4, mapping = aes(MSales / AvgSales * 100, MPlace / AvgPlace * 100)) +
       labs(title = paste(input$genre_choice2, "Sales & Greatness as % of All Genre Average"),
            x = "% of Average Sales (millions)", y = "% of Average Greatness Ranking") +
       scale_y_continuous(limits = c(0, 200)) +
@@ -266,4 +272,18 @@ server <- function(input, output) {
     plot
   })
   
+  
+  output$bibli <- renderUI({
+    HTML(
+      paste0(
+        '<ul><li><a href = "https://www.cs.ubc.ca/~davet/music/list/Best9.html">Song Data</a></li>',
+        '<li><a href = "https://raw.githubusercontent.com/Currie32/500-Greatest-Albums/master/albumlist.csv">Album Data</a></li>',
+        '<li><a href = "https://www.rollingstone.com/music/music-lists/500-greatest-albums-of-all-time-156826/"> Rolling Stones\' Album List</a></li>',
+        '<li><a href = "https://www.rollingstone.com/music/music-lists/500-greatest-songs-of-all-time-151127/"> Rolling Stones\' Song List</a></li>',
+        '<li><a href = "https://tsort.info/music/faq_album_sales.htm">Song Sales Data from Tsort</a></li>'
+        
+      )
+    )
+    
+  })
 }

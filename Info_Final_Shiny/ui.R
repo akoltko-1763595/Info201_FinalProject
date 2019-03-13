@@ -1,5 +1,5 @@
 library(shiny)
-source("../analysis.R")
+source("analysis.R")
 
 ui <- navbarPage(title = "Music Analysis", inverse = TRUE, id = "nav",
  
@@ -19,8 +19,7 @@ ui <- navbarPage(title = "Music Analysis", inverse = TRUE, id = "nav",
       ),
       mainPanel(
         plotOutput("plotQ1"),
-        plotOutput("plotQ1num2"),
-        plotOutput("plotQ1num3")
+        plotOutput("plotQ1num2")
       )
     )
   ),
@@ -53,7 +52,7 @@ ui <- navbarPage(title = "Music Analysis", inverse = TRUE, id = "nav",
     sidebarLayout(
       sidebarPanel(
         titlePanel("Can Fans and Critics agree on Music?"),
-        h4(""),
+        h4("T be frank, 1960's Rock"),
         p("From this chart, fans and critics opinions can differ quite a lot depending on the genre of music they are listening to."),
         p("Critics appeared to favor all of the genres in this data set more than fans, except for Easy and R&B 1990's music."),
         p("The highest scored genre by the critics was Rock 1960's with a score of 20339, while the lowest scored genre was Easy with a score of 96."),
@@ -74,7 +73,7 @@ ui <- navbarPage(title = "Music Analysis", inverse = TRUE, id = "nav",
   
   
   ## Quesiton 4: How well do sales dictate greatness? (Spencer)
-  tabPanel(title = "Sales & Greatness",
+  tabPanel(title = "Q4",
            sidebarLayout(
              sidebarPanel(
                titlePanel("How well do sales dictate greatness?"), 
@@ -109,5 +108,10 @@ ui <- navbarPage(title = "Music Analysis", inverse = TRUE, id = "nav",
                                     hr(),
                                     plotOutput("plotQ4num3"))
                ))
-           ))
+           )),
+  tabPanel(
+    title = "Sources",
+    h2("Our Sources:"),
+    uiOutput("bibli")
+  )
 )
