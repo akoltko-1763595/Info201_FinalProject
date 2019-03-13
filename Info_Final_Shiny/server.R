@@ -106,9 +106,42 @@ server <- function(input, output) {
 
 
   ## Question 2: What Makes an album great? (Andrew)
+  output$plotQ2Overall <- renderPlot({
+    plot_to_plot_q2 + labs(title = "Overall Ranking vs Specific Ranking by category")
+  })
   
+  output$plotQ2Artist <- renderPlot({
+    ggplot(data = RS_SP_AS_pop %>% 
+                    filter(Artist == input$artist_choice_q2) %>% 
+                    select(Artist, RS_Place, Spotify_Place, AS_Place, Overall_Place) %>% 
+                    gather(key = "Category", value = "Place", 2:5)) + 
+      geom_col(mapping = aes(x = Category, y = Place, fill = Category)) + 
+      scale_fill_manual(
+        name = "Categories",
+        values = c(
+          "Spotify_Place"="#739E88", 
+          "RS_Place"="#DE646C", 
+          "Overall_Place" = "Black", 
+          "AS_Place" = "#e6e600"
+        )
+      ) + 
+      labs(
+        title = paste("Score by Category for", input$artist_choice_q2)
+      )
+  })
   
-  
+  output$artistDetails <- renderUI({
+    dataset <- RS_SP_AS_pop %>% filter(Artist == input$artist_choice_q2)
+    dataset[is.na(dataset)] <- 0
+    
+    to_return <- HTML(
+      paste0(input$artist_choice_q2," had: ", "<ul><li> ", dataset$num_of_great_albums  ," great album",ifelse(dataset$num_of_great_albums == 1,"","s")," and ",
+              dataset$num_of_great_songs, " great song",ifelse(dataset$num_of_great_songs == 1,"","s"),"</li><li>a rating of ",dataset$Spotify_Popularity,"% on Spotify</li><li>At least ",
+              dataset$probable_sales," million records sold worldwide</li></ul>")
+    )
+    
+    to_return
+  })
   
   ## Question 3: What do fans and critics agree on? (Alex)
   

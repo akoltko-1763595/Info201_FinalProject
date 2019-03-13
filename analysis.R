@@ -177,7 +177,8 @@ RS_SP_AS_pop <-
   )
 library(ggplot2)
 
-ggplot(data = RS_SP_AS_pop) +
+plot_to_plot_q2 <- 
+  ggplot(data = RS_SP_AS_pop) +
   geom_smooth(mapping = aes(x = Overall_Place, y = Avg_Place, color = "Average"), se = F, size = 1.5) +
   geom_smooth(mapping = aes(x = Overall_Place, y = RS_Place, color = "Rolling Stone"), se = F, size = 1.5) +
   geom_smooth(mapping = aes(x = Overall_Place, y = Spotify_Place, color = "Spotify"), se = F, size = 1.5) +
@@ -195,6 +196,7 @@ ggplot(data = RS_SP_AS_pop) +
     x = "Overall Place", 
     y = "Individual Ranking"
   ) 
+
 
 ## Question 3: What do fans and critics agree on? (Alex)
 
