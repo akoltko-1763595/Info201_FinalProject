@@ -222,21 +222,21 @@ genre_ranking <- genre_frame %>%
 
 ## Question 4: How well do sales dictate greatness? (Spencer)
 best_albums <- best_albums %>%
-  select(Artist, Album, Year, Genre, Subgenre, Place)
+  transmute(
+    Artist = Artist,
+    Album = Album,
+    Year = Year,
+    Genre = Genre,
+    Place = 501 - Place) # Makes greatness increase as the RS ranking gets better
 
-# Going to use the Probable sales data instead of Minimal or Range
 record_sales <- record_sales %>%
   transmute(
-    Artist = substring(Artist,2), 
-    Album = substring(Album.Title, 2), 
-    Probable = Probable) # Numbers are in millions 
+    Artist = substring(Artist, 2),
+    Album = substring(Album.Title, 2),
+    Probable = Probable) # Numbers are in millions
 
 
-# Combined the "best" albums with the best selling albums of all time
-# Of 316 possible overlapping albums, only 41 actually do
-# Of these 41, almost all of them are Rock and from the 80s and 90s
-combined_best_and_sales <- inner_join(best_albums, record_sales, by = c("Album", "Artist")) %>% # by = NULL might be better once this works again
-  #filter(!is.na(Probable)) %>%
-  select(Artist, Album, Year, Genre, Subgenre, Place, Probable)
-colnames(combined_best_and_sales)[1] <- "Artist"
-
+# Joins data frames on Album and Artist columns
+# 316 possible results, 39 created
+combined_best_and_sales <- inner_join(best_albums, record_sales, by = c("Album", "Artist")) %>%
+  select(Artist, Album, Year, Genre, Place, Probable)

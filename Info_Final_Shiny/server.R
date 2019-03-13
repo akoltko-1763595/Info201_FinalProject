@@ -188,10 +188,9 @@ server <- function(input, output) {
   ## Question 4: How well do sales dictate greatness? (Spencer)
 
   # Sales versus Rank
-
   output$plotQ4 <- renderPlot({
     plot <- ggplot(data = combined_best_and_sales, mapping = aes(Probable, Place)) +
-      geom_point(colour  = "#739E88", alpha = .65) +
+      geom_point(colour  = "#739E88", alpha = .7) +
       geom_smooth(se = F, size = 2, colour = "#DE646C") +
       scale_y_continuous(limits = c(0, 500)) +
       labs(title = "How Album Sales Dictates Greatness",
@@ -207,14 +206,55 @@ server <- function(input, output) {
     plot
   })
   
-  # Genre vs. Sales with Year selector
+  # Ranking and Sales over Time
   output$plotQ4num2 <- renderPlot({
-    df <- filter(combined_best_and_sales, Year == input$year_choice)
+    df <- group_by(combined_best_and_sales, Year) %>%
+      summarise(MSales = round(mean(Probable), digits = 2), MPlace = round(mean(Place), digits = 2))
     
-    plot <- ggplot(data = df, mapping = aes(Genre, Probable)) +
-      geom_col() +
-      labs(title = paste("Which Genres Sold The Most In", input$year_choice),
-           x = "Genre", y = "Sales (millions)") +
+    plot <- ggplot(data = df) +
+      geom_point(colour  = "#739E88", alpha = .7, mapping = aes(Year, MPlace)) +
+      geom_smooth(se = F, size = 2, mapping = aes(Year, MPlace, color = "Avg. Greatness Rank")) +
+      geom_point(colour  = "#DE646C", alpha = .7, mapping = aes(Year, MSales)) +
+      geom_smooth(se = F, size = 2, mapping = aes(Year, MSales, color = "Avg. Sales (millions)")) +
+      labs(title = "Album Sales & Greatness Over Time", x = "Year", y = NULL) +
+      theme_minimal() +
+      theme(plot.title = element_text(size = 20, hjust = .5),
+            axis.text.x = element_text(size = 15, angle = 50, vjust = .5),
+            axis.text.y = element_text(size = 15),
+            axis.title.x = element_text(size = 15, vjust = 0),
+            axis.title.y = element_text(size = 15, vjust = 2),
+            text = element_text(size = 15)) +
+      scale_colour_manual(name = "Key", values = c("Avg. Greatness Rank" = "#739E88", "Avg. Sales (millions)" = "#DE646C"))
+    
+    plot
+  })
+  
+  # Correlation coefficient for plot 2
+  output$textQ4 <- renderText({
+    df <- group_by(combined_best_and_sales, Year) %>%
+      summarise(MSales = round(mean(Probable), digits = 2), MPlace = round(mean(Place), digits = 2))
+    
+    text <- paste("Correlation coefficient between year and average greatness:",
+                  round(cor(df$Year, df$MPlace), digits = 3))
+    text
+  })
+  
+  # Genre Popularity & Sales
+  output$plotQ4num3 <- renderPlot({
+    df <- group_by(combined_best_and_sales, Genre) %>%
+      summarise(MSales = round(mean(Probable), digits = 2), MPlace = round(mean(Place), digits = 2))
+    
+    AvgSales <- round(mean(df$MSales), digits = 2)
+    AvgPlace <- round(mean(df$MPlace), digits = 2)
+    
+    plot <- ggplot(data = filter(df, Genre == input$genre_choice2)) +
+      geom_vline(xintercept = 100, colour = "#739E88", size = 2) +
+      geom_hline(yintercept = 100, colour = "#739E88", size = 2) +
+      geom_point(colour = "#DE646C", size = 4, mapping = aes(MSales / AvgSales * 100, MPlace / AvgPlace * 100)) +
+      labs(title = paste(input$genre_choice2, "Sales & Greatness as % of All Genre Average"),
+           x = "% of Average Sales (millions)", y = "% of Average Greatness Ranking") +
+      scale_y_continuous(limits = c(0, 200)) +
+      scale_x_continuous(limits = c(0, 200)) +
       theme_minimal() +
       theme(plot.title = element_text(size = 20, hjust = .5),
             axis.text.x = element_text(size = 15, angle = 50, vjust = .5),
@@ -226,22 +266,4 @@ server <- function(input, output) {
     plot
   })
   
-  # Genre vs. Ranking with Year selector
-  output$plotQ4num3 <- renderPlot({
-    df <- filter(combined_best_and_sales, Year == input$year_choice)
-    
-    plot <- ggplot(data = df, mapping = aes(Genre, Place)) +
-      geom_point() +
-      labs(title = paste("Which Genres Were The Best In", input$year_choice),
-           x = "Genre", y = "Greatness Ranking") +
-      theme_minimal() +
-      theme(plot.title = element_text(size = 20, hjust = .5),
-            axis.text.x = element_text(size = 15, angle = 50, vjust = .5),
-            axis.text.y = element_text(size = 15),
-            axis.title.x = element_text(size = 15, vjust = 0),
-            axis.title.y = element_text(size = 15, vjust = 2),
-            text = element_text(size = 15))
-    
-    plot
-  })
 }
