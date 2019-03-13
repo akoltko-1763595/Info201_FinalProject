@@ -87,15 +87,19 @@ ui <- navbarPage(title = "Music Analysis", inverse = TRUE, id = "nav",
                hr(),
                p("Between Rolling Stone's 500 best albums and a dataset of the top 316 bestselling albums,
                  only 39 albums overlapped. This is a surprisingly small number and when we plot sales against Rolling Stone's
-                 ranking, we find that as sales increases the ranking improves. To supplement the conclusion from Q1,
+                 ranking, we find that as sales increases the ranking generally improves. The correlation coefficient is not very high,
+                 but it can still suggest a relationship. To supplement the conclusion from Q1,
                  Rolling Stone may like older albums, but they are not deterred by commercial success."),
+               p("Note: The higher the greatness ranking is the better the album did"),
                hr(),
                p("In the second plot, it appears that while average sales for the best albums stay relatively
-                 the same over time, the average greatness of music lessens according to Rolling Stone."),
+                 the same over time, the average greatness of music lessens according to Rolling Stone. The correlation
+                 coefficient of this is stronger than with sales and greatness, which aligns with our first question's
+                 plot as well."),
                hr(),
                h4("Fame and Fortune"),
                p("If you wanted to be rich and famous, which genre is the best way to go? Pick a genre
-                 and see its average sales and greatness as a percentage of the average of all genres (intersection of
+                 and see its average sales and greatness expressed as a percentage of the average of all genres (intersection of
                  lines denotes average)."),
                selectInput(inputId = "genre_choice2", label = "Genre", choices = combined_best_and_sales$Genre, selected = 1)),
              mainPanel(
