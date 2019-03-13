@@ -179,10 +179,10 @@ server <- function(input, output) {
     
     plot <- ggplot(data = df) +
       geom_point(colour  = "#739E88", alpha = .7, mapping = aes(Year, MPlace)) +
-      geom_smooth(se = F, size = 2, mapping = aes(Year, MPlace, color = "Avg. Greatness")) +
+      geom_smooth(se = F, size = 2, mapping = aes(Year, MPlace, color = "Avg. Greatness Rank")) +
       geom_point(colour  = "#DE646C", alpha = .7, mapping = aes(Year, MSales)) +
       geom_smooth(se = F, size = 2, mapping = aes(Year, MSales, color = "Avg. Sales (millions)")) +
-      labs(title = "Album Sales and Greatness Over Time", x = "Year", y = NULL) +
+      labs(title = "Album Sales & Greatness Over Time", x = "Year", y = NULL) +
       theme_minimal() +
       theme(plot.title = element_text(size = 20, hjust = .5),
             axis.text.x = element_text(size = 15, angle = 50, vjust = .5),
@@ -204,9 +204,11 @@ server <- function(input, output) {
     AvgPlace <- mean(df$MPlace)
     
     plot <- ggplot(data = filter(df, Genre == input$genre_choice2)) +
-      geom_point(colour  = "#DE646C", mapping = aes(MSales / AvgSales * 100, MPlace / AvgPlace * 100)) +
-      geom_vline(xintercept = 100, colour = "#739E88") +
-      geom_hline(yintercept = 100, colour = "#739E88") +
+      geom_point(colour = "#DE646C", size = 3, mapping = aes(MSales / AvgSales * 100, MPlace / AvgPlace * 100)) +
+      geom_vline(xintercept = 100, colour = "#739E88", size = 2) +
+      geom_hline(yintercept = 100, colour = "#739E88", size = 2) +
+      labs(title = paste(input$genre_choice2, "Sales & Greatness as % of Genre Average"),
+           x = "% of Average Sales (millions)", y = "% of Average Greatness Ranking") +
       scale_y_continuous(limits = c(0, 200)) +
       scale_x_continuous(limits = c(0, 200)) +
       theme_minimal() +
