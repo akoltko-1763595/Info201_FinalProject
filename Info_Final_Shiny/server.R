@@ -176,12 +176,14 @@ server <- function(input, output) {
   
   # Genre vs. Sales with Year selector
   output$plotQ4num2 <- renderPlot({
-    df <- filter(combined_best_and_sales, Year == input$year_choice)
+    df <- group_by(combined_best_and_sales, Year) %>%
+      summarise(MSales = mean(Probable), MPlace = mean(Place))
     
-    plot <- ggplot(data = df, mapping = aes(Genre, Probable)) +
-      geom_col() +
-      labs(title = paste("Which Genres Sold The Most In", input$year_choice),
-           x = "Genre", y = "Sales (millions)") +
+    plot <- ggplot(data = df) +
+      geom_point(colour  = "#739E88", mapping = aes(Year, MPlace)) +
+      geom_smooth(se = F, size = 2, colour = "#739E88", mapping = aes(Year, MPlace)) +
+      geom_point(colour  = "#DE646C", mapping = aes(Year, MSales)) +
+      geom_smooth(se = F, size = 2, colour = "#DE646C", mapping = aes(Year, MSales)) +
       theme_minimal() +
       theme(plot.title = element_text(size = 20, hjust = .5),
             axis.text.x = element_text(size = 15, angle = 50, vjust = .5),
