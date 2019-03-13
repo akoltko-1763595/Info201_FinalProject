@@ -196,6 +196,16 @@ server <- function(input, output) {
     plot
   })
   
+  # Correlation coefficient for plot 2
+  output$textQ4 <- renderText({
+    df <- group_by(combined_best_and_sales, Year) %>%
+      summarise(MSales = round(mean(Probable), digits = 2), MPlace = round(mean(Place), digits = 2))
+    
+    text <- paste("Correlation coefficient between year and average greatness:",
+                  round(cor(df$Year, df$MPlace), digits = 3))
+    text
+  })
+  
   # Genre Popularity & Sales
   output$plotQ4num3 <- renderPlot({
     df <- group_by(combined_best_and_sales, Genre) %>%

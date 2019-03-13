@@ -97,20 +97,19 @@ ui <- navbarPage(title = "Music Analysis", inverse = TRUE, id = "nav",
                p("If you wanted to be rich and famous, which genre is the best way to go? Pick a genre
                  and see its average sales and greatness as a percentage of the average of all genres (intersection of
                  lines denotes average)."),
-               selectInput(inputId = "genre_choice2", label = "Genre", choices = combined_best_and_sales$Genre, selected = 1:4)
-               ),
+               selectInput(inputId = "genre_choice2", label = "Genre", choices = combined_best_and_sales$Genre, selected = 1)),
              mainPanel(
                tabsetPanel(type = "tabs",
                            tabPanel("Sales vs. Greatness",
                                     plotOutput("plotQ4"),
-                                    p(paste("Correlation coefficient:", round(cor(combined_best_and_sales$Probable, combined_best_and_sales$Place), digits = 3)))),
+                                    p(paste("Correlation coefficient:",
+                                            round(cor(combined_best_and_sales$Probable, combined_best_and_sales$Place), digits = 3)))),
                            tabPanel("Time and Genre Performance",
                                     plotOutput("plotQ4num2"),
+                                    verbatimTextOutput("textQ4", placeholder = FALSE),
                                     br(),
-                                    plotOutput("plotQ4num3")
-                                    )
-               )
-             )
-           )
-  )
+                                    hr(),
+                                    plotOutput("plotQ4num3"))
+               ))
+           ))
 )

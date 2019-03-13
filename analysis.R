@@ -225,7 +225,7 @@ best_albums <- best_albums %>%
     Album = Album,
     Year = Year,
     Genre = Genre,
-    Place = 501 - Place) # Makes greatness directly proportional to Place for easier plotting
+    Place = 501 - Place) # Makes greatness increase as the RS ranking gets better
 
 record_sales <- record_sales %>%
   transmute(
@@ -236,5 +236,5 @@ record_sales <- record_sales %>%
 
 # Joins data frames on Album and Artist columns
 # 316 possible results, 39 created
-combined_best_and_sales <- inner_join(best_albums, record_sales, by = c("Album", "Artist")) %>% # by = NULL might be better once this works again
+combined_best_and_sales <- inner_join(best_albums, record_sales, by = c("Album", "Artist")) %>%
   select(Artist, Album, Year, Genre, Place, Probable)
