@@ -63,7 +63,7 @@ ui <- navbarPage(title = "Music Analysis", inverse = TRUE, id = "nav",
         p("From this chart, fans and critics opinions can differ quite a lot depending on the genre of music they are listening to."),
         p("Critics appeared to favor all of the genres in this data set more than fans, except for Easy and R&B 1990's music."),
         p("The highest scored genre by the critics was Rock 1960's with a score of 20339, while the lowest scored genre was Easy with a score of 96."),
-        p("The highest scored genre by fans was TBD with a score of 11326, while the lowest scored genre was Easy with a score of 209."),
+        p("The highest scored genre by fans was Rock 1960's with a score of 7655, while the lowest scored genre was Easy with a score of 209."),
         selectInput(inputId = "genre_choice", label = "Genre", choices = genre_ranking$Genre, selected = 1)
       ),
       mainPanel(
