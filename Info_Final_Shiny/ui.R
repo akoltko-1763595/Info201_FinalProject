@@ -80,18 +80,20 @@ ui <- navbarPage(title = "Music Analysis", inverse = TRUE, id = "nav",
   
   
   ## Quesiton 4: How well do sales dictate greatness? (Spencer)
-  tabPanel(title = "Q4",
+  tabPanel(title = "Sales & Greatness",
            sidebarLayout(
              sidebarPanel(
                titlePanel("How well do sales dictate greatness? The answer may surprise you!"),
                p("Between Rolling Stone's 500 best albums and a dataset of the top 316 bestselling albums,
                  only 39 albums overlapped. This number itself is surprising and it is even more surprising
                  that the higher selling albums tended to be more poorly received by Rolling Stone."),
+               p("In the second plot, it appears that while average sales for the best albums stay relatively
+                 the same over time, the average greatness of music lessens."),
                h3("Fame and Fortune"),
-               p("If you could go back in time, what genre of music could you create to maximize your wealth
-                 and legacy as a great musician? Choose a year and see which genre of music would return the
-                 most dough and notoriety."),
-               selectInput(inputId = "year_choice", label = "Year", choices = combined_best_and_sales$Year)
+               p("If you wanted to be rich and famous, which genre is the best way to go? Pick a genre
+                 and see its average sales and greatness as a percentage of the average of each genre (x = 100
+                 , y = 100 is the average)."),
+               selectInput(inputId = "genre_choice2", label = "Genre", choices = combined_best_and_sales$Genre)
                ),
              mainPanel(
                plotOutput("plotQ4"),
@@ -99,7 +101,12 @@ ui <- navbarPage(title = "Music Analysis", inverse = TRUE, id = "nav",
                br(),
                br(),
                br(),
-               plotOutput("plotQ4num2")
+               plotOutput("plotQ4num2"),
+               br(),
+               br(),
+               br(),
+               br(),
+               plotOutput("plotQ4num3")
              )
            )
   )

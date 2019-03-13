@@ -195,4 +195,27 @@ server <- function(input, output) {
     plot
   })
   
+  # Genre Popularity & Sales
+  output$plotQ4num3 <- renderPlot({
+    df <- group_by(combined_best_and_sales, Genre) %>%
+      summarise(MSales = mean(Probable), MPlace = mean(Place))
+    
+    AvgSales <- mean(df$MSales)
+    AvgPlace <- mean(df$MPlace)
+    
+    plot <- ggplot(data = filter(df, Genre == input$genre_choice2)) +
+      geom_point(colour  = "#DE646C", mapping = aes(MSales / AvgSales * 100, MPlace / AvgPlace * 100)) +
+      scale_y_continuous(limits = c(0, 200)) +
+      scale_x_continuous(limits = c(0, 200)) +
+      theme_minimal() +
+      theme(plot.title = element_text(size = 20, hjust = .5),
+            axis.text.x = element_text(size = 15, angle = 50, vjust = .5),
+            axis.text.y = element_text(size = 15),
+            axis.title.x = element_text(size = 15, vjust = 0),
+            axis.title.y = element_text(size = 15, vjust = 2),
+            text = element_text(size = 15))
+    
+    plot
+  })
+  
 }
