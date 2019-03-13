@@ -169,13 +169,14 @@ server <- function(input, output) {
             axis.title.x = element_text(size = 15, vjust = 0),
             axis.title.y = element_text(size = 15, vjust = 2),
             text = element_text(size = 15))
+    
     plot
   })
   
   # Ranking and Sales over Time
   output$plotQ4num2 <- renderPlot({
     df <- group_by(combined_best_and_sales, Year) %>%
-      summarise(MSales = mean(Probable), MPlace = mean(Place))
+      summarise(MSales = round(mean(Probable), digits = 2), MPlace = round(mean(Place), digits = 2))
     
     plot <- ggplot(data = df) +
       geom_point(colour  = "#739E88", alpha = .7, mapping = aes(Year, MPlace)) +
@@ -190,7 +191,7 @@ server <- function(input, output) {
             axis.title.x = element_text(size = 15, vjust = 0),
             axis.title.y = element_text(size = 15, vjust = 2),
             text = element_text(size = 15)) +
-      scale_colour_manual(name = "Key", values = c("Avg. Greatness" = "#739E88", "Avg. Sales (millions)" = "#DE646C"))
+      scale_colour_manual(name = "Key", values = c("Avg. Greatness Rank" = "#739E88", "Avg. Sales (millions)" = "#DE646C"))
     
     plot
   })
@@ -198,16 +199,16 @@ server <- function(input, output) {
   # Genre Popularity & Sales
   output$plotQ4num3 <- renderPlot({
     df <- group_by(combined_best_and_sales, Genre) %>%
-      summarise(MSales = mean(Probable), MPlace = mean(Place))
+      summarise(MSales = round(mean(Probable), digits = 2), MPlace = round(mean(Place), digits = 2))
     
-    AvgSales <- mean(df$MSales)
-    AvgPlace <- mean(df$MPlace)
+    AvgSales <- round(mean(df$MSales), digits = 2)
+    AvgPlace <- round(mean(df$MPlace), digits = 2)
     
     plot <- ggplot(data = filter(df, Genre == input$genre_choice2)) +
-      geom_point(colour = "#DE646C", size = 3, mapping = aes(MSales / AvgSales * 100, MPlace / AvgPlace * 100)) +
       geom_vline(xintercept = 100, colour = "#739E88", size = 2) +
       geom_hline(yintercept = 100, colour = "#739E88", size = 2) +
-      labs(title = paste(input$genre_choice2, "Sales & Greatness as % of Genre Average"),
+      geom_point(colour = "#DE646C", size = 4, mapping = aes(MSales / AvgSales * 100, MPlace / AvgPlace * 100)) +
+      labs(title = paste(input$genre_choice2, "Sales & Greatness as % of All Genre Average"),
            x = "% of Average Sales (millions)", y = "% of Average Greatness Ranking") +
       scale_y_continuous(limits = c(0, 200)) +
       scale_x_continuous(limits = c(0, 200)) +

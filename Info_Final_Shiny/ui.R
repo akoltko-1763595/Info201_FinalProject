@@ -101,9 +101,14 @@ ui <- navbarPage(title = "Music Analysis", inverse = TRUE, id = "nav",
                ),
              mainPanel(
                tabsetPanel(type = "tabs",
-                           tabPanel("Sales vs. Greatness", plotOutput("plotQ4"),
+                           tabPanel("Sales vs. Greatness",
+                                    plotOutput("plotQ4"),
                                     p(paste("Correlation coefficient:", round(cor(combined_best_and_sales$Probable, combined_best_and_sales$Place), digits = 3)))),
-                           tabPanel("Time and Genre Performance", plotOutput("plotQ4num2"), br(), plotOutput("plotQ4num3"))
+                           tabPanel("Time and Genre Performance",
+                                    plotOutput("plotQ4num2"),
+                                    br(),
+                                    plotOutput("plotQ4num3")
+                                    )
                )
              )
            )
